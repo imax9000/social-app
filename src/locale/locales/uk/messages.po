@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-12-27 17:53\n"
+"PO-Revision-Date: 2023-12-27 18:00\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -712,7 +712,7 @@ msgstr "Інструменти розробника"
 
 #: src/view/com/composer/Composer.tsx:210
 msgid "Did you want to say anything?"
-msgstr ""
+msgstr "Порожній пост. Ви хотіли щось написати?"
 
 #: src/view/com/composer/Composer.tsx:143
 msgid "Discard"
@@ -1631,7 +1631,7 @@ msgstr "Будь ласка, вкажіть чому ви вважаєте що 
 
 #: src/view/com/composer/Composer.tsx:214
 msgid "Please wait for your link card to finish loading"
-msgstr ""
+msgstr "Будь ласка, зачекайте доки завершиться створення попереднього перегляду для посилання"
 
 #: src/view/com/composer/Composer.tsx:341
 #: src/view/com/post-thread/PostThread.tsx:225
