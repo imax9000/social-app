@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-12-27 16:59\n"
+"PO-Revision-Date: 2023-12-27 17:53\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -135,11 +135,11 @@ msgstr "Додайте подробиці"
 msgid "Add details to report"
 msgstr "Додайте подробиці до скарги"
 
-#: src/view/com/composer/Composer.tsx:438
+#: src/view/com/composer/Composer.tsx:442
 msgid "Add link card"
 msgstr "Додати попередній перегляд"
 
-#: src/view/com/composer/Composer.tsx:441
+#: src/view/com/composer/Composer.tsx:445
 msgid "Add link card:"
 msgstr "Додати попередній перегляд:"
 
@@ -378,8 +378,8 @@ msgstr "Камера"
 msgid "Can only contain letters, numbers, spaces, dashes, and underscores. Must be at least 4 characters long, but no more than 32 characters long."
 msgstr "Може містити лише літери, цифри, пробіли, дефіси та знаки підкреслення, і мати довжину від 4 до 32 символів."
 
-#: src/view/com/composer/Composer.tsx:285
-#: src/view/com/composer/Composer.tsx:288
+#: src/view/com/composer/Composer.tsx:289
+#: src/view/com/composer/Composer.tsx:292
 #: src/view/com/modals/AltImage.tsx:128
 #: src/view/com/modals/ChangeEmail.tsx:218
 #: src/view/com/modals/ChangeEmail.tsx:220
@@ -709,6 +709,10 @@ msgstr "Сервер розробника"
 #: src/view/screens/Settings.tsx:637
 msgid "Developer Tools"
 msgstr "Інструменти розробника"
+
+#: src/view/com/composer/Composer.tsx:210
+msgid "Did you want to say anything?"
+msgstr ""
 
 #: src/view/com/composer/Composer.tsx:143
 msgid "Discard"
@@ -1497,7 +1501,7 @@ msgstr "О, ні!"
 msgid "Okay"
 msgstr "Добре"
 
-#: src/view/com/composer/Composer.tsx:354
+#: src/view/com/composer/Composer.tsx:358
 msgid "One or more images is missing alt text."
 msgstr "В одному або кількох зображеннях відсутній альтернативний текст."
 
@@ -1599,6 +1603,10 @@ msgstr "Будь ласка, виберіть псевдонім."
 msgid "Please choose your password."
 msgstr "Будь ласка, оберіть ваш пароль."
 
+#: src/view/com/modals/ChangeEmail.tsx:67
+msgid "Please confirm your email before changing it. This is a temporary requirement while email-updating tools are added, and it will soon be removed."
+msgstr ""
+
 #: src/view/com/modals/AddAppPasswords.tsx:140
 msgid "Please enter a unique name for this App Password or use our randomly generated one."
 msgstr "Будь ласка, введіть унікальне ім'я для цього паролю для додатка або використовуйте наш випадково згенерований."
@@ -1621,7 +1629,11 @@ msgstr "Будь ласка, вкажіть чому ви вважаєте що 
 #~ msgid "Please tell us why you think this decision was incorrect."
 #~ msgstr ""
 
-#: src/view/com/composer/Composer.tsx:337
+#: src/view/com/composer/Composer.tsx:214
+msgid "Please wait for your link card to finish loading"
+msgstr ""
+
+#: src/view/com/composer/Composer.tsx:341
 #: src/view/com/post-thread/PostThread.tsx:225
 #: src/view/screens/PostThread.tsx:80
 msgid "Post"
@@ -2498,7 +2510,7 @@ msgstr "Хто може відповідати"
 msgid "Wide"
 msgstr "Широке"
 
-#: src/view/com/composer/Composer.tsx:409
+#: src/view/com/composer/Composer.tsx:413
 msgid "Write post"
 msgstr "Написати пост"
 
