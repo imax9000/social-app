@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-12-27 18:00\n"
+"PO-Revision-Date: 2023-12-29 18:06\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -32,7 +32,7 @@ msgstr "{0, plural, one {Доступний # код запрошення} two {
 
 #: src/view/com/modals/Repost.tsx:44
 msgid "{0}"
-msgstr ""
+msgstr "{0}"
 
 #: src/view/com/modals/CreateOrEditList.tsx:176
 msgid "{0} {purposeLabel} List"
@@ -1605,7 +1605,7 @@ msgstr "Будь ласка, оберіть ваш пароль."
 
 #: src/view/com/modals/ChangeEmail.tsx:67
 msgid "Please confirm your email before changing it. This is a temporary requirement while email-updating tools are added, and it will soon be removed."
-msgstr ""
+msgstr "Будь ласка, підтвердіть вашу електронну пошту, перш ніж змінити її. Це тимчасова вимога під час додавання інструментів оновлення електронної пошти, і незабаром вона буде видалена."
 
 #: src/view/com/modals/AddAppPasswords.tsx:140
 msgid "Please enter a unique name for this App Password or use our randomly generated one."
@@ -1863,7 +1863,7 @@ msgstr "Скинути стан налаштувань"
 
 #: src/view/screens/Settings.tsx:684
 msgid "Resets the onboarding state"
-msgstr ""
+msgstr "Скинути стан онбордингу"
 
 #: src/view/screens/Settings.tsx:674
 msgid "Resets the preferences state"
@@ -2162,7 +2162,7 @@ msgstr "Статус"
 
 #: src/view/screens/Settings.tsx:666
 msgid "Storybook"
-msgstr ""
+msgstr "Сторібук"
 
 #: src/view/com/modals/AppealLabel.tsx:101
 msgid "Submit"
@@ -2447,7 +2447,7 @@ msgstr "Підтвердити нову адресу електронної по
 
 #: src/view/screens/Log.tsx:52
 msgid "View debug entry"
-msgstr ""
+msgstr "Переглянути запис для налагодження"
 
 #: src/view/com/profile/ProfileSubpageHeader.tsx:128
 msgid "View the avatar"
