@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-12-29 19:13\n"
+"PO-Revision-Date: 2023-12-29 19:30\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -467,7 +467,7 @@ msgstr "Перевірте вашу поштову скриньку, чи при
 
 #: src/view/com/modals/Threadgate.tsx:72
 msgid "Choose \"Everybody\" or \"Nobody\""
-msgstr ""
+msgstr "Виберіть \"Усі\" або \"Ніхто\""
 
 #: src/view/com/modals/ServerInput.tsx:38
 msgid "Choose Service"
@@ -487,19 +487,19 @@ msgstr "Вкажіть пароль"
 
 #: src/view/screens/Settings.tsx:694
 msgid "Clear all legacy storage data"
-msgstr "Очистити всі збережені дані"
+msgstr ""
 
 #: src/view/screens/Settings.tsx:696
 msgid "Clear all legacy storage data (restart after this)"
-msgstr "Очистити всі збережені дані (перезапустити після цього)"
+msgstr ""
 
 #: src/view/screens/Settings.tsx:706
 msgid "Clear all storage data"
-msgstr "Очистити всі дані сховища"
+msgstr ""
 
 #: src/view/screens/Settings.tsx:708
 msgid "Clear all storage data (restart after this)"
-msgstr "Очистити всі дані сховища (після цього)"
+msgstr ""
 
 #: src/view/com/util/forms/SearchInput.tsx:74
 #: src/view/screens/Search/Search.tsx:582
@@ -708,7 +708,7 @@ msgstr "Опис"
 
 #: src/view/com/auth/create/Step1.tsx:96
 msgid "Dev Server"
-msgstr "Сервер розробника"
+msgstr ""
 
 #: src/view/screens/Settings.tsx:637
 msgid "Developer Tools"
@@ -1549,7 +1549,7 @@ msgstr "Відкриває налаштування домашньої стрі�
 
 #: src/view/screens/Settings.tsx:664
 msgid "Opens the storybook page"
-msgstr "Відкриває сторінку розповідей"
+msgstr ""
 
 #: src/view/screens/Settings.tsx:644
 msgid "Opens the system log page"
@@ -1561,7 +1561,7 @@ msgstr "Відкриває налаштування гілок"
 
 #: src/view/com/modals/Threadgate.tsx:89
 msgid "Or combine these options:"
-msgstr ""
+msgstr "Або якісь із наступних варіантів:"
 
 #: src/view/com/auth/login/ChooseAccountForm.tsx:138
 msgid "Other account"
@@ -1860,7 +1860,7 @@ msgstr "Код підтвердження"
 
 #: src/view/screens/Settings.tsx:686
 msgid "Reset onboarding state"
-msgstr "Скинути стан вступу"
+msgstr ""
 
 #: src/view/com/auth/login/ForgotPasswordForm.tsx:98
 msgid "Reset password"
@@ -1868,15 +1868,15 @@ msgstr "Скинути пароль"
 
 #: src/view/screens/Settings.tsx:676
 msgid "Reset preferences state"
-msgstr "Скинути стан налаштувань"
+msgstr ""
 
 #: src/view/screens/Settings.tsx:684
 msgid "Resets the onboarding state"
-msgstr "Скинути стан онбордингу"
+msgstr ""
 
 #: src/view/screens/Settings.tsx:674
 msgid "Resets the preferences state"
-msgstr "Скинути стан налаштувань"
+msgstr ""
 
 #: src/view/com/auth/create/CreateAccount.tsx:163
 #: src/view/com/auth/create/CreateAccount.tsx:167
@@ -2163,7 +2163,7 @@ msgstr "Квадратне"
 #: src/view/com/auth/create/Step1.tsx:90
 #: src/view/com/modals/ServerInput.tsx:62
 msgid "Staging"
-msgstr "Інсценування"
+msgstr ""
 
 #: src/view/screens/Settings.tsx:730
 msgid "Status page"
@@ -2171,7 +2171,7 @@ msgstr "Статус"
 
 #: src/view/screens/Settings.tsx:666
 msgid "Storybook"
-msgstr "Сторібук"
+msgstr ""
 
 #: src/view/com/modals/AppealLabel.tsx:101
 msgid "Submit"
