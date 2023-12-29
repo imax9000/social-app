@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-12-29 19:30\n"
+"PO-Revision-Date: 2023-12-29 20:25\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -350,7 +350,7 @@ msgstr "Bluesky публічний."
 
 #: src/view/com/modals/Waitlist.tsx:70
 msgid "Bluesky uses invites to build a healthier community. If you don't know anybody with an invite, you can sign up for the waitlist and we'll send one soon."
-msgstr "Bluesky використовує систему запрошень для створення здоровішої спільноти. Якщо Ви не знаєте когось хто має запрошенням, ви можете зареєструватися до черги очікування і ми скоро надішлемо вам код запрошення."
+msgstr "Bluesky використовує систему запрошень для створення здоровішої спільноти. Якщо Ви не знаєте когось хто має запрошення, ви можете записатися до черги очікування і ми скоро надішлемо вам код запрошення."
 
 #: src/view/screens/Moderation.tsx:225
 msgid "Bluesky will not show your profile and posts to logged-out users. Other apps may not honor this request. This does not make your account private."
@@ -604,19 +604,19 @@ msgstr "Скопіювати"
 
 #: src/view/screens/ProfileList.tsx:385
 msgid "Copy link to list"
-msgstr "Копіювати посилання на список"
+msgstr "Скопіювати посилання на список"
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:139
 msgid "Copy link to post"
-msgstr "Копіювати посилання на пост"
+msgstr "Скопіювати посилання на пост"
 
 #: src/view/com/profile/ProfileHeader.tsx:338
 msgid "Copy link to profile"
-msgstr "Копіювати посилання на профіль"
+msgstr "Скопіювати посилання на профіль"
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:125
 msgid "Copy post text"
-msgstr "Копіювати текст повідомлення"
+msgstr "Скопіювати текст повідомлення"
 
 #: src/view/screens/CopyrightPolicy.tsx:29
 msgid "Copyright Policy"
@@ -724,7 +724,7 @@ msgstr "Видалити"
 
 #: src/view/com/composer/Composer.tsx:137
 msgid "Discard draft"
-msgstr "Видалити чернетку"
+msgstr "Відкинути чернетку"
 
 #: src/view/screens/Moderation.tsx:207
 msgid "Discourage apps from showing my account to logged-out users"
@@ -960,7 +960,7 @@ msgstr "З міркувань безпеки нам потрібно буде в
 
 #: src/view/com/modals/AddAppPasswords.tsx:207
 msgid "For security reasons, you won't be able to view this again. If you lose this password, you'll need to generate a new one."
-msgstr "З міркувань безпеки цей пароль відображається лише один раз. Якщо ви втратите цей пароль, вам потрібно буде згенерувати новий і видалити цей."
+msgstr "З міркувань безпеки цей пароль відображається лише один раз. Якщо ви втратите цей пароль, вам потрібно буде згенерувати новий."
 
 #: src/view/com/auth/login/LoginForm.tsx:232
 msgid "Forgot"
@@ -1750,19 +1750,19 @@ msgstr "Рекомендовані користувачі"
 #: src/view/com/util/UserAvatar.tsx:282
 #: src/view/com/util/UserBanner.tsx:89
 msgid "Remove"
-msgstr "Видалити"
+msgstr "Вилучити"
 
 #: src/view/com/feeds/FeedSourceCard.tsx:106
 msgid "Remove {0} from my feeds?"
-msgstr "Видалити {0} зі збережених стрічок?"
+msgstr "Вилучити {0} зі збережених стрічок?"
 
 #: src/view/com/util/AccountDropdownBtn.tsx:22
 msgid "Remove account"
-msgstr "Видалити обліковий запис"
+msgstr "Вилучити обліковий запис"
 
 #: src/view/com/posts/FeedErrorMessage.tsx:130
 msgid "Remove feed"
-msgstr "Видалити стрічку"
+msgstr "Вилучити стрічку"
 
 #: src/view/com/feeds/FeedSourceCard.tsx:105
 #: src/view/com/feeds/FeedSourceCard.tsx:172
