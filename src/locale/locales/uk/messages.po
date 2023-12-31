@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-12-30 10:01\n"
+"PO-Revision-Date: 2023-12-31 00:28\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -251,7 +251,7 @@ msgstr "Ви впевнені?"
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:219
 msgid "Are you sure? This cannot be undone."
-msgstr "Ви впевнені? Ця дія не може бути скасована."
+msgstr "Ви впевнені? Це не можна буде скасувати."
 
 #: src/view/com/modals/SelfLabel.tsx:123
 msgid "Artistic or non-erotic nudity."
