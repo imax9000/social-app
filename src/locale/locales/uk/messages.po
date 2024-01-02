@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-01-02 14:22\n"
+"PO-Revision-Date: 2024-01-02 14:39\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -919,7 +919,7 @@ msgstr "Налаштуйте відображення обговорень."
 
 #: src/view/com/profile/ProfileHeader.tsx:538
 msgid "Follow"
-msgstr "Стежити"
+msgstr "Підписатися"
 
 #: src/view/com/auth/onboarding/RecommendedFollows.tsx:42
 #~ msgid "Follow some"
@@ -2196,7 +2196,7 @@ msgstr "Підтримка"
 
 #: src/view/com/modals/SwitchAccount.tsx:115
 msgid "Switch Account"
-msgstr "Змінити обліковий запис"
+msgstr "Перемикнути обліковий запис"
 
 #: src/view/screens/Settings.tsx:398
 #~ msgid "System"
