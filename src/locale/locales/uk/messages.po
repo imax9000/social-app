@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-01-02 14:39\n"
+"PO-Revision-Date: 2024-01-03 20:21\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -93,7 +93,7 @@ msgstr "Доступна нова версія. Будь ласка, онові�
 msgid "Accessibility"
 msgstr "Доступність"
 
-#: src/view/com/auth/login/LoginForm.tsx:159
+#: src/view/com/auth/login/LoginForm.tsx:163
 #: src/view/screens/Settings.tsx:286
 msgid "Account"
 msgstr "Обліковий запис"
@@ -123,6 +123,7 @@ msgstr "Додати обліковий запис"
 
 #: src/view/com/composer/photos/Gallery.tsx:119
 #: src/view/com/composer/photos/Gallery.tsx:180
+#: src/view/com/modals/AltImage.tsx:93
 msgid "Add alt text"
 msgstr "Додати альтернативний текст"
 
@@ -135,11 +136,11 @@ msgstr "Додайте подробиці"
 msgid "Add details to report"
 msgstr "Додайте подробиці до скарги"
 
-#: src/view/com/composer/Composer.tsx:442
+#: src/view/com/composer/Composer.tsx:447
 msgid "Add link card"
 msgstr "Додати попередній перегляд"
 
-#: src/view/com/composer/Composer.tsx:445
+#: src/view/com/composer/Composer.tsx:450
 msgid "Add link card:"
 msgstr "Додати попередній перегляд:"
 
@@ -160,7 +161,7 @@ msgstr "Додати до моїх стрічок"
 msgid "Added to list"
 msgstr "Додано до списку"
 
-#: src/view/screens/PreferencesHomeFeed.tsx:164
+#: src/view/screens/PreferencesHomeFeed.tsx:170
 msgid "Adjust the number of likes a reply must have to be shown in your feed."
 msgstr "Налаштуйте мінімальну кількість вподобань для того щоб відповідь відобразилася у вашій стрічці."
 
@@ -241,7 +242,7 @@ msgstr "Оформлення"
 msgid "Are you sure you want to delete the app password \"{name}\"?"
 msgstr "Ви дійсно хочете видалити пароль для застосунку \"{name}\"?"
 
-#: src/view/com/composer/Composer.tsx:142
+#: src/view/com/composer/Composer.tsx:143
 msgid "Are you sure you'd like to discard this draft?"
 msgstr "Ви дійсно бажаєте видалити цю чернетку?"
 
@@ -264,7 +265,7 @@ msgstr "Художня або нееротична оголеність."
 #: src/view/com/auth/create/CreateAccount.tsx:141
 #: src/view/com/auth/login/ChooseAccountForm.tsx:151
 #: src/view/com/auth/login/ForgotPasswordForm.tsx:166
-#: src/view/com/auth/login/LoginForm.tsx:250
+#: src/view/com/auth/login/LoginForm.tsx:254
 #: src/view/com/auth/login/SetNewPasswordForm.tsx:148
 #: src/view/com/modals/report/InputIssueDetails.tsx:46
 #: src/view/com/post-thread/PostThread.tsx:388
@@ -378,9 +379,8 @@ msgstr "Камера"
 msgid "Can only contain letters, numbers, spaces, dashes, and underscores. Must be at least 4 characters long, but no more than 32 characters long."
 msgstr "Може містити лише літери, цифри, пробіли, дефіси та знаки підкреслення, і мати довжину від 4 до 32 символів."
 
-#: src/view/com/composer/Composer.tsx:289
-#: src/view/com/composer/Composer.tsx:292
-#: src/view/com/modals/AltImage.tsx:128
+#: src/view/com/composer/Composer.tsx:294
+#: src/view/com/composer/Composer.tsx:297
 #: src/view/com/modals/ChangeEmail.tsx:218
 #: src/view/com/modals/ChangeEmail.tsx:220
 #: src/view/com/modals/Confirm.tsx:88
@@ -404,8 +404,8 @@ msgid "Cancel account deletion"
 msgstr "Скасувати видалення облікового запису"
 
 #: src/view/com/modals/AltImage.tsx:123
-msgid "Cancel add image alt text"
-msgstr "Скасувати додавання альтернативного тексту"
+#~ msgid "Cancel add image alt text"
+#~ msgstr ""
 
 #: src/view/com/modals/ChangeHandle.tsx:149
 msgid "Cancel change handle"
@@ -538,8 +538,8 @@ msgstr "Відповісти"
 #: src/view/com/modals/Confirm.tsx:75
 #: src/view/com/modals/SelfLabel.tsx:154
 #: src/view/com/modals/VerifyEmail.tsx:225
-#: src/view/screens/PreferencesHomeFeed.tsx:299
-#: src/view/screens/PreferencesThreads.tsx:153
+#: src/view/screens/PreferencesHomeFeed.tsx:305
+#: src/view/screens/PreferencesThreads.tsx:159
 msgid "Confirm"
 msgstr "Підтвердити"
 
@@ -563,7 +563,7 @@ msgid "Confirmation code"
 msgstr "Код підтвердження"
 
 #: src/view/com/auth/create/CreateAccount.tsx:174
-#: src/view/com/auth/login/LoginForm.tsx:269
+#: src/view/com/auth/login/LoginForm.tsx:273
 msgid "Connecting..."
 msgstr "З’єднання..."
 
@@ -714,15 +714,15 @@ msgstr ""
 msgid "Developer Tools"
 msgstr "Інструменти розробника"
 
-#: src/view/com/composer/Composer.tsx:210
+#: src/view/com/composer/Composer.tsx:211
 msgid "Did you want to say anything?"
 msgstr "Порожній пост. Ви хотіли щось написати?"
 
-#: src/view/com/composer/Composer.tsx:143
+#: src/view/com/composer/Composer.tsx:144
 msgid "Discard"
 msgstr "Видалити"
 
-#: src/view/com/composer/Composer.tsx:137
+#: src/view/com/composer/Composer.tsx:138
 msgid "Discard draft"
 msgstr "Відкинути чернетку"
 
@@ -747,6 +747,7 @@ msgid "Domain verified!"
 msgstr "Домен перевірено!"
 
 #: src/view/com/auth/onboarding/RecommendedFollows.tsx:86
+#: src/view/com/modals/AltImage.tsx:115
 #: src/view/com/modals/ContentFilteringSettings.tsx:88
 #: src/view/com/modals/ContentFilteringSettings.tsx:96
 #: src/view/com/modals/crop-image/CropImage.web.tsx:152
@@ -756,8 +757,8 @@ msgstr "Домен перевірено!"
 #: src/view/com/modals/Threadgate.tsx:129
 #: src/view/com/modals/Threadgate.tsx:132
 #: src/view/com/modals/UserAddRemoveLists.tsx:79
-#: src/view/screens/PreferencesHomeFeed.tsx:302
-#: src/view/screens/PreferencesThreads.tsx:156
+#: src/view/screens/PreferencesHomeFeed.tsx:308
+#: src/view/screens/PreferencesThreads.tsx:162
 msgid "Done"
 msgstr "Готово"
 
@@ -818,7 +819,7 @@ msgstr "Email оновлено"
 msgid "Email:"
 msgstr "Email:"
 
-#: src/view/screens/PreferencesHomeFeed.tsx:138
+#: src/view/screens/PreferencesHomeFeed.tsx:144
 msgid "Enable this setting to only see replies between people you follow."
 msgstr "Увімкніть цей параметр, щоб бачити відповіді тільки між людьми, на яких ви підписані."
 
@@ -909,7 +910,7 @@ msgstr "Знайти користувачів за допомогою поля �
 msgid "Finding similar accounts..."
 msgstr "Пошук схожих користувачів..."
 
-#: src/view/screens/PreferencesHomeFeed.tsx:102
+#: src/view/screens/PreferencesHomeFeed.tsx:108
 msgid "Fine-tune the content you see on your home screen."
 msgstr "Оберіть, що ви хочете бачити у своїй домашній стрічці."
 
@@ -933,7 +934,7 @@ msgstr "Підпишіться на кількох користувачів що
 msgid "Followed users"
 msgstr "Ваші підписки"
 
-#: src/view/screens/PreferencesHomeFeed.tsx:145
+#: src/view/screens/PreferencesHomeFeed.tsx:151
 msgid "Followed users only"
 msgstr "Тільки ваші підписки"
 
@@ -962,11 +963,11 @@ msgstr "З міркувань безпеки нам потрібно буде в
 msgid "For security reasons, you won't be able to view this again. If you lose this password, you'll need to generate a new one."
 msgstr "З міркувань безпеки цей пароль відображається лише один раз. Якщо ви втратите цей пароль, вам потрібно буде згенерувати новий."
 
-#: src/view/com/auth/login/LoginForm.tsx:232
+#: src/view/com/auth/login/LoginForm.tsx:236
 msgid "Forgot"
 msgstr "Забули пароль"
 
-#: src/view/com/auth/login/LoginForm.tsx:229
+#: src/view/com/auth/login/LoginForm.tsx:233
 msgid "Forgot password"
 msgstr "Забули пароль"
 
@@ -998,7 +999,7 @@ msgid "Go Back"
 msgstr "Назад"
 
 #: src/view/com/auth/login/ForgotPasswordForm.tsx:181
-#: src/view/com/auth/login/LoginForm.tsx:279
+#: src/view/com/auth/login/LoginForm.tsx:283
 #: src/view/com/auth/login/SetNewPasswordForm.tsx:163
 msgid "Go to next"
 msgstr "Далі"
@@ -1069,7 +1070,7 @@ msgid "Home"
 msgstr "Головна"
 
 #: src/view/com/pager/FeedsTabBarMobile.tsx:96
-#: src/view/screens/PreferencesHomeFeed.tsx:95
+#: src/view/screens/PreferencesHomeFeed.tsx:101
 #: src/view/screens/Settings.tsx:481
 msgid "Home Feed Preferences"
 msgstr "Налаштування домашньої стрічки"
@@ -1109,7 +1110,7 @@ msgstr "Редагування зображення"
 #~ msgid "In Your Network"
 #~ msgstr ""
 
-#: src/view/com/auth/login/LoginForm.tsx:113
+#: src/view/com/auth/login/LoginForm.tsx:115
 msgid "Invalid username or password"
 msgstr "Невірне ім'я користувача або пароль"
 
@@ -1334,6 +1335,10 @@ msgstr "Додаткові опції"
 #~ msgid "More post options"
 #~ msgstr ""
 
+#: src/view/screens/PreferencesThreads.tsx:82
+msgid "Most-liked replies first"
+msgstr ""
+
 #: src/view/com/profile/ProfileHeader.tsx:370
 msgid "Mute Account"
 msgstr "Ігнорувати обліковий запис"
@@ -1418,10 +1423,14 @@ msgstr "Новий пост"
 msgid "New Post"
 msgstr "Новий пост"
 
+#: src/view/screens/PreferencesThreads.tsx:79
+msgid "Newest replies first"
+msgstr ""
+
 #: src/view/com/auth/create/CreateAccount.tsx:154
 #: src/view/com/auth/login/ForgotPasswordForm.tsx:174
 #: src/view/com/auth/login/ForgotPasswordForm.tsx:184
-#: src/view/com/auth/login/LoginForm.tsx:282
+#: src/view/com/auth/login/LoginForm.tsx:286
 #: src/view/com/auth/login/SetNewPasswordForm.tsx:156
 #: src/view/com/auth/login/SetNewPasswordForm.tsx:166
 #: src/view/com/auth/onboarding/RecommendedFeeds.tsx:79
@@ -1432,10 +1441,12 @@ msgstr "Далі"
 msgid "Next image"
 msgstr "Наступне зображення"
 
-#: src/view/screens/PreferencesHomeFeed.tsx:120
-#: src/view/screens/PreferencesHomeFeed.tsx:191
-#: src/view/screens/PreferencesHomeFeed.tsx:226
-#: src/view/screens/PreferencesHomeFeed.tsx:263
+#: src/view/screens/PreferencesHomeFeed.tsx:126
+#: src/view/screens/PreferencesHomeFeed.tsx:197
+#: src/view/screens/PreferencesHomeFeed.tsx:232
+#: src/view/screens/PreferencesHomeFeed.tsx:269
+#: src/view/screens/PreferencesThreads.tsx:106
+#: src/view/screens/PreferencesThreads.tsx:129
 msgid "No"
 msgstr "Ні"
 
@@ -1506,13 +1517,22 @@ msgstr "О, ні!"
 msgid "Okay"
 msgstr "Добре"
 
-#: src/view/com/composer/Composer.tsx:358
+#: src/view/screens/PreferencesThreads.tsx:78
+msgid "Oldest replies first"
+msgstr ""
+
+#: src/view/com/composer/Composer.tsx:363
 msgid "One or more images is missing alt text."
 msgstr "Для одного або кількох зображень відсутній альтернативний текст."
 
 #: src/view/com/threadgate/WhoCanReply.tsx:100
 msgid "Only {0} can reply."
 msgstr "Тільки {0} можуть відповідати."
+
+#: src/view/com/composer/Composer.tsx:468
+#: src/view/com/composer/Composer.tsx:469
+msgid "Open emoji picker"
+msgstr ""
 
 #: src/view/com/pager/FeedsTabBarMobile.tsx:76
 msgid "Open navigation"
@@ -1582,7 +1602,7 @@ msgstr "Сторінку не знайдено"
 
 #: src/view/com/auth/create/Step2.tsx:122
 #: src/view/com/auth/create/Step2.tsx:132
-#: src/view/com/auth/login/LoginForm.tsx:217
+#: src/view/com/auth/login/LoginForm.tsx:221
 #: src/view/com/auth/login/SetNewPasswordForm.tsx:130
 #: src/view/com/modals/DeleteAccount.tsx:191
 msgid "Password"
@@ -1638,11 +1658,11 @@ msgstr "Будь ласка, вкажіть чому ви вважаєте що 
 #~ msgid "Please tell us why you think this decision was incorrect."
 #~ msgstr ""
 
-#: src/view/com/composer/Composer.tsx:214
+#: src/view/com/composer/Composer.tsx:215
 msgid "Please wait for your link card to finish loading"
 msgstr "Будь ласка, зачекайте доки завершиться створення попереднього перегляду для посилання"
 
-#: src/view/com/composer/Composer.tsx:341
+#: src/view/com/composer/Composer.tsx:346
 #: src/view/com/post-thread/PostThread.tsx:225
 #: src/view/screens/PostThread.tsx:80
 msgid "Post"
@@ -1680,7 +1700,7 @@ msgstr "Попереднє зображення"
 msgid "Primary Language"
 msgstr "Основна мова"
 
-#: src/view/screens/PreferencesThreads.tsx:91
+#: src/view/screens/PreferencesThreads.tsx:97
 msgid "Prioritize Your Follows"
 msgstr "Пріоритезувати ваші підписки"
 
@@ -1726,6 +1746,10 @@ msgstr "Цитувати пост"
 #: src/view/com/modals/Repost.tsx:56
 msgid "Quote Post"
 msgstr "Цитувати пост"
+
+#: src/view/screens/PreferencesThreads.tsx:86
+msgid "Random (aka \"Poster's Roulette\")"
+msgstr ""
 
 #: src/view/com/modals/EditImage.tsx:236
 msgid "Ratios"
@@ -1799,7 +1823,7 @@ msgstr "Відповіді"
 msgid "Replies to this thread are disabled"
 msgstr "Відповіді до цього посту вимкнено"
 
-#: src/view/screens/PreferencesHomeFeed.tsx:135
+#: src/view/screens/PreferencesHomeFeed.tsx:141
 msgid "Reply Filters"
 msgstr "Які відповіді показувати"
 
@@ -1846,9 +1870,9 @@ msgstr "Змінити"
 #~ msgid "Request to limit the visibility of my account"
 #~ msgstr ""
 
-#: src/view/screens/Settings.tsx:382
-#~ msgid "Require alt text before posting"
-#~ msgstr ""
+#: src/view/screens/Settings.tsx:422
+msgid "Require alt text before posting"
+msgstr ""
 
 #: src/view/com/auth/create/Step2.tsx:68
 msgid "Required for this provider"
@@ -1880,8 +1904,8 @@ msgstr ""
 
 #: src/view/com/auth/create/CreateAccount.tsx:163
 #: src/view/com/auth/create/CreateAccount.tsx:167
-#: src/view/com/auth/login/LoginForm.tsx:259
-#: src/view/com/auth/login/LoginForm.tsx:262
+#: src/view/com/auth/login/LoginForm.tsx:263
+#: src/view/com/auth/login/LoginForm.tsx:266
 #: src/view/com/util/error/ErrorMessage.tsx:55
 #: src/view/com/util/error/ErrorScreen.tsx:65
 msgid "Retry"
@@ -1891,7 +1915,6 @@ msgstr "Повторити спробу"
 #~ msgid "Retry change handle"
 #~ msgstr ""
 
-#: src/view/com/modals/AltImage.tsx:115
 #: src/view/com/modals/BirthDateSettings.tsx:94
 #: src/view/com/modals/BirthDateSettings.tsx:97
 #: src/view/com/modals/ChangeHandle.tsx:173
@@ -1963,7 +1986,7 @@ msgstr "Вибрати Bluesky Social"
 msgid "Select from an existing account"
 msgstr "Вибрати існуючий обліковий запис"
 
-#: src/view/com/auth/login/LoginForm.tsx:143
+#: src/view/com/auth/login/LoginForm.tsx:147
 msgid "Select service"
 msgstr "Вибрати хостинг-провайдера"
 
@@ -2004,23 +2027,23 @@ msgstr "Поскаржитись"
 msgid "Set new password"
 msgstr "Зміна пароля"
 
-#: src/view/screens/PreferencesHomeFeed.tsx:216
+#: src/view/screens/PreferencesHomeFeed.tsx:222
 msgid "Set this setting to \"No\" to hide all quote posts from your feed. Reposts will still be visible."
 msgstr "Вимкніть це налаштування, щоб приховати всі цитовані пости у вашій стрічці. Не впливає на репости без цитування."
 
-#: src/view/screens/PreferencesHomeFeed.tsx:113
+#: src/view/screens/PreferencesHomeFeed.tsx:119
 msgid "Set this setting to \"No\" to hide all replies from your feed."
 msgstr "Вимкніть це налаштування, щоб приховати всі відповіді у вашій стрічці."
 
-#: src/view/screens/PreferencesHomeFeed.tsx:182
+#: src/view/screens/PreferencesHomeFeed.tsx:188
 msgid "Set this setting to \"No\" to hide all reposts from your feed."
 msgstr "Вимкніть це налаштування, щоб приховати всі репости у вашій стрічці."
 
-#: src/view/screens/PreferencesThreads.tsx:116
+#: src/view/screens/PreferencesThreads.tsx:122
 msgid "Set this setting to \"Yes\" to show replies in a threaded view. This is an experimental feature."
 msgstr "Увімкніть це налаштування, щоб показувати відповіді у вигляді гілок. Це експериментальна функція."
 
-#: src/view/screens/PreferencesHomeFeed.tsx:252
+#: src/view/screens/PreferencesHomeFeed.tsx:258
 msgid "Set this setting to \"Yes\" to show samples of your saved feeds in your following feed. This is an experimental feature."
 msgstr "Увімкніть це налаштування, щоб іноді бачити пости зі збережених стрічок у вашій домашній стрічці. Це експериментальна функція."
 
@@ -2058,23 +2081,23 @@ msgstr "Показати"
 msgid "Show anyway"
 msgstr "Всеодно показати"
 
-#: src/view/screens/PreferencesHomeFeed.tsx:249
+#: src/view/screens/PreferencesHomeFeed.tsx:255
 msgid "Show Posts from My Feeds"
 msgstr "Показувати пости зі збережених стрічок"
 
-#: src/view/screens/PreferencesHomeFeed.tsx:213
+#: src/view/screens/PreferencesHomeFeed.tsx:219
 msgid "Show Quote Posts"
 msgstr "Показувати цитати"
 
-#: src/view/screens/PreferencesHomeFeed.tsx:110
+#: src/view/screens/PreferencesHomeFeed.tsx:116
 msgid "Show Replies"
 msgstr "Показувати відповіді"
 
-#: src/view/screens/PreferencesThreads.tsx:94
+#: src/view/screens/PreferencesThreads.tsx:100
 msgid "Show replies by people you follow before all other replies."
 msgstr "Показувати відповіді від людей, за якими ви слідкуєте, вище інших."
 
-#: src/view/screens/PreferencesHomeFeed.tsx:179
+#: src/view/screens/PreferencesHomeFeed.tsx:185
 msgid "Show Reposts"
 msgstr "Показувати репости"
 
@@ -2111,7 +2134,7 @@ msgstr "Увійти як {0}"
 msgid "Sign in as..."
 msgstr "Увійти як..."
 
-#: src/view/com/auth/login/LoginForm.tsx:130
+#: src/view/com/auth/login/LoginForm.tsx:134
 msgid "Sign into"
 msgstr "Увійти до"
 
@@ -2310,7 +2333,7 @@ msgstr "Це приховає цей пост із вашої стрічки."
 msgid "Thread Preferences"
 msgstr "Налаштування гілок"
 
-#: src/view/screens/PreferencesThreads.tsx:113
+#: src/view/screens/PreferencesThreads.tsx:119
 msgid "Threaded Mode"
 msgstr "Режим гілок"
 
@@ -2342,7 +2365,7 @@ msgstr "Перестати ігнорувати"
 
 #: src/view/com/auth/create/CreateAccount.tsx:65
 #: src/view/com/auth/login/Login.tsx:76
-#: src/view/com/auth/login/LoginForm.tsx:117
+#: src/view/com/auth/login/LoginForm.tsx:120
 msgid "Unable to contact your service. Please check your Internet connection."
 msgstr "Не вдалося зв'язатися з вашим хостинг-провайдером. Перевірте ваше підключення до Інтернету."
 
@@ -2360,7 +2383,7 @@ msgstr "Розблокувати обліковий запис"
 msgid "Undo repost"
 msgstr "Скасувати репост"
 
-#: src/view/com/auth/create/state.ts:210
+#: src/view/com/auth/create/state.ts:216
 msgid "Unfortunately, you do not meet the requirements to create an account."
 msgstr "На жаль, ви не відповідаєте вимогам для створення облікового запису."
 
@@ -2416,8 +2439,8 @@ msgstr "Псевдонім"
 msgid "User Lists"
 msgstr "Списки користувачів"
 
-#: src/view/com/auth/login/LoginForm.tsx:170
-#: src/view/com/auth/login/LoginForm.tsx:188
+#: src/view/com/auth/login/LoginForm.tsx:174
+#: src/view/com/auth/login/LoginForm.tsx:192
 msgid "Username or email address"
 msgstr "Ім'я користувача або електронна адреса"
 
@@ -2519,7 +2542,7 @@ msgstr "Хто може відповідати"
 msgid "Wide"
 msgstr "Широке"
 
-#: src/view/com/composer/Composer.tsx:413
+#: src/view/com/composer/Composer.tsx:418
 msgid "Write post"
 msgstr "Написати пост"
 
@@ -2527,10 +2550,12 @@ msgstr "Написати пост"
 msgid "Write your reply"
 msgstr "Написати відповідь"
 
-#: src/view/screens/PreferencesHomeFeed.tsx:120
-#: src/view/screens/PreferencesHomeFeed.tsx:192
-#: src/view/screens/PreferencesHomeFeed.tsx:227
-#: src/view/screens/PreferencesHomeFeed.tsx:262
+#: src/view/screens/PreferencesHomeFeed.tsx:126
+#: src/view/screens/PreferencesHomeFeed.tsx:198
+#: src/view/screens/PreferencesHomeFeed.tsx:233
+#: src/view/screens/PreferencesHomeFeed.tsx:268
+#: src/view/screens/PreferencesThreads.tsx:106
+#: src/view/screens/PreferencesThreads.tsx:129
 msgid "Yes"
 msgstr "Так"
 
