@@ -1,0 +1,31 @@
+name: Update the branch for upstream pull request
+
+on:
+  push:
+    branches: ['l10n_main']
+  workflow_dispatch:
+
+concurrency:
+  group: export
+
+permissions:
+  contents: write
+  id-token: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - run: |
+          git remote add upstream https://github.com/bluesky-social/social-app.git
+          git fetch upstream main
+          git checkout -b export upstream/main
+          git restore --source l10n_main src/**/uk/*
+          git add --all
+          if ! git diff-index --quiet HEAD; then
+            git commit -m 'Update Ukrainian translation'
+            git push -f origin HEAD
+          fi
