@@ -26,6 +26,8 @@ jobs:
           git restore --source origin/l10n_main src/**/uk/*
           git add --all
           if ! git diff-index --quiet HEAD; then
+            git config user.name Ukrainians
+            git config user.email github-actions@github.com
             git commit -m 'Update Ukrainian translation'
             git push -f origin HEAD
           fi
