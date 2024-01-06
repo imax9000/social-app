@@ -3,3 +3,5 @@ rules:
   - base: main
     upstream: bluesky-social:main
     mergeMethod: rebase
+    conflictReviewers:
+      - imax9000
