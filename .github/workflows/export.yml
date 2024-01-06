@@ -1,8 +1,6 @@
 name: Update the branch for upstream pull request
 
 on:
-  push:
-    branches: ['l10n_main']
   workflow_dispatch:
 
 concurrency:
