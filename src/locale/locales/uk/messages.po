@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-01-16 03:57\n"
+"PO-Revision-Date: 2024-01-16 09:54\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -45,7 +45,7 @@ msgstr "{0}"
 
 #: src/view/com/profile/ProfileHeader.tsx:632
 msgid "{following} following"
-msgstr ""
+msgstr "{following} підписок"
 
 #: src/view/shell/desktop/RightNav.tsx:151
 msgid "{invitesAvailable, plural, one {Invite codes: # available} other {Invite codes: # available}}"
@@ -103,11 +103,11 @@ msgstr "<0>Підпишіться на деяких </0><1>рекомендов�
 
 #: src/view/com/auth/onboarding/WelcomeDesktop.tsx:21
 msgid "<0>Welcome to</0><1>Bluesky</1>"
-msgstr ""
+msgstr "<0>Ласкаво просимо до</0><1>Bluesky</1>"
 
 #: src/view/com/profile/ProfileHeader.tsx:597
 msgid "⚠Invalid Handle"
-msgstr ""
+msgstr "⚠Невірний псевдонім"
 
 #: src/view/com/util/moderation/LabelInfo.tsx:45
 msgid "A content warning has been applied to this {0}."
@@ -138,19 +138,19 @@ msgstr "Обліковий запис"
 
 #: src/view/com/profile/ProfileHeader.tsx:293
 msgid "Account blocked"
-msgstr ""
+msgstr "Обліковий запис заблоковано"
 
 #: src/view/com/profile/ProfileHeader.tsx:260
 msgid "Account muted"
-msgstr ""
+msgstr "Обліковий запис ігнорується"
 
 #: src/view/com/modals/ModerationDetails.tsx:86
 msgid "Account Muted"
-msgstr ""
+msgstr "Обліковий запис ігнорується"
 
 #: src/view/com/modals/ModerationDetails.tsx:72
 msgid "Account Muted by List"
-msgstr ""
+msgstr "Обліковий запис ігнорується списком"
 
 #: src/view/com/util/AccountDropdownBtn.tsx:41
 msgid "Account options"
@@ -158,15 +158,15 @@ msgstr "Параметри облікового запису"
 
 #: src/view/com/util/AccountDropdownBtn.tsx:25
 msgid "Account removed from quick access"
-msgstr ""
+msgstr "Обліковий запис вилучено зі швидкого доступу"
 
 #: src/view/com/profile/ProfileHeader.tsx:315
 msgid "Account unblocked"
-msgstr ""
+msgstr "Обліковий запис розблоковано"
 
 #: src/view/com/profile/ProfileHeader.tsx:273
 msgid "Account unmuted"
-msgstr ""
+msgstr "Обліковий запис більше не ігнорується"
 
 #: src/view/com/auth/onboarding/RecommendedFeedsItem.tsx:150
 #: src/view/com/modals/ListAddRemoveUsers.tsx:264
@@ -198,7 +198,7 @@ msgstr "Додати альтернативний текст"
 #: src/view/screens/AppPasswords.tsx:143
 #: src/view/screens/AppPasswords.tsx:156
 msgid "Add App Password"
-msgstr ""
+msgstr "Додати пароль застосунку"
 
 #: src/view/com/modals/report/InputIssueDetails.tsx:41
 #: src/view/com/modals/report/Modal.tsx:191
@@ -232,7 +232,7 @@ msgstr "Додати до моїх стрічок"
 
 #: src/view/com/auth/onboarding/RecommendedFeedsItem.tsx:139
 msgid "Added"
-msgstr ""
+msgstr "Додано"
 
 #: src/view/com/modals/ListAddRemoveUsers.tsx:191
 #: src/view/com/modals/UserAddRemoveLists.tsx:128
@@ -241,7 +241,7 @@ msgstr "Додано до списку"
 
 #: src/view/com/feeds/FeedSourceCard.tsx:125
 msgid "Added to my feeds"
-msgstr ""
+msgstr "Додано до моїх каналів"
 
 #: src/view/screens/PreferencesHomeFeed.tsx:173
 msgid "Adjust the number of likes a reply must have to be shown in your feed."
@@ -253,7 +253,7 @@ msgstr "Вміст для дорослих"
 
 #: src/view/com/modals/ContentFilteringSettings.tsx:137
 msgid "Adult content can only be enabled via the Web at <0/>."
-msgstr ""
+msgstr "Вміст для дорослих можна увімкнути лише у вебверсії на <0/>."
 
 #: src/view/screens/Settings.tsx:630
 msgid "Advanced"
@@ -261,7 +261,7 @@ msgstr "Розширені"
 
 #: src/view/com/auth/login/ChooseAccountForm.tsx:98
 msgid "Already signed in as @{0}"
-msgstr ""
+msgstr "Вже увійшли як @{0}"
 
 #: src/view/com/composer/photos/Gallery.tsx:130
 msgid "ALT"
@@ -286,7 +286,7 @@ msgstr "Було надіслано лист на вашу попередню а
 #: src/view/com/profile/FollowButton.tsx:30
 #: src/view/com/profile/FollowButton.tsx:40
 msgid "An issue occurred, please try again."
-msgstr ""
+msgstr "Виникла проблема, будь ласка, спробуйте ще раз."
 
 #: src/view/com/notifications/FeedItem.tsx:240
 #: src/view/com/threadgate/WhoCanReply.tsx:178
@@ -299,19 +299,19 @@ msgstr "Мова застосунку"
 
 #: src/view/screens/AppPasswords.tsx:228
 msgid "App password deleted"
-msgstr ""
+msgstr "Пароль застосунку видалено"
 
 #: src/view/com/modals/AddAppPasswords.tsx:133
 msgid "App Password names can only contain letters, numbers, spaces, dashes, and underscores."
-msgstr ""
+msgstr "Назва пароля може містити лише латинські літери, цифри, пробіли, мінуси та нижні підкреслення."
 
 #: src/view/com/modals/AddAppPasswords.tsx:98
 msgid "App Password names must be at least 4 characters long."
-msgstr ""
+msgstr "Назва пароля застосунку мусить бути хоча б 4 символи в довжину."
 
 #: src/view/screens/Settings.tsx:641
 msgid "App password settings"
-msgstr ""
+msgstr "Налаштування пароля застосунків"
 
 #: src/view/screens/Settings.tsx:650
 msgid "App passwords"
