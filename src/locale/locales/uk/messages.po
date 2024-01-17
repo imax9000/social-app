@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-01-16 17:01\n"
+"PO-Revision-Date: 2024-01-17 13:48\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -28,7 +28,7 @@ msgstr ""
 
 #: src/view/com/modals/VerifyEmail.tsx:142
 msgid "(no email)"
-msgstr ""
+msgstr "(немає email)"
 
 #: src/view/shell/desktop/RightNav.tsx:168
 msgid "{0, plural, one {# invite code available} other {# invite codes available}}"
@@ -67,11 +67,11 @@ msgstr "{message}"
 
 #: src/view/shell/Drawer.tsx:440
 msgid "{numUnreadNotifications} unread"
-msgstr ""
+msgstr "{numUnreadNotifications} непрочитаних"
 
 #: src/Navigation.tsx:147
 msgid "@{0}"
-msgstr ""
+msgstr "@{0}"
 
 #: src/view/com/threadgate/WhoCanReply.tsx:158
 msgid "<0/> members"
