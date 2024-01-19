@@ -21,6 +21,6 @@ jobs:
       - run: |
           git remote add upstream https://github.com/bluesky-social/social-app.git
           git fetch upstream main
-          git checkout main
+          git checkout --track origin/main
           git rebase upstream/main
           git push -f origin HEAD
