@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-01-17 13:48\n"
+"PO-Revision-Date: 2024-01-20 15:22\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -772,7 +772,7 @@ msgstr "Підтвердити видалення облікового запи�
 
 #: src/view/com/modals/ContentFilteringSettings.tsx:151
 msgid "Confirm your age to enable adult content."
-msgstr ""
+msgstr "Підтвердьте свій вік, щоб дозволити вміст для дорослих."
 
 #: src/view/com/modals/ChangeEmail.tsx:157
 #: src/view/com/modals/DeleteAccount.tsx:178
@@ -1186,7 +1186,7 @@ msgstr "Увімкнути лише {0}"
 
 #: src/view/com/modals/ContentFilteringSettings.tsx:162
 msgid "Enable Adult Content"
-msgstr ""
+msgstr "Дозволити вміст для дорослих"
 
 #: src/view/com/modals/EmbedConsent.tsx:97
 msgid "Enable External Media"
@@ -1528,7 +1528,7 @@ msgstr "Це ваш пароль для застосунків."
 #: src/view/com/notifications/FeedItem.tsx:329
 msgctxt "action"
 msgid "Hide"
-msgstr ""
+msgstr "Сховати"
 
 #: src/view/com/modals/ContentFilteringSettings.tsx:246
 #: src/view/com/util/moderation/ContentHider.tsx:105
@@ -3233,7 +3233,7 @@ msgstr "Поширити канал"
 #: src/view/com/util/moderation/PostHider.tsx:108
 #: src/view/screens/Settings.tsx:344
 msgid "Show"
-msgstr "Показати"
+msgstr "Показувати"
 
 #: src/view/screens/PreferencesHomeFeed.tsx:68
 msgid "Show all replies"
@@ -3676,7 +3676,7 @@ msgstr "Цей пост було видалено."
 
 #: src/view/com/modals/ModerationDetails.tsx:62
 msgid "This user has blocked you. You cannot view their content."
-msgstr ""
+msgstr "Цей користувач заблокував вас. Ви не можете бачити їх вміст."
 
 #: src/view/com/modals/ModerationDetails.tsx:42
 msgid "This user is included in the <0/> list which you have blocked."
@@ -3966,7 +3966,7 @@ msgstr "Відвідати сайт"
 
 #: src/view/com/modals/ContentFilteringSettings.tsx:254
 msgid "Warn"
-msgstr ""
+msgstr "Попереджати"
 
 #: src/view/com/posts/DiscoverFallbackHeader.tsx:29
 msgid "We ran out of posts from your follows. Here's the latest from"
