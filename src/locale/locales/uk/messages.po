@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-01-24 18:03\n"
+"PO-Revision-Date: 2024-01-25 15:41\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -241,7 +241,7 @@ msgstr "Додано до списку"
 
 #: src/view/com/feeds/FeedSourceCard.tsx:125
 msgid "Added to my feeds"
-msgstr "Додано до моїх каналів"
+msgstr "Додано до моїх стрічок"
 
 #: src/view/screens/PreferencesHomeFeed.tsx:173
 msgid "Adjust the number of likes a reply must have to be shown in your feed."
@@ -627,7 +627,7 @@ msgstr "Змінити адресу електронної пошти"
 
 #: src/view/com/auth/onboarding/RecommendedFeeds.tsx:121
 msgid "Check out some recommended feeds. Tap + to add them to your list of pinned feeds."
-msgstr "Ознайомтеся з деякими рекомендованими каналами. Торкніться +, щоб додати їх до свого списку закріплених каналів."
+msgstr "Подивіться на деякі з рекомендованих стрічок. Натисніть +, щоб додати їх до свого списку закріплених стрічок."
 
 #: src/view/com/auth/onboarding/RecommendedFollows.tsx:185
 msgid "Check out some recommended users. Follow them to see similar users."
@@ -652,7 +652,7 @@ msgstr "Оберіть хостинг-провайдера"
 #: src/view/com/auth/onboarding/WelcomeDesktop.tsx:83
 #: src/view/com/auth/onboarding/WelcomeMobile.tsx:83
 msgid "Choose the algorithms that power your experience with custom feeds."
-msgstr "Виберіть алгоритми, які покращать вашу взаємодію з каналами користувачів."
+msgstr "Автори стрічок можуть обирати будь-які алгоритми для формування стрічки саме для вас."
 
 #: src/view/com/auth/onboarding/RecommendedFeeds.tsx:65
 #~ msgid "Choose your"
@@ -866,7 +866,7 @@ msgstr "Політика захисту авторського права"
 
 #: src/view/screens/ProfileFeed.tsx:95
 msgid "Could not load feed"
-msgstr "Не вдалося завантажити канал"
+msgstr "Не вдалося завантажити стрічку"
 
 #: src/view/screens/ProfileList.tsx:867
 msgid "Could not load list"
@@ -1020,7 +1020,7 @@ msgstr "Відкрийте для себе нові стрічки"
 
 #: src/view/screens/Feeds.tsx:409
 msgid "Discover new feeds"
-msgstr "Відкрийте для себе нові канали"
+msgstr "Відкрийте для себе нові стрічки"
 
 #: src/view/com/modals/EditProfile.tsx:192
 msgid "Display name"
@@ -1121,7 +1121,7 @@ msgstr ""
 #: src/view/screens/Feeds.tsx:371
 #: src/view/screens/SavedFeeds.tsx:84
 msgid "Edit My Feeds"
-msgstr "Редагувати мої канали"
+msgstr "Редагувати мої стрічки"
 
 #: src/view/com/modals/EditProfile.tsx:152
 msgid "Edit my profile"
@@ -1137,7 +1137,7 @@ msgstr "Редагувати профіль"
 
 #: src/view/screens/Feeds.tsx:334
 msgid "Edit Saved Feeds"
-msgstr "Редагувати збережені канали"
+msgstr "Редагувати збережені стрічки"
 
 #: src/view/com/modals/CreateOrEditList.tsx:188
 msgid "Edit User List"
@@ -1202,7 +1202,7 @@ msgstr "Увімкніть цей параметр, щоб бачити відп
 
 #: src/view/screens/Profile.tsx:427
 msgid "End of feed"
-msgstr "Кінець каналу"
+msgstr "Кінець стрічки"
 
 #: src/view/com/modals/AddAppPasswords.tsx:165
 msgid "Enter a name for this App Password"
@@ -1318,7 +1318,7 @@ msgstr ""
 #: src/view/com/auth/onboarding/RecommendedFeeds.tsx:109
 #: src/view/com/auth/onboarding/RecommendedFeeds.tsx:141
 msgid "Failed to load recommended feeds"
-msgstr "Не вдалося завантажити рекомендовані канали"
+msgstr "Не вдалося завантажити рекомендації стрічок"
 
 #: src/Navigation.tsx:194
 msgid "Feed"
@@ -1330,11 +1330,11 @@ msgstr ""
 
 #: src/view/screens/Feeds.tsx:560
 msgid "Feed offline"
-msgstr "Канал оффлайн"
+msgstr "Стрічка не працює"
 
 #: src/view/com/feeds/FeedPage.tsx:143
 msgid "Feed Preferences"
-msgstr "Налаштування каналу"
+msgstr "Налаштування стрічки"
 
 #: src/view/shell/desktop/RightNav.tsx:73
 #: src/view/shell/Drawer.tsx:311
@@ -1349,15 +1349,15 @@ msgstr "Зворотний зв'язок"
 #: src/view/shell/Drawer.tsx:476
 #: src/view/shell/Drawer.tsx:477
 msgid "Feeds"
-msgstr "Канали"
+msgstr "Стрічки"
 
 #: src/view/com/auth/onboarding/RecommendedFeeds.tsx:57
 msgid "Feeds are created by users to curate content. Choose some feeds that you find interesting."
-msgstr "Канали створюються користувачами для відбору постів за певними критеріями. Оберіть канали, які здаються вам цікавими."
+msgstr "Стрічки створюються користувачами для відбору постів. Оберіть стрічки, що вас цікавлять."
 
 #: src/view/screens/SavedFeeds.tsx:156
 msgid "Feeds are custom algorithms that users build with a little coding expertise. <0/> for more information."
-msgstr "Канали – це алгоритми, створені користувачами, що мають певний досвід в програмуванні. <0/> для додаткової інформації."
+msgstr "Стрічки - це алгоритми, створені користувачами з деяким досвідом програмування. <0/> для додаткової інформації."
 
 #: src/view/com/posts/CustomFeedEmptyState.tsx:47
 #: src/view/com/posts/FollowingEmptyState.tsx:57
@@ -1563,23 +1563,23 @@ msgstr ""
 
 #: src/view/com/posts/FeedErrorMessage.tsx:111
 msgid "Hmm, some kind of issue occurred when contacting the feed server. Please let the feed owner know about this issue."
-msgstr "Хм, якась проблема сталася при зверненні до сервера каналу. Будь ласка, повідомте власника каналу про цю проблему."
+msgstr "Хм, при зв'язку з сервером стрічки виникла якась проблема. Будь ласка, повідомте про це її власника."
 
 #: src/view/com/posts/FeedErrorMessage.tsx:99
 msgid "Hmm, the feed server appears to be misconfigured. Please let the feed owner know about this issue."
-msgstr "Хм, здається сервер каналу налаштовано неправильно. Будь ласка, повідомте власника каналу про цю проблему."
+msgstr "Хм, здається сервер стрічки налаштовано неправильно. Будь ласка, повідомте про це її власника."
 
 #: src/view/com/posts/FeedErrorMessage.tsx:105
 msgid "Hmm, the feed server appears to be offline. Please let the feed owner know about this issue."
-msgstr "Хм, здається сервер каналу зараз не працює. Будь ласка, повідомте власника каналу про цю проблему."
+msgstr "Хм, здається сервер стрічки зараз не працює. Будь ласка, повідомте про це її власника."
 
 #: src/view/com/posts/FeedErrorMessage.tsx:102
 msgid "Hmm, the feed server gave a bad response. Please let the feed owner know about this issue."
-msgstr "Хм, сервер каналу надіслав незрозумілу відповідь. Будь ласка, повідомте власника каналу про цю проблему."
+msgstr "Хм, сервер стрічки надіслав нам незрозумілу відповідь. Будь ласка, повідомте про це її власника."
 
 #: src/view/com/posts/FeedErrorMessage.tsx:96
 msgid "Hmm, we're having trouble finding this feed. It may have been deleted."
-msgstr "Хм, у нас виникли проблеми з пошуком цього каналу. Можливо, він був видалений."
+msgstr "Хм, ми не можемо знайти цю стрічку. Можливо вона була видалена."
 
 #: src/view/com/posts/FeedErrorMessage.tsx:87
 #~ msgid "Hmmm, we're having trouble finding this feed. It may have been deleted."
@@ -1598,7 +1598,7 @@ msgstr "Головна"
 #: src/view/screens/PreferencesHomeFeed.tsx:104
 #: src/view/screens/Settings.tsx:509
 msgid "Home Feed Preferences"
-msgstr "Налаштування Головного каналу"
+msgstr "Налаштування домашньої стрічки"
 
 #: src/view/com/auth/login/ForgotPasswordForm.tsx:116
 msgid "Hosting provider"
@@ -1833,7 +1833,7 @@ msgstr "Вподобати"
 
 #: src/view/screens/ProfileFeed.tsx:600
 msgid "Like this feed"
-msgstr "Вподобати цей канал"
+msgstr "Вподобати цю стрічку"
 
 #: src/Navigation.tsx:199
 #: src/view/screens/PostLikedBy.tsx:27
@@ -1851,7 +1851,7 @@ msgstr "Вподобано {likeCount} {0}"
 
 #: src/view/com/notifications/FeedItem.tsx:171
 msgid "liked your custom feed{0}"
-msgstr "сподобався ваш канал {0}"
+msgstr "сподобалася ваша стрічка {0}"
 
 #: src/view/com/notifications/FeedItem.tsx:155
 msgid "liked your post"
@@ -2041,7 +2041,7 @@ msgstr "Модератор вирішив встановити загальне 
 
 #: src/view/shell/desktop/Feeds.tsx:53
 msgid "More feeds"
-msgstr "Інші канали"
+msgstr "Більше стрічок"
 
 #: src/view/com/profile/ProfileHeader.tsx:562
 #: src/view/screens/ProfileFeed.tsx:371
@@ -2112,7 +2112,7 @@ msgstr "Мій день народження"
 
 #: src/view/screens/Feeds.tsx:367
 msgid "My Feeds"
-msgstr "Мої канали"
+msgstr "Мої стрічки"
 
 #: src/view/shell/desktop/LeftNav.tsx:65
 msgid "My Profile"
@@ -2526,7 +2526,7 @@ msgstr ""
 
 #: src/view/screens/SavedFeeds.tsx:88
 msgid "Pinned Feeds"
-msgstr "Закріплені канали"
+msgstr "Закріплені стрічки"
 
 #: src/view/com/util/post-embeds/ExternalGifEmbed.tsx:111
 msgid "Play {0}"
@@ -2701,7 +2701,7 @@ msgstr "Публічні, поширювані списки користувач
 
 #: src/view/screens/Lists.tsx:61
 msgid "Public, shareable lists which can drive feeds."
-msgstr "Публічні, спільні списки для створення каналів."
+msgstr "Публічні, поширювані списки для створення стрічок."
 
 #: src/view/com/composer/Composer.tsx:335
 msgid "Publish post"
@@ -2744,7 +2744,7 @@ msgstr "Співвідношення сторін"
 
 #: src/view/com/auth/onboarding/RecommendedFeeds.tsx:116
 msgid "Recommended Feeds"
-msgstr "Рекомендовані канали"
+msgstr "Рекомендовані стрічки"
 
 #: src/view/com/auth/onboarding/RecommendedFollows.tsx:180
 msgid "Recommended Users"
@@ -2760,7 +2760,7 @@ msgstr "Видалити"
 
 #: src/view/com/feeds/FeedSourceCard.tsx:106
 msgid "Remove {0} from my feeds?"
-msgstr "Видалити {0} з моїх каналів?"
+msgstr "Вилучити {0} зі збережених стрічок?"
 
 #: src/view/com/util/AccountDropdownBtn.tsx:22
 msgid "Remove account"
@@ -2769,7 +2769,7 @@ msgstr "Видалити обліковий запис"
 #: src/view/com/posts/FeedErrorMessage.tsx:131
 #: src/view/com/posts/FeedErrorMessage.tsx:166
 msgid "Remove feed"
-msgstr "Видалити канал"
+msgstr "Видалити стрічку"
 
 #: src/view/com/feeds/FeedSourceCard.tsx:105
 #: src/view/com/feeds/FeedSourceCard.tsx:167
@@ -2777,7 +2777,7 @@ msgstr "Видалити канал"
 #: src/view/com/feeds/FeedSourceCard.tsx:243
 #: src/view/screens/ProfileFeed.tsx:281
 msgid "Remove from my feeds"
-msgstr "Вилучити з моїх каналів"
+msgstr "Вилучити з моїх стрічок"
 
 #: src/view/com/composer/photos/Gallery.tsx:167
 msgid "Remove image"
@@ -2793,11 +2793,11 @@ msgstr ""
 
 #: src/view/com/feeds/FeedSourceCard.tsx:173
 msgid "Remove this feed from my feeds?"
-msgstr "Видалити цей канал з ваших каналів?"
+msgstr "Вилучити цю стрічку з ваших стрічок?"
 
 #: src/view/com/posts/FeedErrorMessage.tsx:132
 msgid "Remove this feed from your saved feeds?"
-msgstr "Вилучити цей канал зі збережених каналів?"
+msgstr "Вилучити цю стрічку зі збережених стрічок?"
 
 #: src/view/com/modals/ListAddRemoveUsers.tsx:199
 #: src/view/com/modals/UserAddRemoveLists.tsx:136
@@ -2846,7 +2846,7 @@ msgstr "Поскаржитись на обліковий запис"
 
 #: src/view/screens/ProfileFeed.tsx:301
 msgid "Report feed"
-msgstr "Поскаржитись на канал"
+msgstr "Поскаржитись на стрічку"
 
 #: src/view/screens/ProfileList.tsx:437
 msgid "Report List"
@@ -3011,7 +3011,7 @@ msgstr "Обрізати зображення"
 
 #: src/view/screens/SavedFeeds.tsx:122
 msgid "Saved Feeds"
-msgstr "Збережені канали"
+msgstr "Збережені стрічки"
 
 #: src/view/com/modals/EditProfile.tsx:225
 msgid "Saves any changes to your profile"
@@ -3175,7 +3175,7 @@ msgstr "Увімкніть це налаштування, щоб показув�
 
 #: src/view/screens/PreferencesHomeFeed.tsx:261
 msgid "Set this setting to \"Yes\" to show samples of your saved feeds in your following feed. This is an experimental feature."
-msgstr "Увімкніть цей параметр, щоб іноді бачити пости зі збережених каналів у каналі Підписок. Це експериментальна функція."
+msgstr "Увімкніть це налаштування, щоб іноді бачити пости зі збережених стрічок у вашій домашній стрічці. Це експериментальна функція."
 
 #: src/view/com/modals/ChangeHandle.tsx:266
 msgid "Sets Bluesky username"
@@ -3222,7 +3222,7 @@ msgstr "Поширити"
 
 #: src/view/screens/ProfileFeed.tsx:313
 msgid "Share feed"
-msgstr "Поширити канал"
+msgstr "Поширити стрічку"
 
 #: src/view/screens/ProfileFeed.tsx:276
 #~ msgid "Share link"
@@ -3259,7 +3259,7 @@ msgstr "Показати більше"
 
 #: src/view/screens/PreferencesHomeFeed.tsx:258
 msgid "Show Posts from My Feeds"
-msgstr "Показувати пости зі збережених каналів"
+msgstr "Показувати пости зі збережених стрічок"
 
 #: src/view/screens/PreferencesHomeFeed.tsx:222
 msgid "Show Quote Posts"
@@ -3296,7 +3296,7 @@ msgstr "Показує список користувачів, схожих на 
 
 #: src/view/com/profile/ProfileHeader.tsx:545
 msgid "Shows posts from {0} in your feed"
-msgstr "Показує дописи з {0} у вашому каналі"
+msgstr "Показує дописи з {0} у вашій стрічці"
 
 #: src/view/com/auth/HomeLoggedOutCTA.tsx:70
 #: src/view/com/auth/login/Login.tsx:98
@@ -3634,7 +3634,7 @@ msgstr "Цей вміст не доступний для перегляду бе
 
 #: src/view/com/posts/FeedErrorMessage.tsx:114
 msgid "This feed is currently receiving high traffic and is temporarily unavailable. Please try again later."
-msgstr "Цей канал зараз отримує забагато запитів і тимчасово недоступний. Спробуйте ще раз пізніше."
+msgstr "Ця стрічка зараз отримує забагато запитів і тимчасово недоступна. Спробуйте ще раз пізніше."
 
 #: src/view/screens/Profile.tsx:392
 #: src/view/screens/ProfileFeed.tsx:484
@@ -4019,7 +4019,7 @@ msgstr "Які мови використані в цьому пості?"
 
 #: src/view/com/modals/lang-settings/ContentLanguagesSettings.tsx:77
 msgid "Which languages would you like to see in your algorithmic feeds?"
-msgstr "Якими мовами ви хочете бачити пости у ваших каналах?"
+msgstr "Якими мовами ви хочете бачити пости у алгоритмічних стрічках?"
 
 #: src/view/com/composer/threadgate/ThreadgateBtn.tsx:47
 #: src/view/com/modals/Threadgate.tsx:66
@@ -4073,15 +4073,15 @@ msgstr "У вас ще немає кодів запрошення! З часом
 
 #: src/view/screens/SavedFeeds.tsx:102
 msgid "You don't have any pinned feeds."
-msgstr "У вас немає закріплених каналів."
+msgstr "У вас немає закріплених стрічок."
 
 #: src/view/screens/Feeds.tsx:387
 msgid "You don't have any saved feeds!"
-msgstr "У вас немає збережених каналів!"
+msgstr "У вас немає збережених стрічок!"
 
 #: src/view/screens/SavedFeeds.tsx:135
 msgid "You don't have any saved feeds."
-msgstr "У вас немає збережених каналів."
+msgstr "У вас немає збережених стрічок."
 
 #: src/view/com/post-thread/PostThread.tsx:385
 msgid "You have blocked the author or you have been blocked by the author."
@@ -4097,7 +4097,7 @@ msgstr ""
 
 #: src/view/com/feeds/ProfileFeedgens.tsx:136
 msgid "You have no feeds."
-msgstr "У вас немає каналів."
+msgstr "У вас немає стрічок."
 
 #: src/view/com/lists/MyLists.tsx:89
 #: src/view/com/lists/ProfileLists.tsx:140
