@@ -19,6 +19,8 @@ jobs:
         with:
           fetch-depth: 0
       - run: |
+          git config --global user.email "automation@github.com"
+          git config --global user.name "fetch_upstream.yml"
           git remote add upstream https://github.com/bluesky-social/social-app.git
           git fetch upstream main
           git checkout --track origin/main
