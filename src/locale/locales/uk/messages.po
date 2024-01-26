@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-01-25 17:35\n"
+"PO-Revision-Date: 2024-01-26 00:12\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -884,7 +884,7 @@ msgstr "Не вдалося завантажити список"
 
 #: src/view/com/auth/create/Step2.tsx:89
 msgid "Country"
-msgstr ""
+msgstr "Країна"
 
 #: src/view/com/auth/HomeLoggedOutCTA.tsx:62
 #: src/view/com/auth/SplashScreen.tsx:46
@@ -1296,7 +1296,7 @@ msgstr ""
 
 #: src/view/com/lightbox/Lightbox.web.tsx:156
 msgid "Expand alt text"
-msgstr "Розгорнути альтернативний текст"
+msgstr "Розгорнути опис"
 
 #: src/view/com/composer/ComposerReplyTo.tsx:81
 #: src/view/com/composer/ComposerReplyTo.tsx:84
@@ -1528,7 +1528,7 @@ msgstr "Назад"
 #: src/view/screens/Search/Search.tsx:640
 #: src/view/shell/desktop/Search.tsx:262
 msgid "Go to @{queryMaybeHandle}"
-msgstr ""
+msgstr "Перейти до @{queryMaybeHandle}"
 
 #: src/view/com/auth/login/ForgotPasswordForm.tsx:185
 #: src/view/com/auth/login/LoginForm.tsx:285
@@ -1668,7 +1668,7 @@ msgstr "Зображення"
 
 #: src/view/com/modals/AltImage.tsx:97
 msgid "Image alt text"
-msgstr "Альтернативний текст"
+msgstr "Опис зображення"
 
 #: src/view/com/util/UserAvatar.tsx:308
 #: src/view/com/util/UserBanner.tsx:116
@@ -2319,12 +2319,12 @@ msgstr "Не застосовно."
 
 #: src/Navigation.tsx:104
 msgid "Not Found"
-msgstr ""
+msgstr "Не знайдено"
 
 #: src/view/com/modals/VerifyEmail.tsx:246
 #: src/view/com/modals/VerifyEmail.tsx:252
 msgid "Not right now"
-msgstr ""
+msgstr "Пізніше"
 
 #: src/view/screens/Moderation.tsx:227
 #~ msgid "Note: Bluesky is an open and public network, and enabling this will not make your profile private or limit the ability of logged in users to see your posts. This setting only limits the visibility of posts on the Bluesky app and website; third-party apps that display Bluesky content may not respect this setting, and could show your content to logged-out users."
@@ -2370,7 +2370,7 @@ msgstr ""
 
 #: src/view/com/composer/Composer.tsx:375
 msgid "One or more images is missing alt text."
-msgstr "Для одного або кількох зображень відсутній альтернативний текст."
+msgstr "Для одного або кількох зображень відсутній опис."
 
 #: src/view/com/threadgate/WhoCanReply.tsx:100
 msgid "Only {0} can reply."
@@ -2380,7 +2380,7 @@ msgstr "Тільки {0} можуть відповідати."
 #: src/view/com/modals/ProfilePreview.tsx:61
 #: src/view/screens/AppPasswords.tsx:65
 msgid "Oops!"
-msgstr ""
+msgstr "Ой!"
 
 #: src/view/com/composer/Composer.tsx:470
 #: src/view/com/composer/Composer.tsx:471
@@ -2401,7 +2401,7 @@ msgstr ""
 
 #: src/view/com/util/forms/DropdownButton.tsx:147
 msgid "Opens {numItems} options"
-msgstr ""
+msgstr "Відкриває меню з {numItems} опціями"
 
 #: src/view/screens/Log.tsx:54
 msgid "Opens additional details for a debug entry"
@@ -2556,7 +2556,7 @@ msgstr ""
 
 #: src/view/com/auth/create/Step2.tsx:181
 msgid "Phone number"
-msgstr ""
+msgstr "Номер телефону"
 
 #: src/view/com/modals/SelfLabel.tsx:121
 msgid "Pictures meant for adults."
@@ -2565,7 +2565,7 @@ msgstr "Зображення, призначені для дорослих."
 #: src/view/screens/ProfileFeed.tsx:362
 #: src/view/screens/ProfileList.tsx:559
 msgid "Pin to home"
-msgstr ""
+msgstr "Закріпити"
 
 #: src/view/screens/SavedFeeds.tsx:88
 msgid "Pinned Feeds"
@@ -2964,7 +2964,7 @@ msgstr ""
 
 #: src/view/screens/Settings.tsx:450
 msgid "Require alt text before posting"
-msgstr "Вимагати альтернативний текст до зображень перед публікацією"
+msgstr "Вимагати опис зображень перед публікацією"
 
 #: src/view/com/auth/create/Step1.tsx:97
 msgid "Required for this provider"
@@ -3055,7 +3055,7 @@ msgstr "Зберегти"
 
 #: src/view/com/modals/AltImage.tsx:106
 msgid "Save alt text"
-msgstr "Зберегти альтернативний текст"
+msgstr "Зберегти опис"
 
 #: src/view/com/modals/UserAddRemoveLists.tsx:212
 #~ msgid "Save changes"
