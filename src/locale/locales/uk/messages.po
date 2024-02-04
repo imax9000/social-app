@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-02-01 04:46\n"
+"PO-Revision-Date: 2024-02-04 01:06\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -262,7 +262,7 @@ msgstr "та"
 
 #: src/screens/Onboarding/index.tsx:32
 msgid "Animals"
-msgstr ""
+msgstr "Фауна"
 
 #: src/view/screens/LanguageSettings.tsx:95
 msgid "App Language"
@@ -335,7 +335,7 @@ msgstr "Ви пишете <0>{0}</0>?"
 
 #: src/screens/Onboarding/index.tsx:26
 msgid "Art"
-msgstr ""
+msgstr "Мистецтво"
 
 #: src/view/com/modals/SelfLabel.tsx:123
 msgid "Artistic or non-erotic nudity."
@@ -668,7 +668,7 @@ msgstr "натисніть тут"
 
 #: src/screens/Onboarding/index.tsx:35
 msgid "Climate"
-msgstr ""
+msgstr "Клімат"
 
 #: src/components/Dialog/index.web.tsx:78
 msgid "Close active dialog"
@@ -716,11 +716,11 @@ msgstr "Згортає список користувачів для даного
 
 #: src/screens/Onboarding/index.tsx:41
 msgid "Comedy"
-msgstr ""
+msgstr "Комедія"
 
 #: src/screens/Onboarding/index.tsx:27
 msgid "Comics"
-msgstr ""
+msgstr "Комікси"
 
 #: src/Navigation.tsx:228
 #: src/view/screens/CommunityGuidelines.tsx:32
@@ -848,7 +848,7 @@ msgstr ""
 
 #: src/screens/Onboarding/index.tsx:44
 msgid "Cooking"
-msgstr ""
+msgstr "Кухарство"
 
 #: src/view/com/modals/AddAppPasswords.tsx:197
 #: src/view/com/modals/InviteCodes.tsx:182
@@ -947,7 +947,7 @@ msgstr "Створює картку з мініатюрою. Посилання 
 
 #: src/screens/Onboarding/index.tsx:29
 msgid "Culture"
-msgstr ""
+msgstr "Культура"
 
 #: src/view/com/modals/ChangeHandle.tsx:389
 #: src/view/com/modals/ServerInput.tsx:102
@@ -1191,7 +1191,7 @@ msgstr ""
 
 #: src/screens/Onboarding/index.tsx:34
 msgid "Education"
-msgstr ""
+msgstr "Освіта"
 
 #: src/view/com/auth/create/Step1.tsx:143
 #: src/view/com/auth/create/Step2.tsx:193
@@ -1452,7 +1452,7 @@ msgstr "Налаштуйте відображення обговорень."
 
 #: src/screens/Onboarding/index.tsx:38
 msgid "Fitness"
-msgstr ""
+msgstr "Фітнес"
 
 #: src/screens/Onboarding/StepFinished.tsx:131
 msgid "Flexible"
@@ -1528,7 +1528,7 @@ msgstr "Підписаний(-на) на вас"
 
 #: src/view/com/profile/ProfileCard.tsx:141
 msgid "Follows You"
-msgstr ""
+msgstr "Підписаний(-на) на вас"
 
 #: src/screens/Onboarding/index.tsx:43
 msgid "Food"
@@ -1949,7 +1949,7 @@ msgstr "Сподобалося"
 #: src/view/screens/PostLikedBy.tsx:27
 #: src/view/screens/ProfileFeedLikedBy.tsx:27
 msgid "Liked By"
-msgstr ""
+msgstr "Сподобався користувачу"
 
 #: src/view/com/feeds/FeedSourceCard.tsx:277
 msgid "Liked by {0} {1}"
@@ -2339,7 +2339,7 @@ msgstr "Ви більше не підписані на {0}"
 
 #: src/view/com/notifications/Feed.tsx:109
 msgid "No notifications yet!"
-msgstr ""
+msgstr "Ще ніяких сповіщень!"
 
 #: src/view/com/composer/text-input/mobile/Autocomplete.tsx:97
 #: src/view/com/composer/text-input/web/Autocomplete.tsx:191
@@ -2401,7 +2401,7 @@ msgstr "О, ні!"
 
 #: src/screens/Onboarding/StepInterests/index.tsx:128
 msgid "Oh no! Something went wrong."
-msgstr ""
+msgstr "Ой! Щось пішло не так."
 
 #: src/view/com/auth/login/PasswordUpdatedForm.tsx:41
 msgid "Okay"
@@ -2702,7 +2702,7 @@ msgstr "Будь ласка, зачекайте доки завершиться 
 
 #: src/screens/Onboarding/index.tsx:37
 msgid "Politics"
-msgstr ""
+msgstr "Політика"
 
 #: src/view/com/modals/SelfLabel.tsx:111
 msgid "Porn"
@@ -3127,7 +3127,7 @@ msgstr "Зберігає зміню псевдоніму на {handle}"
 
 #: src/screens/Onboarding/index.tsx:36
 msgid "Science"
-msgstr ""
+msgstr "Наука"
 
 #: src/view/screens/ProfileList.tsx:830
 msgid "Scroll to top"
@@ -3546,7 +3546,7 @@ msgstr ""
 
 #: src/screens/Onboarding/index.tsx:40
 msgid "Software Dev"
-msgstr ""
+msgstr "Розробка П/З"
 
 #: src/view/com/modals/ProfilePreview.tsx:62
 msgid "Something went wrong and we're not sure what."
@@ -3570,7 +3570,7 @@ msgstr "Оберіть, як сортувати відповіді до пост
 
 #: src/screens/Onboarding/index.tsx:30
 msgid "Sports"
-msgstr ""
+msgstr "Спорт"
 
 #: src/view/com/modals/crop-image/CropImage.web.tsx:122
 msgid "Square"
@@ -3668,7 +3668,7 @@ msgstr "Торкніться, щоб переглянути повністю"
 
 #: src/screens/Onboarding/index.tsx:39
 msgid "Tech"
-msgstr ""
+msgstr "Технології"
 
 #: src/view/shell/desktop/RightNav.tsx:93
 msgid "Terms"
@@ -3970,7 +3970,7 @@ msgstr "На жаль, ви не відповідаєте вимогам для 
 
 #: src/view/com/util/post-ctrls/PostCtrls.tsx:170
 msgid "Unlike"
-msgstr ""
+msgstr "Прибрати вподобання"
 
 #: src/view/screens/ProfileList.tsx:572
 msgid "Unmute"
@@ -4130,7 +4130,7 @@ msgstr ""
 
 #: src/screens/Onboarding/index.tsx:42
 msgid "Video Games"
-msgstr ""
+msgstr "Відеоігри"
 
 #: src/view/com/profile/ProfileHeader.tsx:701
 msgid "View {0}'s avatar"
@@ -4223,7 +4223,7 @@ msgstr "Ласкаво просимо до <0>Bluesky</0>"
 
 #: src/screens/Onboarding/StepInterests/index.tsx:130
 msgid "What are your interests?"
-msgstr ""
+msgstr "Чим ви цікавитесь?"
 
 #: src/view/com/modals/report/Modal.tsx:169
 msgid "What is the issue with this {collectionName}?"
@@ -4262,7 +4262,7 @@ msgstr "Написати відповідь"
 
 #: src/screens/Onboarding/index.tsx:28
 msgid "Writers"
-msgstr ""
+msgstr "Письменники"
 
 #: src/view/com/auth/create/Step2.tsx:262
 msgid "XXXXXX"
