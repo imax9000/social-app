@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-02-04 07:32\n"
+"PO-Revision-Date: 2024-02-04 14:30\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -1643,7 +1643,7 @@ msgstr "Сховати"
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:187
 msgid "Hide post"
-msgstr "Приховати пост"
+msgstr "Сховати пост"
 
 #: src/view/com/util/moderation/ContentHider.tsx:67
 #: src/view/com/util/moderation/PostHider.tsx:61
@@ -1652,11 +1652,11 @@ msgstr ""
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:191
 msgid "Hide this post?"
-msgstr "Приховати цей пост?"
+msgstr "Сховати цей пост?"
 
 #: src/view/com/notifications/FeedItem.tsx:315
 msgid "Hide user list"
-msgstr "Приховати список користувачів"
+msgstr "Сховати список користувачів"
 
 #: src/view/com/profile/ProfileHeader.tsx:526
 msgid "Hides posts from {0} in your feed"
