@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-02-04 01:06\n"
+"PO-Revision-Date: 2024-02-04 07:32\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -4359,7 +4359,7 @@ msgstr "Щоб увімкнути відображення вмісту для �
 
 #: src/screens/Onboarding/StepModeration/AdultContentEnabledPref.tsx:103
 msgid "You must be 18 years or older to enable adult content"
-msgstr ""
+msgstr "Ви повинні бути старше 18 років, щоб дозволити перегляд контенту для дорослих"
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:98
 msgid "You will no longer receive notifications for this thread"
