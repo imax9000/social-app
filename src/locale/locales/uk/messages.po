@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-02-05 14:50\n"
+"PO-Revision-Date: 2024-02-06 20:40\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -3868,11 +3868,11 @@ msgstr "Цей пост було видалено."
 
 #: src/view/com/modals/ModerationDetails.tsx:62
 msgid "This user has blocked you. You cannot view their content."
-msgstr "Цей користувач заблокував вас. Ви не можете бачити їх вміст."
+msgstr "Цей користувач заблокував вас. Ви не можете бачити їх пости."
 
 #: src/view/com/modals/ModerationDetails.tsx:42
 msgid "This user is included in the <0/> list which you have blocked."
-msgstr ""
+msgstr "Цей користувач в списку \"<0/>\" на який ви підписались та заблокували."
 
 #: src/view/com/modals/ModerationDetails.tsx:74
 msgid "This user is included the <0/> list which you have muted."
@@ -4326,7 +4326,7 @@ msgstr "Ви заблокували автора або автор заблок�
 
 #: src/view/com/modals/ModerationDetails.tsx:56
 msgid "You have blocked this user. You cannot view their content."
-msgstr ""
+msgstr "Ви заблокували цього користувача. Ви не можете бачити їх вміст."
 
 #: src/view/com/modals/ModerationDetails.tsx:87
 msgid "You have muted this user."
