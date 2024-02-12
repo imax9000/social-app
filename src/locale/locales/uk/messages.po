@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-02-12 03:27\n"
+"PO-Revision-Date: 2024-02-12 09:52\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -2305,7 +2305,7 @@ msgstr "Ніколи не втрачайте доступ до ваших дан
 
 #: src/screens/Onboarding/StepFinished.tsx:119
 msgid "Never lose access to your followers or data."
-msgstr ""
+msgstr "Ніколи не втрачайте доступ до ваших підписників та даних."
 
 #: src/view/screens/Lists.tsx:76
 msgctxt "action"
@@ -2326,7 +2326,7 @@ msgstr "Новий пароль"
 
 #: src/view/com/modals/ChangePassword.tsx:215
 msgid "New Password"
-msgstr ""
+msgstr "Новий Пароль"
 
 #: src/view/com/feeds/FeedPage.tsx:201
 msgctxt "action"
@@ -2525,7 +2525,7 @@ msgstr ""
 
 #: src/view/com/composer/photos/OpenCameraBtn.tsx:61
 msgid "Opens camera on device"
-msgstr ""
+msgstr "Відкриває камеру на пристрої"
 
 #: src/view/com/composer/Prompt.tsx:25
 msgid "Opens composer"
@@ -3918,7 +3918,7 @@ msgstr "Стрічка порожня!"
 
 #: src/view/com/posts/CustomFeedEmptyState.tsx:37
 msgid "This feed is empty! You may need to follow more users or tune your language settings."
-msgstr ""
+msgstr "Ця стрічка порожня! Можливо, вам треба підписатися на більшу кількість користувачів або змінити ваші налаштування мови."
 
 #: src/view/com/modals/BirthDateSettings.tsx:61
 msgid "This information is not shared with other users."
@@ -4188,7 +4188,7 @@ msgstr "Користувачі в «{0}»"
 
 #: src/view/com/auth/create/Step2.tsx:243
 msgid "Verification code"
-msgstr ""
+msgstr "Код підтвердження"
 
 #: src/view/screens/Settings.tsx:892
 msgid "Verify email"
@@ -4246,7 +4246,7 @@ msgstr "Попереджати"
 
 #: src/screens/Onboarding/StepAlgoFeeds/index.tsx:124
 msgid "We also think you'll like \"For You\" by Skygaze:"
-msgstr ""
+msgstr "Ми вважаємо, що вам також сподобається \"For You\" від Skygaze:"
 
 #: src/screens/Deactivated.tsx:134
 msgid "We estimate {estimatedTime} until your account is ready."
@@ -4416,7 +4416,7 @@ msgstr "Ви заблокували цього користувача. Ви не
 #: src/view/com/modals/ChangePassword.tsx:87
 #: src/view/com/modals/ChangePassword.tsx:121
 msgid "You have entered an invalid code. It should look like XXXXX-XXXXX."
-msgstr ""
+msgstr "Ви ввели неправильний код. Він має виглядати так: XXXXX-XXXXX."
 
 #: src/view/com/modals/ModerationDetails.tsx:87
 msgid "You have muted this user."
