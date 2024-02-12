@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-02-11 20:53\n"
+"PO-Revision-Date: 2024-02-12 03:27\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -1037,7 +1037,7 @@ msgstr "Видалити мій обліковий запис"
 
 #: src/view/screens/Settings.tsx:755
 msgid "Delete My Account…"
-msgstr "Видалити мій обліковий запис"
+msgstr "Видалити мій обліковий запис..."
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:228
 msgid "Delete post"
@@ -1278,7 +1278,7 @@ msgstr "Дозволити вміст для дорослих"
 #: src/screens/Onboarding/StepModeration/AdultContentEnabledPref.tsx:76
 #: src/screens/Onboarding/StepModeration/AdultContentEnabledPref.tsx:77
 msgid "Enable adult content in your feeds"
-msgstr ""
+msgstr "Увімкнути вміст для дорослих у ваших стрічках"
 
 #: src/view/com/modals/EmbedConsent.tsx:97
 msgid "Enable External Media"
@@ -1359,7 +1359,7 @@ msgstr ""
 
 #: src/view/com/lightbox/Lightbox.web.tsx:120
 msgid "Exits image view"
-msgstr ""
+msgstr "Вийти з режиму перегляду"
 
 #: src/view/com/modals/ListAddRemoveUsers.tsx:88
 #: src/view/shell/desktop/Search.tsx:235
@@ -1409,7 +1409,7 @@ msgstr "Не вдалося створити список. Перевірте і
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:88
 msgid "Failed to delete post, please try again"
-msgstr ""
+msgstr "Не вдалося видалити допис, спробуйте ще раз"
 
 #: src/view/com/auth/onboarding/RecommendedFeeds.tsx:109
 #: src/view/com/auth/onboarding/RecommendedFeeds.tsx:141
@@ -1465,11 +1465,11 @@ msgstr "Стрічки - це алгоритми, створені корист�
 
 #: src/screens/Onboarding/StepTopicalFeeds.tsx:70
 msgid "Feeds can be topical as well!"
-msgstr ""
+msgstr "Стрічки також можуть бути тематичними!"
 
 #: src/screens/Onboarding/StepFinished.tsx:151
 msgid "Finalizing"
-msgstr ""
+msgstr "Завершення"
 
 #: src/view/com/posts/CustomFeedEmptyState.tsx:47
 #: src/view/com/posts/FollowingEmptyState.tsx:57
@@ -1503,16 +1503,16 @@ msgstr "Фітнес"
 
 #: src/screens/Onboarding/StepFinished.tsx:131
 msgid "Flexible"
-msgstr ""
+msgstr "Гнучкий"
 
 #: src/view/com/modals/EditImage.tsx:115
 msgid "Flip horizontal"
-msgstr ""
+msgstr "Віддзеркалити горизонтально"
 
 #: src/view/com/modals/EditImage.tsx:120
 #: src/view/com/modals/EditImage.tsx:287
 msgid "Flip vertically"
-msgstr ""
+msgstr "Віддзеркалити вертикально"
 
 #: src/view/com/profile/FollowButton.tsx:64
 msgctxt "action"
@@ -1633,7 +1633,7 @@ msgstr "Назад"
 #: src/screens/Onboarding/Layout.tsx:104
 #: src/screens/Onboarding/Layout.tsx:193
 msgid "Go back to previous step"
-msgstr ""
+msgstr "Повернутися до попереднього кроку"
 
 #: src/view/screens/Search/Search.tsx:724
 #: src/view/shell/desktop/Search.tsx:262
@@ -1776,7 +1776,7 @@ msgstr "Якщо не вибрано жодного варіанту - підх�
 
 #: src/view/com/modals/ChangePassword.tsx:146
 msgid "If you want to change your password, we will send you a code to verify that this is your account."
-msgstr ""
+msgstr "Якщо ви хочете змінити пароль, ми надішлемо вам код, щоб переконатися, що це ваш обліковий запис."
 
 #: src/view/com/util/images/Gallery.tsx:38
 msgid "Image"
@@ -1793,19 +1793,19 @@ msgstr "Редагування зображення"
 
 #: src/view/com/auth/login/SetNewPasswordForm.tsx:138
 msgid "Input code sent to your email for password reset"
-msgstr ""
+msgstr "Введіть код, надісланий на вашу електронну пошту для скидання пароля"
 
 #: src/view/com/modals/DeleteAccount.tsx:184
 msgid "Input confirmation code for account deletion"
-msgstr ""
+msgstr "Введіть код підтвердження для видалення облікового запису"
 
 #: src/view/com/auth/create/Step1.tsx:144
 msgid "Input email for Bluesky account"
-msgstr ""
+msgstr "Введіть адресу електронної пошти для облікового запису Bluesky"
 
 #: src/view/com/auth/create/Step1.tsx:102
 msgid "Input invite code to proceed"
-msgstr ""
+msgstr "Введіть код запрошення, щоб продовжити"
 
 #: src/view/com/modals/AddAppPasswords.tsx:180
 msgid "Input name for app password"
@@ -1821,7 +1821,7 @@ msgstr "Введіть пароль для видалення обліковог
 
 #: src/view/com/auth/create/Step2.tsx:196
 msgid "Input phone number for SMS verification"
-msgstr ""
+msgstr "Введіть номер телефону для підтвердження через СМС"
 
 #: src/view/com/auth/login/LoginForm.tsx:227
 msgid "Input the password tied to {identifier}"
@@ -1833,7 +1833,7 @@ msgstr "Введіть псевдонім або ел. адресу, які ви
 
 #: src/view/com/auth/create/Step2.tsx:271
 msgid "Input the verification code we have texted to you"
-msgstr ""
+msgstr "Введіть код підтвердження, який ми надіслали вам"
 
 #: src/view/com/modals/Waitlist.tsx:90
 msgid "Input your email to get on the Bluesky waitlist"
@@ -1908,7 +1908,7 @@ msgstr "Приєднатися до черги очікування"
 
 #: src/screens/Onboarding/index.tsx:24
 msgid "Journalism"
-msgstr ""
+msgstr "Журналістика"
 
 #: src/view/com/composer/select-language/SelectLangBtn.tsx:104
 msgid "Language selection"
@@ -1976,7 +1976,7 @@ msgstr "Давайте відновимо ваш пароль!"
 
 #: src/screens/Onboarding/StepFinished.tsx:151
 msgid "Let's go!"
-msgstr ""
+msgstr "Злітаємо!"
 
 #: src/view/com/util/UserAvatar.tsx:245
 #: src/view/com/util/UserBanner.tsx:60
@@ -2357,7 +2357,7 @@ msgstr "Спочатку найновіші"
 
 #: src/screens/Onboarding/index.tsx:23
 msgid "News"
-msgstr ""
+msgstr "Новини"
 
 #: src/view/com/auth/create/CreateAccount.tsx:161
 #: src/view/com/auth/login/ForgotPasswordForm.tsx:178
@@ -2492,7 +2492,7 @@ msgstr "Ой!"
 
 #: src/screens/Onboarding/StepFinished.tsx:115
 msgid "Open"
-msgstr ""
+msgstr "Відкрити"
 
 #: src/view/com/composer/Composer.tsx:470
 #: src/view/com/composer/Composer.tsx:471
@@ -2635,7 +2635,7 @@ msgstr "Сторінку не знайдено"
 
 #: src/view/screens/NotFound.tsx:42
 msgid "Page Not Found"
-msgstr ""
+msgstr "Отакої! Сторінку не знайдено"
 
 #: src/view/com/auth/create/Step1.tsx:158
 #: src/view/com/auth/create/Step1.tsx:168
@@ -2755,7 +2755,7 @@ msgstr "Будь ласка, вкажіть чому ви вважаєте що 
 
 #: src/view/com/modals/VerifyEmail.tsx:101
 msgid "Please Verify Your Email"
-msgstr ""
+msgstr "Підтвердьте свою адресу електронної пошти"
 
 #: src/view/com/composer/Composer.tsx:215
 msgid "Please wait for your link card to finish loading"
@@ -2782,17 +2782,17 @@ msgstr "Пост"
 
 #: src/view/com/post-thread/PostThreadItem.tsx:177
 msgid "Post by {0}"
-msgstr ""
+msgstr "Допис від {0}"
 
 #: src/Navigation.tsx:173
 #: src/Navigation.tsx:180
 #: src/Navigation.tsx:187
 msgid "Post by @{0}"
-msgstr ""
+msgstr "Допис від @{0}"
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:84
 msgid "Post deleted"
-msgstr ""
+msgstr "Допис видалено"
 
 #: src/view/com/post-thread/PostThread.tsx:403
 msgid "Post hidden"
@@ -2816,7 +2816,7 @@ msgstr "Пости"
 
 #: src/view/com/posts/FeedErrorMessage.tsx:64
 msgid "Posts hidden"
-msgstr ""
+msgstr "Дописи приховано"
 
 #: src/view/com/modals/LinkWarning.tsx:46
 msgid "Potentially Misleading Link"
@@ -2880,11 +2880,11 @@ msgstr "Публічні, поширювані списки для створе�
 
 #: src/view/com/composer/Composer.tsx:335
 msgid "Publish post"
-msgstr ""
+msgstr "Опублікувати допис"
 
 #: src/view/com/composer/Composer.tsx:335
 msgid "Publish reply"
-msgstr ""
+msgstr "Опублікувати відповідь"
 
 #: src/view/com/modals/Repost.tsx:65
 msgctxt "action"
@@ -2955,7 +2955,7 @@ msgstr "Вилучити попередній перегляд зображен�
 
 #: src/view/com/modals/Repost.tsx:47
 msgid "Remove repost"
-msgstr ""
+msgstr "Видалити репост"
 
 #: src/view/com/feeds/FeedSourceCard.tsx:173
 msgid "Remove this feed from my feeds?"
@@ -2973,7 +2973,7 @@ msgstr "Вилучено зі списку"
 #: src/view/com/feeds/FeedSourceCard.tsx:111
 #: src/view/com/feeds/FeedSourceCard.tsx:178
 msgid "Removed from my feeds"
-msgstr ""
+msgstr "Видалено з моїх стрічок"
 
 #: src/view/com/composer/ExternalEmbed.tsx:71
 msgid "Removes default thumbnail from {0}"
@@ -3395,7 +3395,7 @@ msgstr "Увімкніть це налаштування, щоб іноді ба
 
 #: src/screens/Onboarding/Layout.tsx:50
 msgid "Set up your account"
-msgstr ""
+msgstr "Налаштуйте ваш обліковий запис"
 
 #: src/view/com/modals/ChangeHandle.tsx:266
 msgid "Sets Bluesky username"
@@ -3664,7 +3664,7 @@ msgstr "Сторінка стану"
 
 #: src/view/com/auth/create/StepHeader.tsx:22
 msgid "Step {0} of {numSteps}"
-msgstr ""
+msgstr "Крок {0} / {numSteps}"
 
 #: src/view/screens/Settings.tsx:276
 msgid "Storage cleared, you need to restart the app now."
@@ -3938,7 +3938,7 @@ msgstr "Список порожній!"
 
 #: src/view/com/modals/AddAppPasswords.tsx:106
 msgid "This name is already in use"
-msgstr ""
+msgstr "Це ім'я вже використовується"
 
 #: src/view/com/post-thread/PostThreadItem.tsx:124
 msgid "This post has been deleted."
@@ -4057,7 +4057,7 @@ msgstr "Прибрати вподобання"
 
 #: src/view/screens/ProfileList.tsx:596
 msgid "Unmute"
-msgstr ""
+msgstr "Не ігнорувати"
 
 #: src/view/com/profile/ProfileHeader.tsx:373
 msgid "Unmute Account"
@@ -4070,7 +4070,7 @@ msgstr "Перестати ігнорувати"
 #: src/view/screens/ProfileFeed.tsx:353
 #: src/view/screens/ProfileList.tsx:580
 msgid "Unpin"
-msgstr ""
+msgstr "Відкріпити"
 
 #: src/view/screens/ProfileList.tsx:473
 msgid "Unpin moderation list"
@@ -4078,7 +4078,7 @@ msgstr "Відкріпити список модерації"
 
 #: src/view/screens/ProfileFeed.tsx:345
 msgid "Unsave"
-msgstr ""
+msgstr "Скасувати збереження"
 
 #: src/view/com/modals/UserAddRemoveLists.tsx:70
 msgid "Update {displayName} in Lists"
@@ -4209,7 +4209,7 @@ msgstr "Підтвердити нову адресу електронної по
 
 #: src/view/com/modals/VerifyEmail.tsx:103
 msgid "Verify Your Email"
-msgstr ""
+msgstr "Підтвердьте адресу вашої електронної пошти"
 
 #: src/screens/Onboarding/index.tsx:42
 msgid "Video Games"
@@ -4349,7 +4349,7 @@ msgstr "Письменники"
 
 #: src/view/com/auth/create/Step2.tsx:263
 msgid "XXXXXX"
-msgstr ""
+msgstr "XXXXXX"
 
 #: src/view/com/composer/select-language/SuggestedLanguage.tsx:77
 #: src/view/screens/PreferencesHomeFeed.tsx:129
@@ -4539,7 +4539,7 @@ msgstr "Ваші коди запрошення приховано, якщо ви
 
 #: src/view/com/modals/ChangePassword.tsx:155
 msgid "Your password has been changed successfully!"
-msgstr ""
+msgstr "Ваш пароль успішно змінено!"
 
 #: src/view/com/composer/Composer.tsx:267
 msgid "Your post has been published"
