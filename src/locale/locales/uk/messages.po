@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-02-13 15:00\n"
+"PO-Revision-Date: 2024-02-13 21:28\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -2729,7 +2729,7 @@ msgstr "Будь ласка, введіть унікальну назву для
 
 #: src/view/com/auth/create/state.ts:170
 msgid "Please enter the code you received by SMS."
-msgstr ""
+msgstr "Будь ласка, введіть код, отриманий у SMS."
 
 #: src/view/com/auth/create/Step2.tsx:282
 msgid "Please enter the verification code sent to {phoneNumberFormatted}."
@@ -2868,7 +2868,7 @@ msgstr "Захистіть свій обліковий запис, підтве�
 
 #: src/screens/Onboarding/StepFinished.tsx:101
 msgid "Public"
-msgstr ""
+msgstr "Публічний"
 
 #: src/view/screens/ModerationModlists.tsx:61
 msgid "Public, shareable lists of users to mute or block in bulk."
@@ -3806,7 +3806,7 @@ msgstr ""
 
 #: src/view/com/posts/FeedErrorMessage.tsx:139
 msgid "There was an an issue removing this feed. Please check your internet connection and try again."
-msgstr ""
+msgstr "Виникла проблема при видаленні цієї стрічки. Перевірте підключення до Інтернету і повторіть спробу."
 
 #: src/view/screens/ProfileFeed.tsx:209
 msgid "There was an an issue updating your feeds, please check your internet connection and try again."
@@ -3880,7 +3880,7 @@ msgstr ""
 
 #: src/view/com/auth/create/Step2.tsx:55
 msgid "There's something wrong with this number. Please choose your country and enter your full phone number!"
-msgstr ""
+msgstr "Щось не так з цим номером. Будь ласка, оберіть вашу країну і введіть свій повний номер телефону!"
 
 #: src/screens/Onboarding/StepSuggestedAccounts/index.tsx:138
 msgid "These are popular accounts you might like:"
