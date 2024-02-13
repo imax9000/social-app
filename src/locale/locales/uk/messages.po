@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-02-13 08:18\n"
+"PO-Revision-Date: 2024-02-13 15:00\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -1554,7 +1554,7 @@ msgstr "Тільки ваші підписки"
 
 #: src/view/com/notifications/FeedItem.tsx:166
 msgid "followed you"
-msgstr ""
+msgstr "підписка на вас"
 
 #: src/view/screens/ProfileFollowers.tsx:25
 msgid "Followers"
@@ -3142,7 +3142,7 @@ msgstr "Повторити спробу"
 
 #: src/view/com/auth/create/Step2.tsx:247
 msgid "Retry."
-msgstr ""
+msgstr "Ще раз."
 
 #: src/view/screens/ProfileList.tsx:898
 msgid "Return to previous page"
@@ -4495,7 +4495,7 @@ msgstr "Ваша дата народження"
 
 #: src/view/com/modals/InAppBrowserConsent.tsx:47
 msgid "Your choice will be saved, but can be changed later in settings."
-msgstr "Ваш вибір запам'ятовано, але ви можете змінити його в налаштуваннях."
+msgstr "Ваш вибір буде запам'ятовано, ви у будь-який момент зможете змінити його в налаштуваннях."
 
 #: src/screens/Onboarding/StepFollowingFeed.tsx:61
 msgid "Your default feed is \"Following\""
