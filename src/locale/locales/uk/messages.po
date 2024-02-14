@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-02-13 21:28\n"
+"PO-Revision-Date: 2024-02-14 03:23\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -2014,7 +2014,7 @@ msgstr "Вподобано {likeCount} {0}"
 
 #: src/view/com/notifications/FeedItem.tsx:170
 msgid "liked your custom feed"
-msgstr ""
+msgstr "вподобав(-ла) вашу стрічку"
 
 #: src/view/com/notifications/FeedItem.tsx:155
 msgid "liked your post"
@@ -2521,7 +2521,7 @@ msgstr ""
 
 #: src/view/com/notifications/FeedItem.tsx:348
 msgid "Opens an expanded list of users in this notification"
-msgstr ""
+msgstr "Відкрити розширений список користувачів у цьому сповіщенні"
 
 #: src/view/com/composer/photos/OpenCameraBtn.tsx:61
 msgid "Opens camera on device"
@@ -3126,7 +3126,7 @@ msgstr ""
 #: src/view/com/util/error/ErrorMessage.tsx:57
 #: src/view/com/util/error/ErrorScreen.tsx:67
 msgid "Retries the last action, which errored out"
-msgstr ""
+msgstr "Повторити останню дію, яка спричинила помилку"
 
 #: src/screens/Onboarding/StepInterests/index.tsx:221
 #: src/screens/Onboarding/StepInterests/index.tsx:224
@@ -3290,7 +3290,7 @@ msgstr "Оберіть мову інтерфейсу"
 
 #: src/screens/Onboarding/StepInterests/index.tsx:196
 msgid "Select your interests from the options below"
-msgstr ""
+msgstr "Виберіть ваші інтереси із нижченаведених варіантів"
 
 #: src/view/com/auth/create/Step2.tsx:155
 msgid "Select your phone's country"
@@ -3686,7 +3686,7 @@ msgstr "Підписатися"
 #: src/screens/Onboarding/StepAlgoFeeds/FeedCard.tsx:173
 #: src/screens/Onboarding/StepAlgoFeeds/FeedCard.tsx:307
 msgid "Subscribe to the {0} feed"
-msgstr ""
+msgstr "Підписатися на {0} стрічку"
 
 #: src/view/screens/ProfileList.tsx:603
 msgid "Subscribe to this list"
@@ -3884,7 +3884,7 @@ msgstr "Щось не так з цим номером. Будь ласка, об
 
 #: src/screens/Onboarding/StepSuggestedAccounts/index.tsx:138
 msgid "These are popular accounts you might like:"
-msgstr ""
+msgstr "Ці популярні користувачі можуть вам сподобатися:"
 
 #: src/view/com/util/moderation/ScreenHider.tsx:88
 msgid "This {screenDescription} has been flagged:"
@@ -3900,7 +3900,7 @@ msgstr "Цей вміст розміщено {0}. Увімкнути зовні�
 
 #: src/view/com/modals/ModerationDetails.tsx:67
 msgid "This content is not available because one of the users involved has blocked the other."
-msgstr ""
+msgstr "Цей контент недоступний, оскільки один із залучених користувачів заблокував іншого."
 
 #: src/view/com/posts/FeedErrorMessage.tsx:108
 msgid "This content is not viewable without a Bluesky account."
@@ -4250,11 +4250,11 @@ msgstr "Ми вважаємо, що вам також сподобається \
 
 #: src/screens/Deactivated.tsx:134
 msgid "We estimate {estimatedTime} until your account is ready."
-msgstr ""
+msgstr "Ми оцінюємо {estimatedTime} до готовності вашого облікового запису."
 
 #: src/screens/Onboarding/StepFinished.tsx:93
 msgid "We hope you have a wonderful time. Remember, Bluesky is:"
-msgstr ""
+msgstr "Ми сподіваємося, що ви проведете чудово свій час. Пам'ятайте, Bluesky — це:"
 
 #: src/view/com/posts/DiscoverFallbackHeader.tsx:29
 msgid "We ran out of posts from your follows. Here's the latest from <0/>."
@@ -4274,7 +4274,7 @@ msgstr ""
 
 #: src/screens/Deactivated.tsx:138
 msgid "We will let you know when your account is ready."
-msgstr ""
+msgstr "Ми повідомимо вас, коли ваш обліковий запис буде готовий."
 
 #: src/view/com/modals/AppealLabel.tsx:48
 msgid "We'll look into your appeal promptly."
@@ -4420,7 +4420,7 @@ msgstr "Ви ввели неправильний код. Він має вигл�
 
 #: src/view/com/modals/ModerationDetails.tsx:87
 msgid "You have muted this user."
-msgstr ""
+msgstr "Ви включили функцію ігнорування цього користувача."
 
 #: src/view/com/feeds/ProfileFeedgens.tsx:136
 msgid "You have no feeds."
@@ -4475,7 +4475,7 @@ msgstr ""
 
 #: src/screens/Onboarding/StepFinished.tsx:90
 msgid "You're ready to go!"
-msgstr ""
+msgstr "Все готово!"
 
 #: src/view/com/posts/FollowingEndOfFeed.tsx:48
 msgid "You've reached the end of your feed! Find some more accounts to follow."
