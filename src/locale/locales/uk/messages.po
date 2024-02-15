@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-02-15 09:28\n"
+"PO-Revision-Date: 2024-02-15 22:31\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -500,7 +500,7 @@ msgstr "від <0/>"
 
 #: src/view/com/profile/ProfileSubpageHeader.tsx:159
 msgid "by you"
-msgstr ""
+msgstr "створено вами"
 
 #: src/view/com/composer/photos/OpenCameraBtn.tsx:60
 #: src/view/com/util/UserAvatar.tsx:221
@@ -1072,7 +1072,7 @@ msgstr "Порожній пост. Ви хотіли щось написати?"
 
 #: src/view/screens/Settings.tsx:498
 msgid "Dim"
-msgstr ""
+msgstr "Тьмяний"
 
 #: src/view/com/composer/Composer.tsx:144
 msgid "Discard"
@@ -1222,7 +1222,7 @@ msgstr "Редагувати збережені стрічки"
 
 #: src/view/com/modals/CreateOrEditList.tsx:245
 msgid "Edit User List"
-msgstr ""
+msgstr "Редагувати список користувачів"
 
 #: src/view/com/modals/EditProfile.tsx:193
 msgid "Edit your display name"
@@ -1298,7 +1298,7 @@ msgstr "Кінець стрічки"
 
 #: src/view/com/modals/AddAppPasswords.tsx:166
 msgid "Enter a name for this App Password"
-msgstr ""
+msgstr "Введіть ім'я для цього пароля застосунку"
 
 #: src/view/com/modals/VerifyEmail.tsx:105
 msgid "Enter Confirmation Code"
@@ -1306,7 +1306,7 @@ msgstr "Введіть код підтвердження"
 
 #: src/view/com/modals/ChangePassword.tsx:151
 msgid "Enter the code you received to change your password."
-msgstr ""
+msgstr "Введіть код, який ви отримали, щоб змінити пароль."
 
 #: src/view/com/modals/ChangeHandle.tsx:371
 msgid "Enter the domain you want to use"
@@ -3089,7 +3089,7 @@ msgstr "Код підтвердження"
 
 #: src/view/com/modals/ChangePassword.tsx:190
 msgid "Reset Code"
-msgstr ""
+msgstr "Код скидання"
 
 #: src/view/screens/Settings.tsx:806
 msgid "Reset onboarding"
