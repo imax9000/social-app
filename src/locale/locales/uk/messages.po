@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-02-17 08:47\n"
+"PO-Revision-Date: 2024-02-17 14:55\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -1364,7 +1364,7 @@ msgstr "Вийти з режиму перегляду"
 #: src/view/com/modals/ListAddRemoveUsers.tsx:88
 #: src/view/shell/desktop/Search.tsx:235
 msgid "Exits inputting search query"
-msgstr ""
+msgstr "Вихід із пошуку"
 
 #: src/view/com/modals/Waitlist.tsx:138
 msgid "Exits signing up for waitlist with {email}"
@@ -1475,7 +1475,7 @@ msgstr "Завершення"
 #: src/view/com/posts/FollowingEmptyState.tsx:57
 #: src/view/com/posts/FollowingEndOfFeed.tsx:58
 msgid "Find accounts to follow"
-msgstr ""
+msgstr "Знайдіть облікові записи для стеження"
 
 #: src/view/screens/Search/Search.tsx:439
 msgid "Find users on Bluesky"
@@ -1963,7 +1963,7 @@ msgstr "Ви залишаєте Bluesky"
 
 #: src/screens/Deactivated.tsx:129
 msgid "left to go."
-msgstr ""
+msgstr "ще залишилося."
 
 #: src/view/screens/Settings.tsx:280
 msgid "Legacy storage cleared, you need to restart the app now."
@@ -2509,7 +2509,7 @@ msgstr "Відкрити навігацію"
 
 #: src/view/screens/Settings.tsx:786
 msgid "Open storybook page"
-msgstr ""
+msgstr "Відкрити storybook сторінку"
 
 #: src/view/com/util/forms/DropdownButton.tsx:154
 msgid "Opens {numItems} options"
