@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-02-18 11:32\n"
+"PO-Revision-Date: 2024-02-18 17:56\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -2718,7 +2718,7 @@ msgstr "Люди, на яких підписаний(-на) @{0}"
 
 #: src/Navigation.tsx:153
 msgid "People following @{0}"
-msgstr ""
+msgstr "Люди, які підписані на @{0}"
 
 #: src/view/com/lightbox/Lightbox.tsx:66
 msgid "Permission to access camera roll is required."
@@ -2772,7 +2772,7 @@ msgstr "Будь ласка, оберіть ваш пароль."
 
 #: src/view/com/auth/create/state.ts:131
 msgid "Please complete the verification captcha."
-msgstr ""
+msgstr "Будь ласка, завершіть перевірку Captcha."
 
 #: src/view/com/modals/ChangeEmail.tsx:67
 msgid "Please confirm your email before changing it. This is a temporary requirement while email-updating tools are added, and it will soon be removed."
@@ -3332,7 +3332,7 @@ msgstr "Оберіть деякі облікові записи, щоб підп
 
 #: src/view/com/auth/server-input/index.tsx:82
 msgid "Select the service that hosts your data."
-msgstr ""
+msgstr "Виберіть хостинг-провайдера для ваших даних."
 
 #: src/screens/Onboarding/StepModeration/index.tsx:49
 #~ msgid "Select the types of content that you want to see (or not see), and we'll handle the rest."
@@ -3403,7 +3403,7 @@ msgstr "Надсилає електронний лист з кодом підт�
 
 #: src/view/com/auth/server-input/index.tsx:110
 msgid "Server address"
-msgstr ""
+msgstr "Адреса сервера"
 
 #: src/view/com/modals/ContentFilteringSettings.tsx:311
 msgid "Set {value} for {labelGroup} content moderation policy"
@@ -3677,7 +3677,7 @@ msgstr "Ви увійшли як @{0}"
 
 #: src/view/com/modals/SwitchAccount.tsx:66
 msgid "Signs {0} out of Bluesky"
-msgstr ""
+msgstr "Виходить з Bluesky облікового запису {0}"
 
 #: src/screens/Onboarding/StepInterests/index.tsx:235
 #: src/screens/Onboarding/StepSuggestedAccounts/index.tsx:195
@@ -3837,7 +3837,7 @@ msgstr "Поле вводу тексту"
 
 #: src/view/com/auth/create/CreateAccount.tsx:90
 msgid "That handle is already taken."
-msgstr ""
+msgstr "Цей псевдонім вже зайнятий."
 
 #: src/view/com/profile/ProfileHeader.tsx:262
 msgid "The account will be able to interact with you after unblocking."
@@ -3985,7 +3985,7 @@ msgstr "Цей вміст не доступний для перегляду бе
 
 #: src/view/screens/Settings/ExportCarDialog.tsx:75
 msgid "This feature is in beta. You can read more about repository exports in <0>this blogpost.</0>"
-msgstr ""
+msgstr "Ця функція знаходиться в беті. Ви можете дізнатися більше про експорт репозиторіїв в <0>у цьому блозі.</0>"
 
 #: src/view/com/posts/FeedErrorMessage.tsx:114
 msgid "This feed is currently receiving high traffic and is temporarily unavailable. Please try again later."
