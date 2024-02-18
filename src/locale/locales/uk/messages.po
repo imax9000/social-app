@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-02-18 04:49\n"
+"PO-Revision-Date: 2024-02-18 11:32\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -229,7 +229,7 @@ msgstr "Розширені"
 
 #: src/view/screens/Feeds.tsx:666
 msgid "All the feeds you've saved, right in one place."
-msgstr ""
+msgstr "Усі збережені стрічки у одному місці."
 
 #: src/view/com/auth/login/ForgotPasswordForm.tsx:221
 #: src/view/com/modals/ChangePassword.tsx:168
@@ -452,7 +452,7 @@ msgstr "Bluesky"
 
 #: src/view/com/auth/server-input/index.tsx:150
 msgid "Bluesky is an open network where you can choose your hosting provider. Custom hosting is now available in beta for developers."
-msgstr ""
+msgstr "Bluesky є відкритою мережею, де ви можете обрати свого хостинг-провайдера. Власний хостинг тепер доступний в бета-версії для розробників."
 
 #: src/view/com/auth/onboarding/WelcomeDesktop.tsx:80
 #: src/view/com/auth/onboarding/WelcomeMobile.tsx:80
@@ -771,7 +771,7 @@ msgstr "Завершіть ознайомлення та розпочніть к
 
 #: src/view/com/auth/create/Step3.tsx:73
 msgid "Complete the challenge"
-msgstr ""
+msgstr "Виконайте завдання"
 
 #: src/view/com/composer/Composer.tsx:417
 msgid "Compose posts up to {MAX_GRAPHEME_LENGTH} characters in length"
@@ -1118,7 +1118,7 @@ msgstr "Відкрийте для себе нові стрічки"
 
 #: src/view/screens/Feeds.tsx:689
 msgid "Discover New Feeds"
-msgstr ""
+msgstr "Відкрийте для себе нові стрічки"
 
 #: src/view/com/modals/EditProfile.tsx:192
 msgid "Display name"
@@ -1175,7 +1175,7 @@ msgstr "Двічі натисніть, щоб увійти"
 
 #: src/view/screens/Settings/index.tsx:755
 msgid "Download Bluesky account data (repository)"
-msgstr ""
+msgstr "Завантажити дані облікового запису в Bluesky (репозиторій)"
 
 #: src/view/screens/Settings/ExportCarDialog.tsx:59
 #: src/view/screens/Settings/ExportCarDialog.tsx:63
@@ -1383,7 +1383,7 @@ msgstr "Введіть псевдонім та пароль"
 
 #: src/view/com/auth/create/Step3.tsx:67
 msgid "Error receiving captcha response."
-msgstr ""
+msgstr "Помилка отримання відповіді Captcha."
 
 #: src/view/screens/Search/Search.tsx:109
 msgid "Error:"
@@ -1421,12 +1421,12 @@ msgstr "Розгорнути або згорнути весь пост, на я�
 
 #: src/view/screens/Settings/index.tsx:753
 msgid "Export my data"
-msgstr ""
+msgstr "Експорт моїх даних"
 
 #: src/view/screens/Settings/ExportCarDialog.tsx:44
 #: src/view/screens/Settings/index.tsx:764
 msgid "Export My Data"
-msgstr ""
+msgstr "Експорт моїх даних"
 
 #: src/view/com/modals/EmbedConsent.tsx:64
 msgid "External Media"
@@ -1721,7 +1721,7 @@ msgstr "Ось деякі облікові записи, на які ви під
 
 #: src/screens/Onboarding/StepTopicalFeeds.tsx:79
 msgid "Here are some popular topical feeds. You can choose to follow as many as you like."
-msgstr ""
+msgstr "Ось декілька популярних тематичних стрічок. Ви можете підписатися на скільки стрічок, на скільки забажаєте."
 
 #: src/screens/Onboarding/StepTopicalFeeds.tsx:74
 msgid "Here are some topical feeds based on your interests: {interestsText}. You can choose to follow as many as you like."
@@ -2714,7 +2714,7 @@ msgstr "Пароль змінено!"
 
 #: src/Navigation.tsx:160
 msgid "People followed by @{0}"
-msgstr ""
+msgstr "Люди, на яких підписаний(-на) @{0}"
 
 #: src/Navigation.tsx:153
 msgid "People following @{0}"
@@ -4573,7 +4573,7 @@ msgstr "Ваш обліковий запис видалено"
 
 #: src/view/screens/Settings/ExportCarDialog.tsx:47
 msgid "Your account repository, containing all public data records, can be downloaded as a \"CAR\" file. This file does not include media embeds, such as images, or your private data, which must be fetched separately."
-msgstr ""
+msgstr "Дані з вашого облікового запису, які містять усі загальнодоступні записи, можна завантажити як \"CAR\" файл. Цей файл не містить медіафайлів, таких як зображення, або особисті дані, які необхідно отримати окремо."
 
 #: src/view/com/auth/create/Step1.tsx:238
 msgid "Your birth date"
