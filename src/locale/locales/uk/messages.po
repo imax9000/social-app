@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-02-18 17:56\n"
+"PO-Revision-Date: 2024-02-19 18:51\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -2285,7 +2285,7 @@ msgstr "Ігнорувати цей список"
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:171
 msgid "Mute thread"
-msgstr "Ігнорувати пост"
+msgstr "Ігнорувати обговорення"
 
 #: src/view/com/lists/ListCard.tsx:101
 msgid "Muted"
