@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-02-19 18:51\n"
+"PO-Revision-Date: 2024-02-20 20:39\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -2841,7 +2841,7 @@ msgstr "Запостити"
 #: src/view/com/post-thread/PostThread.tsx:303
 msgctxt "description"
 msgid "Post"
-msgstr "Пост"
+msgstr "Допис"
 
 #: src/view/com/post-thread/PostThreadItem.tsx:172
 msgid "Post by {0}"
@@ -2859,7 +2859,7 @@ msgstr "Допис видалено"
 
 #: src/view/com/post-thread/PostThread.tsx:461
 msgid "Post hidden"
-msgstr "Пост приховано"
+msgstr "Допис приховано"
 
 #: src/view/com/composer/select-language/SelectLangBtn.tsx:87
 msgid "Post language"
@@ -2867,11 +2867,11 @@ msgstr "Мова посту"
 
 #: src/view/com/modals/lang-settings/PostLanguagesSettings.tsx:75
 msgid "Post Languages"
-msgstr "Мови посту"
+msgstr "Мови допису"
 
 #: src/view/com/post-thread/PostThread.tsx:513
 msgid "Post not found"
-msgstr "Пост не знайдено"
+msgstr "Допис не знайдено"
 
 #: src/view/screens/Profile.tsx:180
 msgid "Posts"
@@ -3084,7 +3084,7 @@ msgstr "Поскаржитись на список"
 #: src/view/com/modals/report/SendReportButton.tsx:37
 #: src/view/com/util/forms/PostDropdownBtn.tsx:210
 msgid "Report post"
-msgstr "Поскаржитись на пост"
+msgstr "Поскаржитись на допис"
 
 #: src/view/com/modals/Repost.tsx:43
 #: src/view/com/modals/Repost.tsx:48
