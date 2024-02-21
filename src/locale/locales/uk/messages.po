@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-02-21 02:48\n"
+"PO-Revision-Date: 2024-02-21 09:13\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -1458,7 +1458,7 @@ msgstr "Не вдалося створити список. Перевірте і
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:88
 msgid "Failed to delete post, please try again"
-msgstr "Не вдалося видалити допис, спробуйте ще раз"
+msgstr "Не вдалося видалити пост, спробуйте ще раз"
 
 #: src/view/com/auth/onboarding/RecommendedFeeds.tsx:109
 #: src/view/com/auth/onboarding/RecommendedFeeds.tsx:141
@@ -1763,7 +1763,7 @@ msgstr "Сховати список користувачів"
 
 #: src/view/com/profile/ProfileHeader.tsx:486
 msgid "Hides posts from {0} in your feed"
-msgstr "Приховує дописи з {0} у вашій стрічці"
+msgstr "Приховує пости з {0} у вашій стрічці"
 
 #: src/view/com/posts/FeedErrorMessage.tsx:111
 msgid "Hmm, some kind of issue occurred when contacting the feed server. Please let the feed owner know about this issue."
@@ -2845,21 +2845,21 @@ msgstr "Пост"
 
 #: src/view/com/post-thread/PostThreadItem.tsx:172
 msgid "Post by {0}"
-msgstr "Допис від {0}"
+msgstr "Пост від {0}"
 
 #: src/Navigation.tsx:172
 #: src/Navigation.tsx:179
 #: src/Navigation.tsx:186
 msgid "Post by @{0}"
-msgstr "Допис від @{0}"
+msgstr "Пост від @{0}"
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:84
 msgid "Post deleted"
-msgstr "Допис видалено"
+msgstr "Пост видалено"
 
 #: src/view/com/post-thread/PostThread.tsx:461
 msgid "Post hidden"
-msgstr "Допис приховано"
+msgstr "Пост приховано"
 
 #: src/view/com/composer/select-language/SelectLangBtn.tsx:87
 msgid "Post language"
@@ -2867,11 +2867,11 @@ msgstr "Мова посту"
 
 #: src/view/com/modals/lang-settings/PostLanguagesSettings.tsx:75
 msgid "Post Languages"
-msgstr "Мови допису"
+msgstr "Мови посту"
 
 #: src/view/com/post-thread/PostThread.tsx:513
 msgid "Post not found"
-msgstr "Допис не знайдено"
+msgstr "Пост не знайдено"
 
 #: src/view/screens/Profile.tsx:180
 msgid "Posts"
@@ -2879,7 +2879,7 @@ msgstr "Пости"
 
 #: src/view/com/posts/FeedErrorMessage.tsx:64
 msgid "Posts hidden"
-msgstr "Дописи приховано"
+msgstr "Пости приховано"
 
 #: src/view/com/modals/LinkWarning.tsx:46
 msgid "Potentially Misleading Link"
@@ -2943,7 +2943,7 @@ msgstr "Публічні, поширювані списки для створе�
 
 #: src/view/com/composer/Composer.tsx:335
 msgid "Publish post"
-msgstr "Опублікувати допис"
+msgstr "Опублікувати пост"
 
 #: src/view/com/composer/Composer.tsx:335
 msgid "Publish reply"
@@ -3084,7 +3084,7 @@ msgstr "Поскаржитись на список"
 #: src/view/com/modals/report/SendReportButton.tsx:37
 #: src/view/com/util/forms/PostDropdownBtn.tsx:210
 msgid "Report post"
-msgstr "Поскаржитись на допис"
+msgstr "Поскаржитись на пост"
 
 #: src/view/com/modals/Repost.tsx:43
 #: src/view/com/modals/Repost.tsx:48
@@ -3909,7 +3909,7 @@ msgstr "Виникла проблема з завантаженням спові
 
 #: src/view/com/posts/Feed.tsx:263
 msgid "There was an issue fetching posts. Tap here to try again."
-msgstr "Виникла проблема з завантаженням дописів. Натисніть тут, щоб повторити спробу."
+msgstr "Виникла проблема з завантаженням постів. Натисніть тут, щоб повторити спробу."
 
 #: src/view/com/lists/ListMembers.tsx:172
 msgid "There was an issue fetching the list. Tap here to try again."
