@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-02-24 09:47\n"
+"PO-Revision-Date: 2024-02-24 15:42\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: src/view/com/modals/VerifyEmail.tsx:142
 msgid "(no email)"
-msgstr "(немає email)"
+msgstr "(немає ел. адреси)"
 
 #: src/view/shell/desktop/RightNav.tsx:168
 #~ msgid "{0, plural, one {# invite code available} other {# invite codes available}}"
@@ -1542,7 +1542,7 @@ msgstr "Пошук подібних облікових записів..."
 
 #: src/view/screens/PreferencesFollowingFeed.tsx:111
 msgid "Fine-tune the content you see on your Following feed."
-msgstr ""
+msgstr "Оберіть, що ви хочете бачити у своїй стрічці підписок."
 
 #: src/view/screens/PreferencesHomeFeed.tsx:111
 #~ msgid "Fine-tune the content you see on your home screen."
@@ -1633,7 +1633,7 @@ msgstr "Підписання на \"{0}\""
 #: src/view/screens/PreferencesFollowingFeed.tsx:104
 #: src/view/screens/Settings/index.tsx:543
 msgid "Following Feed Preferences"
-msgstr ""
+msgstr "Налаштування стрічки підписок"
 
 #: src/view/com/profile/ProfileHeader.tsx:546
 msgid "Follows you"
@@ -2189,11 +2189,11 @@ msgstr "Переконайтеся, що це дійсно той сайт, що
 
 #: src/view/com/auth/create/Step2.tsx:118
 msgid "May not be longer than 253 characters"
-msgstr ""
+msgstr "Не може бути довшим за 253 символи"
 
 #: src/view/com/auth/create/Step2.tsx:109
 msgid "May only contain letters and numbers"
-msgstr ""
+msgstr "Може містити лише літери та цифри"
 
 #: src/view/screens/Profile.tsx:182
 msgid "Media"
@@ -2285,7 +2285,7 @@ msgstr "За кількістю вподобань"
 
 #: src/view/com/auth/create/Step2.tsx:122
 msgid "Must be at least 3 characters"
-msgstr ""
+msgstr "Має містити щонайменше 3 символи"
 
 #: src/view/com/profile/ProfileHeader.tsx:327
 msgid "Mute Account"
@@ -2309,7 +2309,7 @@ msgstr "Ігнорувати цей список"
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:200
 msgid "Mute thread"
-msgstr "Ігнорувати пост"
+msgstr "Ігнорувати обговорення"
 
 #: src/view/com/lists/ListCard.tsx:102
 msgid "Muted"
@@ -2718,7 +2718,7 @@ msgstr "Сторінку не знайдено"
 
 #: src/view/screens/NotFound.tsx:42
 msgid "Page Not Found"
-msgstr "Отакої! Сторінку не знайдено"
+msgstr "Сторінку не знайдено"
 
 #: src/view/com/auth/create/Step1.tsx:214
 #: src/view/com/auth/create/Step1.tsx:224
@@ -2754,7 +2754,7 @@ msgstr "Дозвіл на доступ до камери був забороне
 
 #: src/screens/Onboarding/index.tsx:31
 msgid "Pets"
-msgstr "Домашні звірята"
+msgstr "Домашні улюбленці"
 
 #: src/view/com/auth/create/Step2.tsx:183
 #~ msgid "Phone number"
@@ -3489,7 +3489,7 @@ msgstr "Увімкніть це налаштування, щоб показув�
 
 #: src/view/screens/PreferencesFollowingFeed.tsx:261
 msgid "Set this setting to \"Yes\" to show samples of your saved feeds in your Following feed. This is an experimental feature."
-msgstr ""
+msgstr "Увімкніть це налаштування, щоб іноді бачити пости зі збережених стрічок у вашій домашній стрічці. Це експериментальна функція."
 
 #: src/screens/Onboarding/Layout.tsx:50
 msgid "Set up your account"
