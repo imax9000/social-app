@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-02-28 08:34\n"
+"PO-Revision-Date: 2024-02-28 14:44\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -750,7 +750,7 @@ msgstr "Закрити панель навігації"
 
 #: src/components/TagMenu/index.tsx:266
 msgid "Close this dialog"
-msgstr ""
+msgstr "Закрити діалогове вікно"
 
 #: src/view/shell/index.web.tsx:52
 msgid "Closes bottom navigation bar"
@@ -1360,7 +1360,7 @@ msgstr "Введіть ім'я для цього пароля застосунк
 #: src/components/dialogs/MutedWords.tsx:87
 #: src/components/dialogs/MutedWords.tsx:88
 msgid "Enter a word or tag"
-msgstr ""
+msgstr "Введіть слово або тег"
 
 #: src/view/com/modals/VerifyEmail.tsx:105
 msgid "Enter Confirmation Code"
@@ -2371,7 +2371,7 @@ msgstr ""
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:202
 msgid "Mute thread"
-msgstr "Ігнорувати пост"
+msgstr "Ігнорувати обговорення"
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:216
 msgid "Mute words & tags"
@@ -2982,7 +2982,7 @@ msgstr "Пост не знайдено"
 
 #: src/components/TagMenu/index.tsx:257
 msgid "posts"
-msgstr ""
+msgstr "пости"
 
 #: src/view/screens/Profile.tsx:180
 msgid "Posts"
@@ -3413,7 +3413,7 @@ msgstr ""
 
 #: src/components/TagMenu/index.tsx:90
 msgid "Search for all posts with tag {tag}"
-msgstr ""
+msgstr "Пошук усіх повідомлень з тегом {tag}"
 
 #: src/view/com/auth/LoggedOut.tsx:104
 #: src/view/com/auth/LoggedOut.tsx:105
@@ -3957,11 +3957,11 @@ msgstr "Системний журнал"
 
 #: src/components/dialogs/MutedWords.tsx:288
 msgid "tag"
-msgstr ""
+msgstr "тег"
 
 #: src/components/TagMenu/index.tsx:74
 msgid "Tag menu: {tag}"
-msgstr ""
+msgstr "Меню тегів: {tag}"
 
 #: src/view/com/modals/crop-image/CropImage.web.tsx:112
 msgid "Tall"
@@ -3988,7 +3988,7 @@ msgstr "Умови Використання"
 
 #: src/components/dialogs/MutedWords.tsx:288
 msgid "text"
-msgstr ""
+msgstr "текст"
 
 #: src/view/com/modals/AppealLabel.tsx:70
 #: src/view/com/modals/report/InputIssueDetails.tsx:51
