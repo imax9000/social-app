@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-02-28 14:44\n"
+"PO-Revision-Date: 2024-03-01 19:09\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -188,7 +188,7 @@ msgstr ""
 
 #: src/components/dialogs/MutedWords.tsx:74
 msgid "Add muted words and tags"
-msgstr ""
+msgstr "Додати ігноровані слова та теги"
 
 #: src/view/com/modals/ChangeHandle.tsx:417
 msgid "Add the following DNS record to your domain:"
@@ -712,7 +712,7 @@ msgstr "натисніть тут"
 #: src/components/RichText.tsx:189
 #: src/components/TagMenu/index.web.tsx:125
 msgid "Click here to open tag menu for {tag}"
-msgstr ""
+msgstr "Натисніть тут, щоб відкрити меню тегів для {tag}"
 
 #: src/screens/Onboarding/index.tsx:35
 msgid "Climate"
@@ -2219,7 +2219,7 @@ msgstr "Переконайтеся, що це дійсно той сайт, що
 
 #: src/components/dialogs/MutedWords.tsx:71
 msgid "Manage your muted words and tags"
-msgstr ""
+msgstr "Налаштовуйте ваші ігноровані слова та теги"
 
 #: src/view/com/auth/create/Step2.tsx:118
 msgid "May not be longer than 253 characters"
@@ -2323,11 +2323,11 @@ msgstr "Має містити щонайменше 3 символи"
 
 #: src/components/TagMenu/index.tsx:253
 msgid "Mute"
-msgstr ""
+msgstr "Ігнорувати"
 
 #: src/components/TagMenu/index.web.tsx:91
 msgid "Mute {truncatedTag}"
-msgstr ""
+msgstr "Ігнорувати {truncatedTag}"
 
 #: src/view/com/profile/ProfileHeader.tsx:327
 msgid "Mute Account"
@@ -2339,15 +2339,15 @@ msgstr "Ігнорувати облікові записи"
 
 #: src/components/TagMenu/index.tsx:211
 msgid "Mute all {tag} posts"
-msgstr ""
+msgstr "Ігнорувати всі пости {tag}"
 
 #: src/components/dialogs/MutedWords.tsx:131
 msgid "Mute in tags only"
-msgstr ""
+msgstr "Ігнорувати лише в тегах"
 
 #: src/components/dialogs/MutedWords.tsx:116
 msgid "Mute in text & tags"
-msgstr ""
+msgstr "Ігнорувати в тексті та тегах"
 
 #: src/view/screens/ProfileList.tsx:491
 msgid "Mute list"
@@ -2363,11 +2363,11 @@ msgstr "Ігнорувати цей список"
 
 #: src/components/dialogs/MutedWords.tsx:109
 msgid "Mute this word in post text and tags"
-msgstr ""
+msgstr "Ігнорувати це слово у постах і тегах"
 
 #: src/components/dialogs/MutedWords.tsx:124
 msgid "Mute this word in tags only"
-msgstr ""
+msgstr "Ігнорувати це слово лише у тегах"
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:202
 msgid "Mute thread"
@@ -2375,7 +2375,7 @@ msgstr "Ігнорувати обговорення"
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:216
 msgid "Mute words & tags"
-msgstr ""
+msgstr "Ігнорувати слова та теги"
 
 #: src/view/com/lists/ListCard.tsx:102
 msgid "Muted"
@@ -2396,7 +2396,7 @@ msgstr "Ігноровані облікові записи автоматичн�
 
 #: src/view/screens/Moderation.tsx:100
 msgid "Muted words & tags"
-msgstr ""
+msgstr "Ігноровані слова та теги"
 
 #: src/view/screens/ProfileList.tsx:277
 msgid "Muting is private. Muted accounts can interact with you, but you will not see their posts or receive notifications from them."
@@ -4557,7 +4557,7 @@ msgstr "Дуже прикро, але нам не вдалося знайти ц
 
 #: src/components/dialogs/MutedWords.tsx:182
 msgid "We're sorry, but we weren't able to load your muted words at this time. Please try again."
-msgstr ""
+msgstr "На жаль, ми не змогли зараз завантажити ваші ігноровані слова. Будь ласка, спробуйте ще раз."
 
 #: src/view/screens/Search/Search.tsx:254
 msgid "We're sorry, but your search could not be completed. Please try again in a few minutes."
@@ -4712,7 +4712,7 @@ msgstr "Ви ще не ігноруєте жодного облікового з
 
 #: src/components/dialogs/MutedWords.tsx:202
 msgid "You haven't muted any words or tags yet"
-msgstr ""
+msgstr "У вас ще немає ігнорованих слів чи тегів"
 
 #: src/view/com/modals/ContentFilteringSettings.tsx:175
 msgid "You must be 18 or older to enable adult content."
@@ -4814,7 +4814,7 @@ msgstr "Вашим повним псевдонімом буде <0>@{0}</0>"
 
 #: src/components/dialogs/MutedWords.tsx:173
 msgid "Your muted words"
-msgstr ""
+msgstr "Ваші ігноровані слова"
 
 #: src/view/com/modals/ChangePassword.tsx:155
 msgid "Your password has been changed successfully!"
