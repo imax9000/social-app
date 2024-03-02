@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-03-02 01:05\n"
+"PO-Revision-Date: 2024-03-02 16:11\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -184,7 +184,7 @@ msgstr "Додати попередній перегляд:"
 
 #: src/components/dialogs/MutedWords.tsx:140
 msgid "Add mute word for configured settings"
-msgstr ""
+msgstr "Додати слово до ігнорування з обраними налаштуваннями"
 
 #: src/components/dialogs/MutedWords.tsx:74
 msgid "Add muted words and tags"
@@ -1746,7 +1746,7 @@ msgstr "Псевдонім"
 
 #: src/components/RichText.tsx:188
 msgid "Hashtag: {tag}"
-msgstr ""
+msgstr "Хештег: {tag}"
 
 #: src/view/com/auth/create/CreateAccount.tsx:208
 msgid "Having trouble?"
@@ -2463,7 +2463,7 @@ msgstr "Ніколи не втрачайте доступ до ваших під
 
 #: src/components/dialogs/MutedWords.tsx:244
 msgid "Nevermind"
-msgstr ""
+msgstr "Скасувати"
 
 #: src/view/screens/Lists.tsx:76
 msgctxt "action"
@@ -2655,7 +2655,7 @@ msgstr "Відкрити"
 
 #: src/view/screens/Moderation.tsx:75
 msgid "Open content filtering settings"
-msgstr ""
+msgstr "Відкрити налаштування фільтрації контенту"
 
 #: src/view/com/composer/Composer.tsx:477
 #: src/view/com/composer/Composer.tsx:478
@@ -2668,7 +2668,7 @@ msgstr "Вбудований браузер"
 
 #: src/view/screens/Moderation.tsx:92
 msgid "Open muted words settings"
-msgstr ""
+msgstr "Відкрити налаштування ігнорування слів"
 
 #: src/view/com/home/HomeHeaderLayoutMobile.tsx:49
 msgid "Open navigation"
@@ -3409,7 +3409,7 @@ msgstr "Шукати \"{query}\""
 
 #: src/components/TagMenu/index.tsx:145
 msgid "Search for all posts by @{authorHandle} with tag {tag}"
-msgstr ""
+msgstr "Пошук усіх повідомлень @{authorHandle} з тегом {tag}"
 
 #: src/components/TagMenu/index.tsx:90
 msgid "Search for all posts with tag {tag}"
@@ -3431,15 +3431,15 @@ msgstr "Переглянути дописи {truncatedTag}"
 
 #: src/components/TagMenu/index.web.tsx:67
 msgid "See {truncatedTag} posts by user"
-msgstr ""
+msgstr "Переглянути пости користувача з {truncatedTag}"
 
 #: src/components/TagMenu/index.tsx:128
 msgid "See <0>{tag}</0> posts"
-msgstr ""
+msgstr "Переглянути пости з <0>{tag}</0>"
 
 #: src/components/TagMenu/index.tsx:189
 msgid "See <0>{tag}</0> posts by this user"
-msgstr ""
+msgstr "Переглянути пости цього користувача з <0>{tag}</0>"
 
 #: src/view/screens/SavedFeeds.tsx:163
 msgid "See this guide"
@@ -4228,7 +4228,7 @@ msgstr "Налаштування обговорень"
 
 #: src/components/dialogs/MutedWords.tsx:95
 msgid "Toggle between muted word options."
-msgstr ""
+msgstr "Перемикання між опціями ігнорування слів."
 
 #: src/view/com/util/forms/DropdownButton.tsx:246
 msgid "Toggle dropdown"
@@ -4312,7 +4312,7 @@ msgstr "Не ігнорувати"
 
 #: src/components/TagMenu/index.web.tsx:90
 msgid "Unmute {truncatedTag}"
-msgstr ""
+msgstr "Не ігнорувати {truncatedTag}"
 
 #: src/view/com/profile/ProfileHeader.tsx:326
 msgid "Unmute Account"
@@ -4320,7 +4320,7 @@ msgstr "Перестати ігнорувати"
 
 #: src/components/TagMenu/index.tsx:210
 msgid "Unmute all {tag} posts"
-msgstr ""
+msgstr "Не ігнорувати всі пости {tag}"
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:202
 msgid "Unmute thread"
@@ -4525,7 +4525,7 @@ msgstr "У нас закінчилися дописи у ваших підпис
 
 #: src/components/dialogs/MutedWords.tsx:161
 msgid "We recommend avoiding common words that appear in many posts, since it can result in no posts being shown."
-msgstr ""
+msgstr "Ми рекомендуємо уникати загальних слів, що зʼявляються у багатьох постах, оскільки це може призвести до того, що жодного поста не буде показано."
 
 #: src/screens/Onboarding/StepAlgoFeeds/index.tsx:124
 msgid "We recommend our \"Discover\" feed:"
