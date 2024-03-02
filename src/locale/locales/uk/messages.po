@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-03-01 19:09\n"
+"PO-Revision-Date: 2024-03-02 01:05\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -2990,7 +2990,7 @@ msgstr "Пости"
 
 #: src/components/dialogs/MutedWords.tsx:77
 msgid "Posts can be muted based on their text, their tags, or both."
-msgstr ""
+msgstr "Пости можуть бути ігноровані за їхнім текстом, тегами чи за обома."
 
 #: src/view/com/posts/FeedErrorMessage.tsx:64
 msgid "Posts hidden"
@@ -3134,7 +3134,7 @@ msgstr "Вилучити попередній перегляд зображен�
 
 #: src/components/dialogs/MutedWords.tsx:294
 msgid "Remove mute word from your list"
-msgstr ""
+msgstr "Вилучити ігноровані слова з вашого списку"
 
 #: src/view/com/modals/Repost.tsx:47
 msgid "Remove repost"
@@ -3427,7 +3427,7 @@ msgstr "Потрібен код підтвердження"
 
 #: src/components/TagMenu/index.web.tsx:50
 msgid "See {truncatedTag} posts"
-msgstr ""
+msgstr "Переглянути дописи {truncatedTag}"
 
 #: src/components/TagMenu/index.web.tsx:67
 msgid "See {truncatedTag} posts by user"
@@ -4207,7 +4207,7 @@ msgstr "Це попередження доступне тільки для за�
 
 #: src/components/dialogs/MutedWords.tsx:236
 msgid "This will delete {0} from your muted words. You can always add it back later."
-msgstr ""
+msgstr "Це видалить {0} зі ваших ігнорованих слів. Ви завжди можете додати його назад."
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:237
 msgid "This will hide this post from your feeds."
