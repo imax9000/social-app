@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-03-12 11:17\n"
+"PO-Revision-Date: 2024-03-13 11:56\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -1756,7 +1756,7 @@ msgstr "Псевдонім"
 
 #: src/Navigation.tsx:270
 msgid "Hashtag"
-msgstr ""
+msgstr "Хештег"
 
 #: src/components/RichText.tsx:188
 #~ msgid "Hashtag: {tag}"
@@ -1764,7 +1764,7 @@ msgstr ""
 
 #: src/components/RichText.tsx:190
 msgid "Hashtag: #{tag}"
-msgstr ""
+msgstr "Хештег: #{tag}"
 
 #: src/view/com/auth/create/CreateAccount.tsx:208
 msgid "Having trouble?"
@@ -2357,7 +2357,7 @@ msgstr "Ігнорувати облікові записи"
 
 #: src/components/TagMenu/index.tsx:209
 msgid "Mute all {displayTag} posts"
-msgstr ""
+msgstr "Ігнорувати всі пости {displayTag}"
 
 #: src/components/TagMenu/index.tsx:211
 #~ msgid "Mute all {tag} posts"
@@ -2709,7 +2709,7 @@ msgstr "Відкрити навігацію"
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:175
 msgid "Open post options menu"
-msgstr ""
+msgstr "Відкрити меню налаштувань посту"
 
 #: src/view/screens/Settings/index.tsx:804
 msgid "Open storybook page"
@@ -2937,7 +2937,7 @@ msgstr "Будь ласка, введіть унікальну назву для
 
 #: src/components/dialogs/MutedWords.tsx:68
 msgid "Please enter a valid word, tag, or phrase to mute"
-msgstr ""
+msgstr "Будь ласка, введіть допустиме слово, тег або фразу для ігнорування"
 
 #: src/view/com/auth/create/state.ts:170
 #~ msgid "Please enter the code you received by SMS."
@@ -3452,7 +3452,7 @@ msgstr "Шукати \"{query}\""
 
 #: src/components/TagMenu/index.tsx:145
 msgid "Search for all posts by @{authorHandle} with tag {displayTag}"
-msgstr ""
+msgstr "Пошук усіх повідомлень @{authorHandle} з тегом {displayTag}"
 
 #: src/components/TagMenu/index.tsx:145
 #~ msgid "Search for all posts by @{authorHandle} with tag {tag}"
@@ -3460,7 +3460,7 @@ msgstr ""
 
 #: src/components/TagMenu/index.tsx:94
 msgid "Search for all posts with tag {displayTag}"
-msgstr ""
+msgstr "Пошук усіх повідомлень з тегом {displayTag}"
 
 #: src/components/TagMenu/index.tsx:90
 #~ msgid "Search for all posts with tag {tag}"
@@ -4389,7 +4389,7 @@ msgstr "Перестати ігнорувати"
 
 #: src/components/TagMenu/index.tsx:208
 msgid "Unmute all {displayTag} posts"
-msgstr ""
+msgstr "Перестати ігнорувати всі пости {displayTag}"
 
 #: src/components/TagMenu/index.tsx:210
 #~ msgid "Unmute all {tag} posts"
@@ -4583,7 +4583,7 @@ msgstr "Гадаємо, вам також сподобається «For You» �
 
 #: src/screens/Hashtag.tsx:132
 msgid "We couldn't find any results for that hashtag."
-msgstr ""
+msgstr "Ми не змогли знайти жодних результатів для цього хештегу."
 
 #: src/screens/Deactivated.tsx:133
 msgid "We estimate {estimatedTime} until your account is ready."
