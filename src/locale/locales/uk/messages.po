@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-03-20 13:54\n"
+"PO-Revision-Date: 2024-03-25 22:08\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -253,7 +253,7 @@ msgstr "Вміст для дорослих"
 
 #: src/components/moderation/ModerationLabelPref.tsx:114
 msgid "Adult content is disabled."
-msgstr ""
+msgstr "Контент для дорослих вимкнено."
 
 #: src/screens/Moderation/index.tsx:377
 #: src/view/screens/Settings/index.tsx:684
@@ -315,7 +315,7 @@ msgstr "Тварини"
 
 #: src/lib/moderation/useReportOptions.ts:31
 msgid "Anti-Social Behavior"
-msgstr ""
+msgstr "Антисоціальна поведінка"
 
 #: src/view/screens/LanguageSettings.tsx:95
 msgid "App Language"
@@ -450,7 +450,7 @@ msgstr "Дата народження:"
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:278
 #: src/view/com/profile/ProfileMenu.tsx:361
 msgid "Block"
-msgstr ""
+msgstr "Заблокувати"
 
 #: src/view/com/profile/ProfileMenu.tsx:300
 #: src/view/com/profile/ProfileMenu.tsx:307
@@ -459,7 +459,7 @@ msgstr "Заблокувати"
 
 #: src/view/com/profile/ProfileMenu.tsx:344
 msgid "Block Account?"
-msgstr ""
+msgstr "Заблокувати обліковий запис?"
 
 #: src/view/screens/ProfileList.tsx:530
 msgid "Block accounts"
@@ -560,11 +560,11 @@ msgstr "Bluesky не буде показувати ваш профіль і по
 
 #: src/lib/moderation/useLabelBehaviorDescription.ts:53
 msgid "Blur images"
-msgstr ""
+msgstr "Розмити зображення"
 
 #: src/lib/moderation/useLabelBehaviorDescription.ts:51
 msgid "Blur images and filter from feeds"
-msgstr ""
+msgstr "Розмити зображення і фільтрувати їх зі стрічки"
 
 #: src/screens/Onboarding/index.tsx:33
 msgid "Books"
@@ -681,11 +681,11 @@ msgstr "Скасувати пошук"
 
 #: src/view/com/modals/LinkWarning.tsx:88
 msgid "Cancels opening the linked website"
-msgstr ""
+msgstr "Скасовує відкриття посилання"
 
 #: src/view/com/modals/VerifyEmail.tsx:152
 msgid "Change"
-msgstr ""
+msgstr "Змінити"
 
 #: src/view/screens/Settings/index.tsx:353
 msgctxt "action"
@@ -799,11 +799,11 @@ msgstr "Очистити пошуковий запит"
 
 #: src/view/screens/Settings/index.tsx:869
 msgid "Clears all legacy storage data"
-msgstr ""
+msgstr "Видаляє всі застарілі дані зі сховища"
 
 #: src/view/screens/Settings/index.tsx:881
 msgid "Clears all storage data"
-msgstr ""
+msgstr "Видаляє всі дані зі сховища"
 
 #: src/view/screens/Support.tsx:40
 msgid "click here"
@@ -950,11 +950,11 @@ msgstr "Підтвердити видалення облікового запи�
 
 #: src/screens/Moderation/index.tsx:303
 msgid "Confirm your age:"
-msgstr ""
+msgstr "Підтвердіть ваш вік:"
 
 #: src/screens/Moderation/index.tsx:294
 msgid "Confirm your birthdate"
-msgstr ""
+msgstr "Підтвердіть вашу дату народження"
 
 #: src/view/com/modals/ChangeEmail.tsx:157
 #: src/view/com/modals/DeleteAccount.tsx:176
@@ -982,7 +982,7 @@ msgstr ""
 
 #: src/lib/moderation/useGlobalLabelStrings.ts:18
 msgid "Content Blocked"
-msgstr ""
+msgstr "Заблокований вміст"
 
 #: src/view/screens/Moderation.tsx:83
 #~ msgid "Content filtering"
@@ -1287,7 +1287,7 @@ msgstr "Тьмяний"
 #: src/lib/moderation/useLabelBehaviorDescription.ts:68
 #: src/screens/Moderation/index.tsx:343
 msgid "Disabled"
-msgstr ""
+msgstr "Вимкнено"
 
 #: src/view/com/composer/Composer.tsx:510
 msgid "Discard"
@@ -1329,11 +1329,11 @@ msgstr "Ім'я"
 
 #: src/view/com/modals/ChangeHandle.tsx:398
 msgid "DNS Panel"
-msgstr ""
+msgstr "Панель DNS"
 
 #: src/lib/moderation/useGlobalLabelStrings.ts:39
 msgid "Does not include nudity."
-msgstr ""
+msgstr "Не містить оголеності."
 
 #: src/view/com/modals/ChangeHandle.tsx:482
 msgid "Domain Value"
@@ -1403,7 +1403,7 @@ msgstr "Через політику компанії Apple, перегляд в�
 
 #: src/view/com/modals/ChangeHandle.tsx:257
 msgid "e.g. alice"
-msgstr ""
+msgstr "для прикладу, olenka"
 
 #: src/view/com/modals/EditProfile.tsx:185
 msgid "e.g. Alice Roberts"
@@ -1411,7 +1411,7 @@ msgstr "напр. Тарас Шевченко"
 
 #: src/view/com/modals/ChangeHandle.tsx:381
 msgid "e.g. alice.com"
-msgstr ""
+msgstr "для прикладу, olenka.ua"
 
 #: src/view/com/modals/EditProfile.tsx:203
 msgid "e.g. Artist, dog-lover, and avid reader."
@@ -1449,7 +1449,7 @@ msgstr "Редагувати"
 #: src/view/com/util/UserAvatar.tsx:299
 #: src/view/com/util/UserBanner.tsx:85
 msgid "Edit avatar"
-msgstr ""
+msgstr "Змінити фото профілю"
 
 #: src/view/com/composer/photos/Gallery.tsx:144
 #: src/view/com/modals/EditImage.tsx:207
@@ -1539,7 +1539,7 @@ msgstr "Увімкнути лише {0}"
 
 #: src/screens/Moderation/index.tsx:331
 msgid "Enable adult content"
-msgstr ""
+msgstr "Дозволити вміст для дорослих"
 
 #: src/screens/Onboarding/StepModeration/AdultContentEnabledPref.tsx:94
 msgid "Enable Adult Content"
@@ -1564,7 +1564,7 @@ msgstr "Увімкніть цей параметр, щоб бачити відп
 
 #: src/screens/Moderation/index.tsx:341
 msgid "Enabled"
-msgstr ""
+msgstr "Увімкнено"
 
 #: src/screens/Profile/Sections/Feed.tsx:84
 msgid "End of feed"
@@ -2015,7 +2015,7 @@ msgstr ""
 
 #: src/view/screens/NotFound.tsx:54
 msgid "Go Home"
-msgstr ""
+msgstr "Повернутися на головну"
 
 #: src/view/screens/Search/Search.tsx:748
 #: src/view/shell/desktop/Search.tsx:263
@@ -3102,7 +3102,7 @@ msgstr "Ой! Щось пішло не так."
 
 #: src/screens/Onboarding/StepModeration/AdultContentEnabledPref.tsx:127
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: src/view/com/auth/login/PasswordUpdatedForm.tsx:41
 msgid "Okay"
