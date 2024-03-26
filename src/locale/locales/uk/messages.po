@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-03-25 22:08\n"
+"PO-Revision-Date: 2024-03-26 04:53\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -2011,7 +2011,7 @@ msgstr "Повернутися до попереднього кроку"
 
 #: src/view/screens/NotFound.tsx:55
 msgid "Go home"
-msgstr ""
+msgstr "Повернутися на головну"
 
 #: src/view/screens/NotFound.tsx:54
 msgid "Go Home"
@@ -2032,7 +2032,7 @@ msgstr "Далі"
 
 #: src/lib/moderation/useGlobalLabelStrings.ts:46
 msgid "Graphic Media"
-msgstr ""
+msgstr "Графічний медіаконтент"
 
 #: src/view/com/modals/ChangeHandle.tsx:265
 msgid "Handle"
@@ -2040,7 +2040,7 @@ msgstr "Псевдонім"
 
 #: src/lib/moderation/useReportOptions.ts:32
 msgid "Harassment, trolling, or intolerance"
-msgstr ""
+msgstr "Домагання, тролінг або нетерпимість"
 
 #: src/Navigation.tsx:282
 msgid "Hashtag"
@@ -2164,7 +2164,7 @@ msgstr "Головна"
 
 #: src/view/com/modals/ChangeHandle.tsx:421
 msgid "Host:"
-msgstr ""
+msgstr "Host:"
 
 #: src/view/com/auth/create/Step1.tsx:75
 #: src/view/com/auth/login/ForgotPasswordForm.tsx:120
