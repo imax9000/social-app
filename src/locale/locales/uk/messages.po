@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-03-26 21:27\n"
+"PO-Revision-Date: 2024-03-27 08:22\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -1816,7 +1816,7 @@ msgstr "Пошук подібних облікових записів..."
 
 #: src/view/screens/PreferencesFollowingFeed.tsx:111
 msgid "Fine-tune the content you see on your Following feed."
-msgstr "Оберіть, що ви хочете бачити у своїй стрічці підписок."
+msgstr "Оберіть, що хочете бачити в своїй стрічці підписок."
 
 #: src/view/screens/PreferencesHomeFeed.tsx:111
 #~ msgid "Fine-tune the content you see on your home screen."
@@ -1893,7 +1893,7 @@ msgstr "Тільки ваші підписки"
 
 #: src/view/com/notifications/FeedItem.tsx:170
 msgid "followed you"
-msgstr "підписка на вас"
+msgstr "підписалися на вас"
 
 #: src/view/com/profile/ProfileFollowers.tsx:109
 #: src/view/screens/ProfileFollowers.tsx:25
@@ -2007,7 +2007,7 @@ msgstr "Назад"
 #: src/screens/Onboarding/Layout.tsx:104
 #: src/screens/Onboarding/Layout.tsx:193
 msgid "Go back to previous step"
-msgstr "Повернутися до попереднього кроку"
+msgstr "Назад до попереднього кроку"
 
 #: src/view/screens/NotFound.tsx:55
 msgid "Go home"
