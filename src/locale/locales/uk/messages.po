@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-03-27 08:22\n"
+"PO-Revision-Date: 2024-03-27 14:34\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -994,7 +994,7 @@ msgstr "Заблокований вміст"
 
 #: src/screens/Moderation/index.tsx:287
 msgid "Content filters"
-msgstr ""
+msgstr "Відсів вмісту"
 
 #: src/view/com/modals/lang-settings/ContentLanguagesSettings.tsx:74
 #: src/view/screens/LanguageSettings.tsx:278
@@ -1208,7 +1208,7 @@ msgstr "Панель налагодження"
 #: src/view/screens/AppPasswords.tsx:268
 #: src/view/screens/ProfileList.tsx:613
 msgid "Delete"
-msgstr ""
+msgstr "Видаліть"
 
 #: src/view/screens/Settings/index.tsx:796
 msgid "Delete account"
@@ -1224,7 +1224,7 @@ msgstr "Видалити пароль для застосунку"
 
 #: src/view/screens/AppPasswords.tsx:263
 msgid "Delete app password?"
-msgstr ""
+msgstr "Видалити пароль застосунку?"
 
 #: src/view/screens/ProfileList.tsx:415
 msgid "Delete List"
@@ -1249,7 +1249,7 @@ msgstr "Видалити пост"
 
 #: src/view/screens/ProfileList.tsx:608
 msgid "Delete this list?"
-msgstr ""
+msgstr "Видалити цей список?"
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:314
 msgid "Delete this post?"
@@ -1299,7 +1299,7 @@ msgstr "Видалити"
 
 #: src/view/com/composer/Composer.tsx:507
 msgid "Discard draft?"
-msgstr ""
+msgstr "Відхилити чернетку?"
 
 #: src/screens/Moderation/index.tsx:520
 #: src/screens/Moderation/index.tsx:524
@@ -1419,7 +1419,7 @@ msgstr "напр. Художниця, собачниця та завзята ч�
 
 #: src/lib/moderation/useGlobalLabelStrings.ts:43
 msgid "E.g. artistic nudes."
-msgstr ""
+msgstr "Напр. художня голота."
 
 #: src/view/com/modals/CreateOrEditList.tsx:283
 msgid "e.g. Great Posters"
@@ -1676,11 +1676,11 @@ msgstr "Розгорнути або згорнути весь пост, на я�
 
 #: src/lib/moderation/useGlobalLabelStrings.ts:47
 msgid "Explicit or potentially disturbing media."
-msgstr ""
+msgstr "Відвертий чи потенційно тривожний засіб."
 
 #: src/lib/moderation/useGlobalLabelStrings.ts:35
 msgid "Explicit sexual images."
-msgstr ""
+msgstr "Відверті сексуальні зображення."
 
 #: src/view/screens/Settings/index.tsx:777
 msgid "Export my data"
@@ -1730,7 +1730,7 @@ msgstr "Не вдалося завантажити рекомендації ст
 
 #: src/view/com/lightbox/Lightbox.tsx:83
 msgid "Failed to save image: {0}"
-msgstr ""
+msgstr "Провалено збереження зображення: {0}"
 
 #: src/Navigation.tsx:196
 msgid "Feed"
@@ -1786,11 +1786,11 @@ msgstr "Стрічки також можуть бути тематичними!"
 
 #: src/view/com/modals/ChangeHandle.tsx:482
 msgid "File Contents"
-msgstr ""
+msgstr "Вміст файлу"
 
 #: src/lib/moderation/useLabelBehaviorDescription.ts:66
 msgid "Filter from feeds"
-msgstr ""
+msgstr "Відсів від стрічки"
 
 #: src/screens/Onboarding/StepFinished.tsx:151
 msgid "Finalizing"
@@ -1913,7 +1913,7 @@ msgstr "Підписання на \"{0}\""
 
 #: src/view/screens/Settings/index.tsx:553
 msgid "Following feed preferences"
-msgstr ""
+msgstr "Налаштування стрічки підписок"
 
 #: src/Navigation.tsx:262
 #: src/view/com/home/HomeHeaderLayout.web.tsx:50
@@ -1981,7 +1981,7 @@ msgstr "Почати"
 
 #: src/lib/moderation/useReportOptions.ts:37
 msgid "Glaring violations of law or terms of service"
-msgstr ""
+msgstr "Грубі порушення закону чи умов послугу"
 
 #: src/components/moderation/ScreenHider.tsx:144
 #: src/components/moderation/ScreenHider.tsx:153
@@ -2011,11 +2011,11 @@ msgstr "Назад до попереднього кроку"
 
 #: src/view/screens/NotFound.tsx:55
 msgid "Go home"
-msgstr "Повернутися на головну"
+msgstr "На головну"
 
 #: src/view/screens/NotFound.tsx:54
 msgid "Go Home"
-msgstr "Повернутися на головну"
+msgstr "На головну"
 
 #: src/view/screens/Search/Search.tsx:748
 #: src/view/shell/desktop/Search.tsx:263
@@ -2044,7 +2044,7 @@ msgstr "Домагання, тролінг або нетерпимість"
 
 #: src/Navigation.tsx:282
 msgid "Hashtag"
-msgstr "Хештег"
+msgstr "Мітка"
 
 #: src/components/RichText.tsx:188
 #~ msgid "Hashtag: {tag}"
@@ -2052,11 +2052,11 @@ msgstr "Хештег"
 
 #: src/components/RichText.tsx:190
 msgid "Hashtag: #{tag}"
-msgstr "Хештег: #{tag}"
+msgstr "Мітка: #{tag}"
 
 #: src/view/com/auth/create/CreateAccount.tsx:208
 msgid "Having trouble?"
-msgstr "Виникли проблеми?"
+msgstr "Маєте проблеми?"
 
 #: src/view/shell/desktop/RightNav.tsx:90
 #: src/view/shell/Drawer.tsx:324
@@ -2065,19 +2065,19 @@ msgstr "Довідка"
 
 #: src/screens/Onboarding/StepSuggestedAccounts/index.tsx:132
 msgid "Here are some accounts for you to follow"
-msgstr "Ось деякі облікові записи, на які ви підписані"
+msgstr "Ось деякі облікові записи до ваших підписок"
 
 #: src/screens/Onboarding/StepTopicalFeeds.tsx:85
 msgid "Here are some popular topical feeds. You can choose to follow as many as you like."
-msgstr "Ось декілька популярних тематичних стрічок. Ви можете підписатися на скільки забажаєте з них."
+msgstr "Ось декілька популярних стрічок за темами. Можете підписуватися скільки завгодно."
 
 #: src/screens/Onboarding/StepTopicalFeeds.tsx:80
 msgid "Here are some topical feeds based on your interests: {interestsText}. You can choose to follow as many as you like."
-msgstr "Ось декілька тематичних стрічок на основі ваших інтересів: {interestsText}. Ви можете підписатися на скільки забажаєте з них."
+msgstr "Ось декілька стрічок за темами на основі ваших інтересів: {interestsText}. Можете підписуватися скільки завгодно."
 
 #: src/view/com/modals/AddAppPasswords.tsx:153
 msgid "Here is your app password."
-msgstr "Це ваш пароль для застосунків."
+msgstr "Ось ваш пароль для застосунків."
 
 #: src/components/moderation/ContentHider.tsx:115
 #: src/components/moderation/GlobalModerationLabelPref.tsx:43
@@ -2095,17 +2095,17 @@ msgstr "Приховати"
 #: src/view/com/notifications/FeedItem.tsx:329
 msgctxt "action"
 msgid "Hide"
-msgstr "Сховати"
+msgstr "Сховай"
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:276
 #: src/view/com/util/forms/PostDropdownBtn.tsx:278
 msgid "Hide post"
-msgstr "Сховати пост"
+msgstr "Сховай пост"
 
 #: src/components/moderation/ContentHider.tsx:67
 #: src/components/moderation/PostHider.tsx:64
 msgid "Hide the content"
-msgstr "Приховати вміст"
+msgstr "Сховай вміст"
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:325
 msgid "Hide this post?"
@@ -2113,7 +2113,7 @@ msgstr "Сховати цей пост?"
 
 #: src/view/com/notifications/FeedItem.tsx:319
 msgid "Hide user list"
-msgstr "Сховати список користувачів"
+msgstr "Сховай список користувачів"
 
 #: src/view/com/profile/ProfileHeader.tsx:487
 #~ msgid "Hides posts from {0} in your feed"
@@ -2153,7 +2153,7 @@ msgstr ""
 #: src/view/shell/Drawer.tsx:401
 #: src/view/shell/Drawer.tsx:402
 msgid "Home"
-msgstr "Головна"
+msgstr "Домівка"
 
 #: src/Navigation.tsx:247
 #: src/view/com/pager/FeedsTabBarMobile.tsx:123
@@ -2174,19 +2174,19 @@ msgstr "Хостинг-провайдер"
 
 #: src/view/com/modals/InAppBrowserConsent.tsx:44
 msgid "How should we open this link?"
-msgstr "Як ви хочете відкрити це посилання?"
+msgstr "Як хочете відкрити цю ланку?"
 
 #: src/view/com/modals/VerifyEmail.tsx:214
 msgid "I have a code"
-msgstr "У мене є код"
+msgstr "Маю код"
 
 #: src/view/com/modals/VerifyEmail.tsx:216
 msgid "I have a confirmation code"
-msgstr "У мене є код підтвердження"
+msgstr "Маю код підтвердження"
 
 #: src/view/com/modals/ChangeHandle.tsx:283
 msgid "I have my own domain"
-msgstr "Я маю власний домен"
+msgstr "Маю свій домен"
 
 #: src/view/com/lightbox/Lightbox.web.tsx:185
 msgid "If alt text is long, toggles alt text expanded state"
@@ -2202,11 +2202,11 @@ msgstr ""
 
 #: src/view/screens/ProfileList.tsx:610
 msgid "If you delete this list, you won't be able to recover it."
-msgstr ""
+msgstr "Якщо видалите цей список, то його не відновите."
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:316
 msgid "If you remove this post, you won't be able to recover it."
-msgstr ""
+msgstr "Якщо видалите цей пост, то його не відновите."
 
 #: src/view/com/modals/ChangePassword.tsx:148
 msgid "If you want to change your password, we will send you a code to verify that this is your account."
@@ -2231,7 +2231,7 @@ msgstr "Опис зображення"
 
 #: src/lib/moderation/useReportOptions.ts:47
 msgid "Impersonation or false claims about identity or affiliation"
-msgstr ""
+msgstr "Самозванство чи брехливі заяви про особу чи партнера"
 
 #: src/view/com/auth/login/SetNewPasswordForm.tsx:138
 msgid "Input code sent to your email for password reset"
@@ -2488,7 +2488,7 @@ msgstr "Сподобалося"
 #: src/view/screens/PostLikedBy.tsx:27
 #: src/view/screens/ProfileFeedLikedBy.tsx:27
 msgid "Liked By"
-msgstr "Сподобався користувачу"
+msgstr "Уподобано"
 
 #: src/view/com/feeds/FeedSourceCard.tsx:268
 msgid "Liked by {0} {1}"
@@ -2510,7 +2510,7 @@ msgstr "вподобав(-ла) вашу стрічку"
 
 #: src/view/com/notifications/FeedItem.tsx:159
 msgid "liked your post"
-msgstr "сподобався ваш пост"
+msgstr "уподобали ваш пост"
 
 #: src/view/screens/Profile.tsx:191
 msgid "Likes"
@@ -2908,7 +2908,7 @@ msgstr "Ніколи не втрачайте доступ до ваших під
 
 #: src/view/com/modals/ChangeHandle.tsx:520
 msgid "Nevermind, create a handle for me"
-msgstr ""
+msgstr "Неважливо, створіть псевдо мені"
 
 #: src/view/screens/Lists.tsx:76
 msgctxt "action"
@@ -3090,7 +3090,7 @@ msgstr ""
 
 #: src/lib/moderation/useLabelBehaviorDescription.ts:11
 msgid "Off"
-msgstr ""
+msgstr "Вимк."
 
 #: src/view/com/util/ErrorBoundary.tsx:49
 msgid "Oh no!"
@@ -3410,11 +3410,11 @@ msgstr "Зображення, призначені для дорослих."
 #: src/view/screens/ProfileFeed.tsx:291
 #: src/view/screens/ProfileList.tsx:563
 msgid "Pin to home"
-msgstr "Закріпити"
+msgstr "Закріпити до головної"
 
 #: src/view/screens/ProfileFeed.tsx:294
 msgid "Pin to Home"
-msgstr ""
+msgstr "Закріп до головної"
 
 #: src/view/screens/SavedFeeds.tsx:88
 msgid "Pinned Feeds"
@@ -3513,7 +3513,7 @@ msgstr "Порнографія"
 
 #: src/lib/moderation/useGlobalLabelStrings.ts:34
 msgid "Pornography"
-msgstr ""
+msgstr "Порноґрафія"
 
 #: src/view/com/composer/Composer.tsx:366
 #: src/view/com/composer/Composer.tsx:374
@@ -3547,12 +3547,12 @@ msgstr "Пост приховано"
 #: src/components/moderation/ModerationDetailsDialog.tsx:98
 #: src/lib/moderation/useModerationCauseDescription.ts:99
 msgid "Post Hidden by Muted Word"
-msgstr ""
+msgstr "Пост схований вимкненим словом"
 
 #: src/components/moderation/ModerationDetailsDialog.tsx:101
 #: src/lib/moderation/useModerationCauseDescription.ts:108
 msgid "Post Hidden by You"
-msgstr ""
+msgstr "Пост схований вами"
 
 #: src/view/com/composer/select-language/SelectLangBtn.tsx:87
 msgid "Post language"
@@ -3714,11 +3714,11 @@ msgstr "Видалити обліковий запис"
 
 #: src/view/com/util/UserAvatar.tsx:358
 msgid "Remove Avatar"
-msgstr ""
+msgstr "Вилучити аватар"
 
 #: src/view/com/util/UserBanner.tsx:148
 msgid "Remove Banner"
-msgstr ""
+msgstr "Вилуч шапку"
 
 #: src/view/com/posts/FeedErrorMessage.tsx:160
 msgid "Remove feed"
@@ -3726,7 +3726,7 @@ msgstr "Видалити стрічку"
 
 #: src/view/com/posts/FeedErrorMessage.tsx:201
 msgid "Remove feed?"
-msgstr ""
+msgstr "Вилучити стрічку?"
 
 #: src/view/com/feeds/FeedSourceCard.tsx:173
 #: src/view/com/feeds/FeedSourceCard.tsx:233
@@ -3737,7 +3737,7 @@ msgstr "Вилучити з моїх стрічок"
 
 #: src/view/com/feeds/FeedSourceCard.tsx:278
 msgid "Remove from my feeds?"
-msgstr ""
+msgstr "Вилучити з моїх стрічок?"
 
 #: src/view/com/composer/photos/Gallery.tsx:167
 msgid "Remove image"
@@ -3761,7 +3761,7 @@ msgstr "Видалити репост"
 
 #: src/view/com/posts/FeedErrorMessage.tsx:202
 msgid "Remove this feed from your saved feeds"
-msgstr ""
+msgstr "Вилуч цю стрічку з ваших збережених"
 
 #: src/view/com/posts/FeedErrorMessage.tsx:132
 #~ msgid "Remove this feed from your saved feeds?"
@@ -3778,7 +3778,7 @@ msgstr "Вилучено з моїх стрічок"
 
 #: src/view/screens/ProfileFeed.tsx:208
 msgid "Removed from your feeds"
-msgstr ""
+msgstr "Вилучено з ваших стрічок"
 
 #: src/view/com/composer/ExternalEmbed.tsx:71
 msgid "Removes default thumbnail from {0}"
@@ -3832,23 +3832,23 @@ msgstr "Поскаржитись на пост"
 
 #: src/components/ReportDialog/SelectReportOptionView.tsx:43
 msgid "Report this content"
-msgstr ""
+msgstr "Повідом про цей вміст"
 
 #: src/components/ReportDialog/SelectReportOptionView.tsx:56
 msgid "Report this feed"
-msgstr ""
+msgstr "Повідом про цю стрічку"
 
 #: src/components/ReportDialog/SelectReportOptionView.tsx:53
 msgid "Report this list"
-msgstr ""
+msgstr "Повідом про цей список"
 
 #: src/components/ReportDialog/SelectReportOptionView.tsx:50
 msgid "Report this post"
-msgstr ""
+msgstr "Повідом про цей пост"
 
 #: src/components/ReportDialog/SelectReportOptionView.tsx:47
 msgid "Report this user"
-msgstr ""
+msgstr "Повідом про цього ужитковця"
 
 #: src/view/com/modals/Repost.tsx:43
 #: src/view/com/modals/Repost.tsx:48
@@ -4010,7 +4010,7 @@ msgstr "Зберегти опис"
 
 #: src/components/dialogs/BirthDateSettings.tsx:119
 msgid "Save birthday"
-msgstr ""
+msgstr "Збережи уродини"
 
 #: src/view/com/modals/EditProfile.tsx:232
 msgid "Save Changes"
@@ -4027,7 +4027,7 @@ msgstr "Обрізати зображення"
 #: src/view/screens/ProfileFeed.tsx:335
 #: src/view/screens/ProfileFeed.tsx:341
 msgid "Save to my feeds"
-msgstr ""
+msgstr "Збережи до мої стрічок"
 
 #: src/view/screens/SavedFeeds.tsx:122
 msgid "Saved Feeds"
@@ -4039,7 +4039,7 @@ msgstr ""
 
 #: src/view/screens/ProfileFeed.tsx:212
 msgid "Saved to your feeds"
-msgstr ""
+msgstr "Збережено до ваших стрічок"
 
 #: src/view/com/modals/EditProfile.tsx:225
 msgid "Saves any changes to your profile"
@@ -4155,7 +4155,7 @@ msgstr "Вибрати існуючий обліковий запис"
 
 #: src/view/screens/LanguageSettings.tsx:299
 msgid "Select languages"
-msgstr ""
+msgstr "Обери мови"
 
 #: src/components/ReportDialog/SelectLabelerView.tsx:32
 msgid "Select moderator"
@@ -4662,15 +4662,15 @@ msgstr "Оберіть, як сортувати відповіді до пост
 
 #: src/components/moderation/LabelsOnMeDialog.tsx:147
 msgid "Source:"
-msgstr ""
+msgstr "Джерело:"
 
 #: src/lib/moderation/useReportOptions.ts:65
 msgid "Spam"
-msgstr ""
+msgstr "Спам"
 
 #: src/lib/moderation/useReportOptions.ts:53
 msgid "Spam; excessive mentions or replies"
-msgstr ""
+msgstr "Спам; надмірні згадки або відповіді"
 
 #: src/screens/Onboarding/index.tsx:30
 msgid "Sports"
@@ -4815,7 +4815,7 @@ msgstr "Умови Використання"
 #: src/lib/moderation/useReportOptions.ts:79
 #: src/lib/moderation/useReportOptions.ts:87
 msgid "Terms used violate community standards"
-msgstr ""
+msgstr "Уживані терміни порушують стандарти спільноти"
 
 #: src/components/dialogs/MutedWords.tsx:324
 msgid "text"
@@ -4827,7 +4827,7 @@ msgstr "Поле вводу тексту"
 
 #: src/components/ReportDialog/SubmitView.tsx:78
 msgid "Thank you. Your report has been sent."
-msgstr ""
+msgstr "Дякую вам за повідомлення."
 
 #: src/view/com/modals/ChangeHandle.tsx:466
 msgid "That contains the following:"
@@ -5304,7 +5304,7 @@ msgstr "Відкріпити"
 
 #: src/view/screens/ProfileFeed.tsx:291
 msgid "Unpin from home"
-msgstr ""
+msgstr "Відкріп з головної"
 
 #: src/view/screens/ProfileList.tsx:444
 msgid "Unpin moderation list"
