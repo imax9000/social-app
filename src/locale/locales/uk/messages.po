@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-04-10 08:50\n"
+"PO-Revision-Date: 2024-04-11 10:51\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -100,7 +100,7 @@ msgstr "Доступність"
 
 #: src/components/moderation/LabelsOnMe.tsx:42
 msgid "account"
-msgstr ""
+msgstr "обліковий запис"
 
 #: src/screens/Login/LoginForm.tsx:144
 #: src/view/screens/Settings/index.tsx:327
@@ -417,7 +417,7 @@ msgstr "Художня або нееротична оголеність."
 
 #: src/screens/Signup/StepHandle.tsx:118
 msgid "At least 3 characters"
-msgstr ""
+msgstr "Не менше 3-х символів"
 
 #: src/components/moderation/LabelsOnMeDialog.tsx:246
 #: src/components/moderation/LabelsOnMeDialog.tsx:247
@@ -920,7 +920,7 @@ msgstr "Налаштувати фільтрування вмісту для ка
 
 #: src/components/moderation/LabelPreference.tsx:81
 msgid "Configure content filtering setting for category: {name}"
-msgstr ""
+msgstr "Налаштувати фільтрування вмісту для категорії: {name}"
 
 #: src/components/moderation/LabelPreference.tsx:244
 msgid "Configured in <0>moderation settings</0>."
@@ -1214,7 +1214,7 @@ msgstr "Темна тема"
 
 #: src/screens/Signup/StepInfo/index.tsx:132
 msgid "Date of birth"
-msgstr ""
+msgstr "Дата народження"
 
 #: src/view/screens/Settings/index.tsx:841
 msgid "Debug Moderation"
@@ -1357,7 +1357,7 @@ msgstr "Не містить оголеності."
 
 #: src/screens/Signup/StepHandle.tsx:104
 msgid "Doesn't begin or end with a hyphen"
-msgstr ""
+msgstr "Не починається або закінчується дефісом"
 
 #: src/view/com/modals/ChangeHandle.tsx:481
 msgid "Domain Value"
@@ -1609,7 +1609,7 @@ msgstr "Введіть ім'я для цього пароля застосунк
 
 #: src/screens/Login/SetNewPasswordForm.tsx:139
 msgid "Enter a password"
-msgstr ""
+msgstr "Введіть пароль"
 
 #: src/components/dialogs/MutedWords.tsx:99
 #: src/components/dialogs/MutedWords.tsx:100
@@ -1911,7 +1911,7 @@ msgstr "Підписатися на всіх"
 
 #: src/view/com/post-thread/PostThreadFollowBtn.tsx:144
 msgid "Follow Back"
-msgstr ""
+msgstr "Підписатися навзаєм"
 
 #: src/screens/Onboarding/StepSuggestedAccounts/index.tsx:182
 msgid "Follow selected accounts and continue to the next step"
@@ -2000,7 +2000,7 @@ msgstr "Забули пароль"
 
 #: src/screens/Login/LoginForm.tsx:201
 msgid "Forgot password?"
-msgstr ""
+msgstr "Забули пароль?"
 
 #: src/screens/Login/LoginForm.tsx:212
 msgid "Forgot?"
@@ -2659,7 +2659,7 @@ msgstr "Увійти до облікового запису, якого нема
 
 #: src/screens/Login/SetNewPasswordForm.tsx:116
 msgid "Looks like XXXXX-XXXXX"
-msgstr ""
+msgstr "Виглядає як XXXXX-XXXXXXX"
 
 #: src/view/com/modals/LinkWarning.tsx:79
 msgid "Make sure this is where you intend to go!"
@@ -3060,7 +3060,7 @@ msgstr "Ви більше не підписані на {0}"
 
 #: src/screens/Signup/StepHandle.tsx:114
 msgid "No longer than 253 characters"
-msgstr ""
+msgstr "Не може бути довшим за 253 символи"
 
 #: src/view/com/notifications/Feed.tsx:109
 msgid "No notifications yet!"
@@ -3143,7 +3143,7 @@ msgstr "Оголеність"
 
 #: src/lib/moderation/useReportOptions.ts:71
 msgid "Nudity or adult content not labeled as such"
-msgstr ""
+msgstr "Нагота чи матеріали для дорослих не позначені відповідним чином"
 
 #: src/lib/moderation/useReportOptions.ts:71
 #~ msgid "Nudity or pornography not labeled as such"
@@ -3192,7 +3192,7 @@ msgstr "Тільки {0} можуть відповідати."
 
 #: src/screens/Signup/StepHandle.tsx:97
 msgid "Only contains letters, numbers, and hyphens"
-msgstr ""
+msgstr "Тільки літери, цифри та дефіс"
 
 #: src/components/Lists.tsx:75
 msgid "Oops, something went wrong!"
@@ -3658,7 +3658,7 @@ msgstr "Потенційно оманливе посилання"
 
 #: src/components/forms/HostingProvider.tsx:45
 msgid "Press to change hosting provider"
-msgstr ""
+msgstr "Змінити хостинг-провайдера"
 
 #: src/components/Error.tsx:74
 #: src/components/Lists.tsx:80
@@ -4225,7 +4225,7 @@ msgstr "Обрати {item}"
 
 #: src/screens/Login/ChooseAccountForm.tsx:61
 msgid "Select account"
-msgstr ""
+msgstr "Обрати обліковий запис"
 
 #: src/view/com/modals/ServerInput.tsx:75
 #~ msgid "Select Bluesky Social"
@@ -4515,7 +4515,7 @@ msgstr "Поширити стрічку"
 #: src/view/com/modals/LinkWarning.tsx:89
 #: src/view/com/modals/LinkWarning.tsx:95
 msgid "Share Link"
-msgstr ""
+msgstr "Поділитись посиланням"
 
 #: src/view/com/modals/LinkWarning.tsx:92
 msgid "Shares the linked website"
@@ -4789,7 +4789,7 @@ msgstr "Сторінка стану"
 
 #: src/screens/Signup/index.tsx:142
 msgid "Step"
-msgstr ""
+msgstr "Крок"
 
 #: src/view/com/auth/create/StepHeader.tsx:22
 #~ msgid "Step {0} of {numSteps}"
@@ -5618,7 +5618,7 @@ msgstr "Підтвердьте адресу вашої електронної п
 
 #: src/view/screens/Settings/index.tsx:893
 msgid "Version {0}"
-msgstr ""
+msgstr "Версія {0}"
 
 #: src/screens/Onboarding/index.tsx:42
 msgid "Video Games"
@@ -5974,7 +5974,7 @@ msgstr ""
 
 #: src/screens/Signup/StepInfo/Policies.tsx:79
 msgid "You must be 13 years of age or older to sign up."
-msgstr ""
+msgstr "Вам має виповнитись 13 років для того, щоб мати змогу зареєструватись."
 
 #: src/view/com/modals/ContentFilteringSettings.tsx:175
 #~ msgid "You must be 18 or older to enable adult content."
