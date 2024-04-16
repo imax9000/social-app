@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-04-16 02:55\n"
+"PO-Revision-Date: 2024-04-16 08:52\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -94,11 +94,11 @@ msgstr "Обліковий запис заблоковано"
 
 #: src/view/com/profile/ProfileMenu.tsx:153
 msgid "Account followed"
-msgstr "Ви підписалися на обліковий запис"
+msgstr "Обліковий запис підписано"
 
 #: src/view/com/profile/ProfileMenu.tsx:113
 msgid "Account muted"
-msgstr "Обліковий запис ігнорується"
+msgstr "Обліковий запис ігноровано"
 
 #: src/components/moderation/ModerationDetailsDialog.tsx:93
 #: src/lib/moderation/useModerationCauseDescription.ts:91
@@ -107,7 +107,7 @@ msgstr "Обліковий запис ігнорується"
 
 #: src/components/moderation/ModerationDetailsDialog.tsx:82
 msgid "Account Muted by List"
-msgstr "Обліковий запис ігнорується списком"
+msgstr "Обліковий запис ігноровано списком"
 
 #: src/view/com/util/AccountDropdownBtn.tsx:41
 msgid "Account options"
@@ -124,11 +124,11 @@ msgstr "Обліковий запис розблоковано"
 
 #: src/view/com/profile/ProfileMenu.tsx:166
 msgid "Account unfollowed"
-msgstr "Ви відписалися від облікового запису"
+msgstr "Обліковий запис відписано"
 
 #: src/view/com/profile/ProfileMenu.tsx:102
 msgid "Account unmuted"
-msgstr "Обліковий запис більше не ігнорується"
+msgstr "Обліковий запис більше не ігноровано"
 
 #: src/components/dialogs/MutedWords.tsx:164
 #: src/view/com/auth/onboarding/RecommendedFeedsItem.tsx:150
@@ -302,7 +302,7 @@ msgstr "Назва пароля застосунку мусить бути хо�
 
 #: src/view/screens/Settings/index.tsx:646
 msgid "App password settings"
-msgstr "Налаштування пароля застосунків"
+msgstr "Налаштування пароля застосунку"
 
 #: src/Navigation.tsx:251
 #: src/view/screens/AppPasswords.tsx:189
@@ -629,7 +629,7 @@ msgstr "Змінити пароль"
 #: src/view/com/modals/ChangePassword.tsx:141
 #: src/view/screens/Settings/index.tsx:729
 msgid "Change Password"
-msgstr "Зміна пароля"
+msgstr "Змінити пароль"
 
 #: src/view/com/composer/select-language/SuggestedLanguage.tsx:73
 msgid "Change post language to {0}"
@@ -662,11 +662,11 @@ msgstr "Виберіть \"Усі\" або \"Ніхто\""
 
 #: src/view/com/auth/server-input/index.tsx:79
 msgid "Choose Service"
-msgstr "Оберіть хостинг-провайдера"
+msgstr "Обрати гостинг-провайдер"
 
 #: src/screens/Onboarding/StepFinished.tsx:139
 msgid "Choose the algorithms that power your custom feeds."
-msgstr "Оберіть алгоритми, що наповнюватимуть ваші стрічки."
+msgstr "Обрати алгоритми, що наповнюватимуть ваші стрічки."
 
 #: src/view/com/auth/onboarding/WelcomeDesktop.tsx:83
 #: src/view/com/auth/onboarding/WelcomeMobile.tsx:85
@@ -675,7 +675,7 @@ msgstr "Автори стрічок можуть обирати будь-які 
 
 #: src/screens/Onboarding/StepAlgoFeeds/index.tsx:104
 msgid "Choose your main feeds"
-msgstr "Виберіть ваші основні стрічки"
+msgstr "Обрати ваші основні стрічки"
 
 #: src/screens/Signup/StepInfo/index.tsx:114
 msgid "Choose your password"
@@ -704,23 +704,23 @@ msgstr "Очистити пошуковий запит"
 
 #: src/view/screens/Settings/index.tsx:833
 msgid "Clears all legacy storage data"
-msgstr "Видаляє всі застарілі дані зі сховища"
+msgstr "Очищує всі застарілі дані зі сховища"
 
 #: src/view/screens/Settings/index.tsx:845
 msgid "Clears all storage data"
-msgstr "Видаляє всі дані зі сховища"
+msgstr "Очищує всі дані зі сховища"
 
 #: src/view/screens/Support.tsx:40
 msgid "click here"
-msgstr "натисніть тут"
+msgstr "настиснути тут"
 
 #: src/components/TagMenu/index.web.tsx:138
 msgid "Click here to open tag menu for {tag}"
-msgstr "Натисніть тут, щоб відкрити меню тегів для {tag}"
+msgstr "Натиснути тут, щоб відкрити меню тегів для {tag}"
 
 #: src/components/RichText.tsx:198
 msgid "Click here to open tag menu for #{tag}"
-msgstr "Натисніть тут, щоб відкрити меню тегів для #{tag}"
+msgstr "Натиснути тут, щоб відкрити меню тегів для #{tag}"
 
 #: src/screens/Onboarding/index.tsx:35
 msgid "Climate"
@@ -796,15 +796,15 @@ msgstr "Правила спільноти"
 
 #: src/screens/Onboarding/StepFinished.tsx:152
 msgid "Complete onboarding and start using your account"
-msgstr "Завершіть ознайомлення та розпочніть користуватися вашим обліковим записом"
+msgstr "Завершити ознайомлення та розпочати користуватися обліковим записом"
 
 #: src/screens/Signup/index.tsx:155
 msgid "Complete the challenge"
-msgstr "Виконайте завдання"
+msgstr "Завершити завдання"
 
 #: src/view/com/composer/Composer.tsx:438
 msgid "Compose posts up to {MAX_GRAPHEME_LENGTH} characters in length"
-msgstr "Створюйте пости до {MAX_GRAPHEME_LENGTH} символів у довжину"
+msgstr "Створити пости до {MAX_GRAPHEME_LENGTH} символів у довжину"
 
 #: src/view/com/composer/Prompt.tsx:24
 msgid "Compose reply"
@@ -847,11 +847,11 @@ msgstr "Підтвердити видалення облікового запи�
 
 #: src/screens/Moderation/index.tsx:301
 msgid "Confirm your age:"
-msgstr "Підтвердіть ваш вік:"
+msgstr "Підтвердити ваш вік:"
 
 #: src/screens/Moderation/index.tsx:292
 msgid "Confirm your birthdate"
-msgstr "Підтвердіть вашу дату народження"
+msgstr "Підтвердити вашу дату народження"
 
 #: src/view/com/modals/ChangeEmail.tsx:157
 #: src/view/com/modals/DeleteAccount.tsx:175
@@ -874,7 +874,7 @@ msgstr "вміст"
 
 #: src/lib/moderation/useGlobalLabelStrings.ts:18
 msgid "Content Blocked"
-msgstr "Заблокований вміст"
+msgstr "Вміст заблоковано"
 
 #: src/screens/Moderation/index.tsx:285
 msgid "Content filters"
@@ -926,15 +926,15 @@ msgstr "Продовжити як {0} (поточний користувач)"
 #: src/screens/Onboarding/StepTopicalFeeds.tsx:115
 #: src/screens/Signup/index.tsx:200
 msgid "Continue to next step"
-msgstr "Перейти до наступного кроку"
+msgstr "Продовжити до наступного кроку"
 
 #: src/screens/Onboarding/StepAlgoFeeds/index.tsx:158
 msgid "Continue to the next step"
-msgstr "Перейти до наступного кроку"
+msgstr "Продовжити до наступного кроку"
 
 #: src/screens/Onboarding/StepSuggestedAccounts/index.tsx:199
 msgid "Continue to the next step without following any accounts"
-msgstr "Перейдіть до наступного кроку, ні на кого не підписуючись"
+msgstr "Продовжити до наступного кроку, ні на кого не підписуючись"
 
 #: src/screens/Onboarding/index.tsx:44
 msgid "Cooking"
@@ -947,7 +947,7 @@ msgstr "Скопійовано"
 
 #: src/view/screens/Settings/index.tsx:254
 msgid "Copied build version to clipboard"
-msgstr "Версію збірки скопійовано до буфера обміну"
+msgstr "Скопійовано версію збірки до буфера обміну"
 
 #: src/view/com/modals/AddAppPasswords.tsx:77
 #: src/view/com/modals/ChangeHandle.tsx:326
@@ -1110,7 +1110,7 @@ msgstr "Видалити пароль для застосунку"
 
 #: src/view/screens/AppPasswords.tsx:263
 msgid "Delete app password?"
-msgstr "Видалити пароль для застосунку?"
+msgstr "Видалити пароль застосунку?"
 
 #: src/view/screens/ProfileList.tsx:417
 msgid "Delete List"
@@ -1154,11 +1154,11 @@ msgstr "Опис"
 
 #: src/view/com/composer/Composer.tsx:218
 msgid "Did you want to say anything?"
-msgstr "Порожній пост. Ви хотіли щось написати?"
+msgstr "Ви хотіли щось написати?"
 
 #: src/view/screens/Settings/index.tsx:474
 msgid "Dim"
-msgstr "Тьмяний"
+msgstr "Тьмяна"
 
 #: src/view/screens/Settings/index.tsx:697
 msgid "Disable haptics"
@@ -1191,11 +1191,11 @@ msgstr "Попросити застосунки не показувати мій
 #: src/view/com/posts/FollowingEmptyState.tsx:74
 #: src/view/com/posts/FollowingEndOfFeed.tsx:75
 msgid "Discover new custom feeds"
-msgstr "Відкрийте для себе нові стрічки"
+msgstr "Відкрити для себе нові стрічки"
 
 #: src/view/screens/Feeds.tsx:714
 msgid "Discover New Feeds"
-msgstr "Відкрийте для себе нові стрічки"
+msgstr "Відкрити для себе нові стрічки"
 
 #: src/view/com/modals/EditProfile.tsx:193
 msgid "Display name"
@@ -1267,7 +1267,7 @@ msgstr "Завантажити CAR файл"
 
 #: src/view/com/composer/text-input/TextInput.web.tsx:249
 msgid "Drop to add images"
-msgstr "Перетягніть і відпустіть, щоб додати зображення"
+msgstr "Перетягнути і відпустити, щоб додати зображення"
 
 #: src/screens/Onboarding/StepModeration/AdultContentEnabledPref.tsx:120
 msgid "Due to Apple policies, adult content can only be enabled on the web after completing sign up."
@@ -1303,7 +1303,7 @@ msgstr "напр. Спамери"
 
 #: src/view/com/modals/CreateOrEditList.tsx:313
 msgid "e.g. The posters who never miss."
-msgstr "напр. Писарі, що нічого не пропускають."
+msgstr "напр. Постери, які нічого не пропускають."
 
 #: src/view/com/modals/CreateOrEditList.tsx:314
 msgid "e.g. Users that repeatedly reply with ads."
@@ -1321,7 +1321,7 @@ msgstr "Редагувати"
 #: src/view/com/util/UserAvatar.tsx:301
 #: src/view/com/util/UserBanner.tsx:85
 msgid "Edit avatar"
-msgstr "Змінити фото профілю"
+msgstr "Редагувати фото профілю"
 
 #: src/view/com/composer/photos/Gallery.tsx:144
 #: src/view/com/modals/EditImage.tsx:208
@@ -1334,7 +1334,7 @@ msgstr "Редагувати опис списку"
 
 #: src/view/com/modals/CreateOrEditList.tsx:251
 msgid "Edit Moderation List"
-msgstr "Редагування списку"
+msgstr "Редагувати список модерації"
 
 #: src/Navigation.tsx:256
 #: src/view/screens/Feeds.tsx:459
@@ -1670,7 +1670,7 @@ msgstr "Завершення"
 #: src/view/com/posts/FollowingEmptyState.tsx:57
 #: src/view/com/posts/FollowingEndOfFeed.tsx:58
 msgid "Find accounts to follow"
-msgstr "Знайдіть облікові записи для стеження"
+msgstr "Знайти облікові записи для підписки"
 
 #: src/view/screens/Search/Search.tsx:589
 msgid "Find users on Bluesky"
@@ -1678,7 +1678,7 @@ msgstr "Знайти користувачів у Bluesky"
 
 #: src/view/screens/Search/Search.tsx:587
 msgid "Find users with the search tool on the right"
-msgstr "Знайдіть користувачів за допомогою інструменту пошуку праворуч"
+msgstr "Знайти користувачів за інструментом пошуку праворуч"
 
 #: src/view/com/auth/onboarding/RecommendedFollowsItem.tsx:155
 msgid "Finding similar accounts..."
@@ -1686,11 +1686,11 @@ msgstr "Пошук подібних облікових записів..."
 
 #: src/view/screens/PreferencesFollowingFeed.tsx:111
 msgid "Fine-tune the content you see on your Following feed."
-msgstr "Оберіть, що ви хочете бачити у своїй стрічці підписок."
+msgstr "Налаштувати контент вашої стрічки підписок."
 
 #: src/view/screens/PreferencesThreads.tsx:60
 msgid "Fine-tune the discussion threads."
-msgstr "Налаштуйте відображення обговорень."
+msgstr "Налаштувати відображення обговорень."
 
 #: src/screens/Onboarding/index.tsx:38
 msgid "Fitness"
@@ -1720,7 +1720,7 @@ msgstr "Підписатися"
 #: src/view/com/profile/FollowButton.tsx:69
 msgctxt "action"
 msgid "Follow"
-msgstr "Підписатись"
+msgstr "Підписатися"
 
 #: src/screens/Onboarding/StepSuggestedAccounts/index.tsx:58
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:221
@@ -1743,11 +1743,11 @@ msgstr "Підписатися навзаєм"
 
 #: src/screens/Onboarding/StepSuggestedAccounts/index.tsx:182
 msgid "Follow selected accounts and continue to the next step"
-msgstr "Підпишіться на обрані облікові записи і переходьте до наступного кроку"
+msgstr "Підписатися на обрані облікові записи і продовжити до наступного кроку"
 
 #: src/view/com/auth/onboarding/RecommendedFollows.tsx:65
 msgid "Follow some users to get started. We can recommend you more users based on who you find interesting."
-msgstr "Підпишіться на кількох користувачів щоб почати їх читати. Ми зможемо порекомендувати вам більше користувачів, спираючись на те хто вас цікавить."
+msgstr "Підписатися на кількох користувачів для початку. Ми можемо рекомендувати ще користувачів на основі ваших інтересів."
 
 #: src/view/com/profile/ProfileCard.tsx:219
 msgid "Followed by {0}"
@@ -1755,7 +1755,7 @@ msgstr "Підписані {0}"
 
 #: src/view/com/modals/Threadgate.tsx:98
 msgid "Followed users"
-msgstr "Ваші підписки"
+msgstr "Підписані користувачі"
 
 #: src/view/screens/PreferencesFollowingFeed.tsx:154
 msgid "Followed users only"
@@ -1763,7 +1763,7 @@ msgstr "Тільки ваші підписки"
 
 #: src/view/com/notifications/FeedItem.tsx:172
 msgid "followed you"
-msgstr "підписка на вас"
+msgstr "підписані на вас"
 
 #: src/view/com/profile/ProfileFollowers.tsx:104
 #: src/view/screens/ProfileFollowers.tsx:25
@@ -1838,7 +1838,7 @@ msgstr "Від @{sanitizedAuthor}"
 #: src/view/com/posts/FeedItem.tsx:181
 msgctxt "from-feed"
 msgid "From <0/>"
-msgstr "Зі стрічки \"<0/>\""
+msgstr "Від <0/>"
 
 #: src/view/com/composer/photos/SelectPhotoBtn.tsx:43
 msgid "Gallery"
@@ -1862,7 +1862,7 @@ msgstr "Грубі порушення закону чи умов викорис�
 #: src/view/screens/ProfileList.tsx:918
 #: src/view/shell/desktop/LeftNav.tsx:108
 msgid "Go back"
-msgstr "Назад"
+msgstr "Перейти назад"
 
 #: src/components/Error.tsx:91
 #: src/screens/Profile/ErrorState.tsx:62
@@ -1879,15 +1879,15 @@ msgstr "Назад"
 #: src/screens/Onboarding/Layout.tsx:191
 #: src/screens/Signup/index.tsx:174
 msgid "Go back to previous step"
-msgstr "Повернутися до попереднього кроку"
+msgstr "Перейти назад до попереднього кроку"
 
 #: src/view/screens/NotFound.tsx:55
 msgid "Go home"
-msgstr "Повернутися на головну"
+msgstr "Перейти на головну"
 
 #: src/view/screens/NotFound.tsx:54
 msgid "Go Home"
-msgstr "Повернутися на головну"
+msgstr "Перейти на головну"
 
 #: src/view/screens/Search/Search.tsx:896
 #: src/view/shell/desktop/Search.tsx:263
@@ -2002,7 +2002,7 @@ msgstr "Хм, ми не можемо знайти цю стрічку. Можл�
 
 #: src/screens/Moderation/index.tsx:59
 msgid "Hmmmm, it seems we're having trouble loading this data. See below for more details. If this issue persists, please contact us."
-msgstr "Здається, у нас виникли проблеми з завантаженням цих даних. Перегляньте деталі нижче. Якщо проблема не зникне, будь ласка, зв'яжіться з нами."
+msgstr "Хм, ми маємо проблеми зі завантаженням цих даних. Поглянути деталі нижче. Якщо проблема не зникне, просимо звʼязатися з нами."
 
 #: src/screens/Profile/ErrorState.tsx:31
 msgid "Hmmmm, we couldn't load that moderation service."
@@ -2018,7 +2018,7 @@ msgstr "Головна"
 
 #: src/view/com/modals/ChangeHandle.tsx:420
 msgid "Host:"
-msgstr "Host:"
+msgstr "Хост:"
 
 #: src/screens/Login/ForgotPasswordForm.tsx:89
 #: src/screens/Login/LoginForm.tsx:134
@@ -2033,11 +2033,11 @@ msgstr "Як ви хочете відкрити це посилання?"
 
 #: src/view/com/modals/VerifyEmail.tsx:214
 msgid "I have a code"
-msgstr "У мене є код"
+msgstr "Я маю код"
 
 #: src/view/com/modals/VerifyEmail.tsx:216
 msgid "I have a confirmation code"
-msgstr "У мене є код підтвердження"
+msgstr "Я маю код підтвердження"
 
 #: src/view/com/modals/ChangeHandle.tsx:284
 msgid "I have my own domain"
@@ -2085,19 +2085,19 @@ msgstr "Видавання себе за іншу особу або неправ
 
 #: src/screens/Login/SetNewPasswordForm.tsx:127
 msgid "Input code sent to your email for password reset"
-msgstr "Введіть код, надісланий на вашу електронну пошту для скидання пароля"
+msgstr "Вести код, надісланий на вашу електронну пошту для скидання пароля"
 
 #: src/view/com/modals/DeleteAccount.tsx:183
 msgid "Input confirmation code for account deletion"
-msgstr "Введіть код підтвердження для видалення облікового запису"
+msgstr "Ввести код підтвердження для видалення облікового запису"
 
 #: src/view/com/modals/AddAppPasswords.tsx:181
 msgid "Input name for app password"
-msgstr "Введіть ім'я для пароля застосунку"
+msgstr "Ввести імʼя для пароля застосунку"
 
 #: src/screens/Login/SetNewPasswordForm.tsx:151
 msgid "Input new password"
-msgstr "Введіть новий пароль"
+msgstr "Ввести новий пароль"
 
 #: src/view/com/modals/DeleteAccount.tsx:202
 msgid "Input password for account deletion"
@@ -2105,23 +2105,23 @@ msgstr "Введіть пароль для видалення обліковог
 
 #: src/screens/Login/LoginForm.tsx:195
 msgid "Input the password tied to {identifier}"
-msgstr "Введіть пароль, прив'язаний до {identifier}"
+msgstr "Ввести пароль, прив'язаний до {identifier}"
 
 #: src/screens/Login/LoginForm.tsx:168
 msgid "Input the username or email address you used at signup"
-msgstr "Введіть псевдонім або ел. адресу, які ви використовували для реєстрації"
+msgstr "Ввести псевдонім або ел. адресу, які ви використовували для реєстрації"
 
 #: src/screens/Login/LoginForm.tsx:194
 msgid "Input your password"
-msgstr "Введіть ваш пароль"
+msgstr "Ввести ваш пароль"
 
 #: src/view/com/modals/ChangeHandle.tsx:389
 msgid "Input your preferred hosting provider"
-msgstr "Введіть бажаного хостинг-провайдера"
+msgstr "Ввести бажаний хостинг-провайдер"
 
 #: src/screens/Signup/StepHandle.tsx:63
 msgid "Input your user handle"
-msgstr "Введіть ваш псевдонім"
+msgstr "Ввести ваш псевдонім"
 
 #: src/view/com/post-thread/PostThreadItem.tsx:221
 msgid "Invalid or unsupported post record"
@@ -2169,11 +2169,11 @@ msgstr "мітка була розміщена на цьому {labelTarget}"
 
 #: src/components/moderation/ContentHider.tsx:144
 msgid "Labeled by {0}."
-msgstr "Помічений {0}."
+msgstr "Помічено від {0}."
 
 #: src/components/moderation/ContentHider.tsx:142
 msgid "Labeled by the author."
-msgstr "Мітку додано автором."
+msgstr "Помічено від автора."
 
 #: src/view/screens/Profile.tsx:193
 msgid "Labels"
@@ -2206,7 +2206,7 @@ msgstr "Налаштування мови"
 #: src/Navigation.tsx:144
 #: src/view/screens/LanguageSettings.tsx:89
 msgid "Language Settings"
-msgstr "Налаштування мов"
+msgstr "Налаштування мови"
 
 #: src/view/screens/Settings/index.tsx:574
 msgid "Languages"
@@ -2223,7 +2223,7 @@ msgstr "Дізнатися більше"
 #: src/components/moderation/ContentHider.tsx:65
 #: src/components/moderation/ContentHider.tsx:128
 msgid "Learn more about the moderation applied to this content."
-msgstr "Дізнайтеся більше про те, яка модерація застосована до цього вмісту."
+msgstr "Дізнатися більше про застосовану модерацію до цього вмісту."
 
 #: src/components/moderation/PostHider.tsx:85
 #: src/components/moderation/ScreenHider.tsx:125
@@ -2240,11 +2240,11 @@ msgstr "Дізнатися більше."
 
 #: src/view/com/modals/lang-settings/ContentLanguagesSettings.tsx:82
 msgid "Leave them all unchecked to see any language."
-msgstr "Залиште їх усі невідміченими, щоб бачити пости незалежно від мови."
+msgstr "Залишити їх усі невідміченими, щоб побачити будь-яку мову."
 
 #: src/view/com/modals/LinkWarning.tsx:65
 msgid "Leaving Bluesky"
-msgstr "Ви залишаєте Bluesky"
+msgstr "Залишити Bluesky"
 
 #: src/screens/Deactivated.tsx:128
 msgid "left to go."
@@ -2269,7 +2269,7 @@ msgstr "Світла"
 
 #: src/view/com/util/post-ctrls/PostCtrls.tsx:197
 msgid "Like"
-msgstr "Вподобати"
+msgstr "Уподобати"
 
 #: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:264
 #: src/view/screens/ProfileFeed.tsx:585
@@ -2280,21 +2280,21 @@ msgstr "Вподобати цю стрічку"
 #: src/Navigation.tsx:201
 #: src/Navigation.tsx:206
 msgid "Liked by"
-msgstr "Сподобалося"
+msgstr "Уподоба від"
 
 #: src/screens/Profile/ProfileLabelerLikedBy.tsx:29
 #: src/view/screens/PostLikedBy.tsx:27
 #: src/view/screens/ProfileFeedLikedBy.tsx:27
 msgid "Liked By"
-msgstr "Сподобався користувачу"
+msgstr "Уподоба від"
 
 #: src/view/com/feeds/FeedSourceCard.tsx:268
 msgid "Liked by {0} {1}"
-msgstr "Вподобано {0} {1}"
+msgstr "Уподоба від {0} {1}"
 
 #: src/components/LabelingServiceCard/index.tsx:72
 msgid "Liked by {count} {0}"
-msgstr "Вподобано {count} {0}"
+msgstr "Уподоба від {count} {0}"
 
 #: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:284
 #: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:298
@@ -2304,7 +2304,7 @@ msgstr "Вподобано {likeCount} {0}"
 
 #: src/view/com/notifications/FeedItem.tsx:176
 msgid "liked your custom feed"
-msgstr "вподобав(-ла) вашу стрічку"
+msgstr "уподобали вашу стрічку"
 
 #: src/view/com/notifications/FeedItem.tsx:161
 msgid "liked your post"
@@ -2312,11 +2312,11 @@ msgstr "уподобали ваш пост"
 
 #: src/view/screens/Profile.tsx:198
 msgid "Likes"
-msgstr "Вподобання"
+msgstr "Уподобання"
 
 #: src/view/com/post-thread/PostThreadItem.tsx:182
 msgid "Likes on this post"
-msgstr "Вподобайки цього поста"
+msgstr "Уподобання на цей пост"
 
 #: src/Navigation.tsx:170
 msgid "List"
@@ -2324,7 +2324,7 @@ msgstr "Список"
 
 #: src/view/com/modals/CreateOrEditList.tsx:262
 msgid "List Avatar"
-msgstr "Аватар списку"
+msgstr "Список аватарів"
 
 #: src/view/screens/ProfileList.tsx:313
 msgid "List blocked"
@@ -2340,7 +2340,7 @@ msgstr "Список видалено"
 
 #: src/view/screens/ProfileList.tsx:285
 msgid "List muted"
-msgstr "Список ігнорується"
+msgstr "Список ігноровано"
 
 #: src/view/com/modals/CreateOrEditList.tsx:276
 msgid "List Name"
@@ -2352,7 +2352,7 @@ msgstr "Список розблоковано"
 
 #: src/view/screens/ProfileList.tsx:299
 msgid "List unmuted"
-msgstr "Список більше не ігнорується"
+msgstr "Список більше не ігноровано"
 
 #: src/Navigation.tsx:114
 #: src/view/screens/Profile.tsx:194
@@ -2407,7 +2407,7 @@ msgstr "Переконайтеся, що це дійсно той сайт, що
 
 #: src/components/dialogs/MutedWords.tsx:82
 msgid "Manage your muted words and tags"
-msgstr "Налаштовуйте ваші ігноровані слова та теги"
+msgstr "Налаштувати ваші ігноровані слова і теги"
 
 #: src/view/screens/Profile.tsx:197
 msgid "Media"
@@ -2570,7 +2570,7 @@ msgstr "Ігнорувати слова та теги"
 
 #: src/view/com/lists/ListCard.tsx:102
 msgid "Muted"
-msgstr "Ігнорується"
+msgstr "Ігноровано"
 
 #: src/screens/Moderation/index.tsx:255
 msgid "Muted accounts"
@@ -2587,7 +2587,7 @@ msgstr "Ігноровані облікові записи автоматичн�
 
 #: src/lib/moderation/useModerationCauseDescription.ts:85
 msgid "Muted by \"{0}\""
-msgstr "Проігноровано списком \"{0}\""
+msgstr "Ігноровано від \"{0}\""
 
 #: src/screens/Moderation/index.tsx:231
 msgid "Muted words & tags"
@@ -2683,7 +2683,7 @@ msgstr "Новий пароль"
 
 #: src/view/com/modals/ChangePassword.tsx:217
 msgid "New Password"
-msgstr "Новий Пароль"
+msgstr "Новий пароль"
 
 #: src/view/com/feeds/FeedPage.tsx:149
 msgctxt "action"
@@ -2728,12 +2728,12 @@ msgstr "Новини"
 #: src/view/com/modals/ChangePassword.tsx:253
 #: src/view/com/modals/ChangePassword.tsx:255
 msgid "Next"
-msgstr "Далі"
+msgstr "Наступне"
 
 #: src/view/com/auth/onboarding/WelcomeDesktop.tsx:103
 msgctxt "action"
 msgid "Next"
-msgstr "Далі"
+msgstr "Наступне"
 
 #: src/view/com/lightbox/Lightbox.web.tsx:169
 msgid "Next image"
@@ -2751,11 +2751,11 @@ msgstr "Ні"
 #: src/view/screens/ProfileFeed.tsx:574
 #: src/view/screens/ProfileList.tsx:771
 msgid "No description"
-msgstr "Опис відсутній"
+msgstr "Відсутній опис"
 
 #: src/view/com/modals/ChangeHandle.tsx:405
 msgid "No DNS Panel"
-msgstr "Немає панелі DNS"
+msgstr "Відстуня панель DNS"
 
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:118
 msgid "No longer following {0}"
@@ -2763,7 +2763,7 @@ msgstr "Ви більше не підписані на {0}"
 
 #: src/screens/Signup/StepHandle.tsx:115
 msgid "No longer than 253 characters"
-msgstr "Не може бути довшим за 253 символи"
+msgstr "Не довше за 253 символи"
 
 #: src/view/com/notifications/Feed.tsx:109
 msgid "No notifications yet!"
@@ -2951,7 +2951,7 @@ msgstr "Відкриває додаткову інформацію про зап
 
 #: src/view/com/notifications/FeedItem.tsx:355
 msgid "Opens an expanded list of users in this notification"
-msgstr "Відкрити розширений список користувачів у цьому сповіщенні"
+msgstr "Відкриває розширений список користувачів у цьому сповіщенні"
 
 #: src/view/com/composer/photos/OpenCameraBtn.tsx:78
 msgid "Opens camera on device"
@@ -2959,7 +2959,7 @@ msgstr "Відкриває камеру на пристрої"
 
 #: src/view/com/composer/Prompt.tsx:25
 msgid "Opens composer"
-msgstr "Відкрити редактор"
+msgstr "Відкриває редактор"
 
 #: src/view/screens/Settings/index.tsx:566
 msgid "Opens configurable language settings"
@@ -3116,7 +3116,7 @@ msgstr "Люди, на яких підписаний(-на) @{0}"
 
 #: src/Navigation.tsx:157
 msgid "People following @{0}"
-msgstr "Люди, які підписані на @{0}"
+msgstr "Люди підписані на @{0}"
 
 #: src/view/com/lightbox/Lightbox.tsx:66
 msgid "Permission to access camera roll is required."
@@ -3124,7 +3124,7 @@ msgstr "Потрібен дозвіл на доступ до камери."
 
 #: src/view/com/lightbox/Lightbox.tsx:72
 msgid "Permission to access camera roll was denied. Please enable it in your system settings."
-msgstr "Дозвіл на доступ до камери був заборонений. Будь ласка, включіть його в налаштуваннях системи."
+msgstr "Відхилено дозвіл на доступ до камери. Просимо включити це в налаштуваннях системи."
 
 #: src/screens/Onboarding/index.tsx:31
 msgid "Pets"
@@ -3137,7 +3137,7 @@ msgstr "Зображення, призначені для дорослих."
 #: src/view/screens/ProfileFeed.tsx:303
 #: src/view/screens/ProfileList.tsx:565
 msgid "Pin to home"
-msgstr "Закріпити"
+msgstr "Закріпити на головній"
 
 #: src/view/screens/ProfileFeed.tsx:306
 msgid "Pin to Home"
@@ -3162,51 +3162,51 @@ msgstr "Відтворює GIF"
 
 #: src/screens/Signup/state.ts:241
 msgid "Please choose your handle."
-msgstr "Будь ласка, оберіть псевдонім."
+msgstr "Просимо обрати псевдонім."
 
 #: src/screens/Signup/state.ts:234
 msgid "Please choose your password."
-msgstr "Будь ласка, оберіть ваш пароль."
+msgstr "Просимо обрати ваш пароль."
 
 #: src/screens/Signup/state.ts:251
 msgid "Please complete the verification captcha."
-msgstr "Будь ласка, завершіть перевірку Captcha."
+msgstr "Просимо завершити перевірку Captcha."
 
 #: src/view/com/modals/ChangeEmail.tsx:67
 msgid "Please confirm your email before changing it. This is a temporary requirement while email-updating tools are added, and it will soon be removed."
-msgstr "Будь ласка, підтвердіть вашу електронну адресу, перш ніж змінити її. Це тимчасова вимога під час додавання інструментів оновлення електронної адреси, незабаром її видалять."
+msgstr "Просимо підтвердити вашу ел. пошту перед її зміною. Це тимчасова вимога під час додавання інструментів оновлення ел. пошти, незабаром її приберуть."
 
 #: src/view/com/modals/AddAppPasswords.tsx:91
 msgid "Please enter a name for your app password. All spaces is not allowed."
-msgstr "Будь ласка, введіть ім'я для пароля застосунку. Пробіли і пропуски не допускаються."
+msgstr "Просимо ввести ім'я для пароля застосунку. Пробіли і пропуски не дозволені."
 
 #: src/view/com/modals/AddAppPasswords.tsx:146
 msgid "Please enter a unique name for this App Password or use our randomly generated one."
-msgstr "Будь ласка, введіть унікальну назву для цього паролю або використовуйте нашу випадково згенеровану."
+msgstr "Просимо ввести унікальну назву для цього паролю застосунку або використовувати нашу випадково згенеровану."
 
 #: src/components/dialogs/MutedWords.tsx:67
 msgid "Please enter a valid word, tag, or phrase to mute"
-msgstr "Будь ласка, введіть допустиме слово, тег або фразу для ігнорування"
+msgstr "Просимо ввести допустиме слово, тег або фразу для ігнорування"
 
 #: src/screens/Signup/state.ts:220
 msgid "Please enter your email."
-msgstr "Будь ласка, введіть адресу ел. пошти."
+msgstr "Просимо ввести адресу ел. пошти."
 
 #: src/view/com/modals/DeleteAccount.tsx:190
 msgid "Please enter your password as well:"
-msgstr "Будь ласка, також введіть ваш пароль:"
+msgstr "Просимо також ввести ваш пароль:"
 
 #: src/components/moderation/LabelsOnMeDialog.tsx:221
 msgid "Please explain why you think this label was incorrectly applied by {0}"
-msgstr "Будь ласка, поясніть, чому ви вважаєте, що ця позначка була помилково додана до {0}"
+msgstr "Просимо пояснити чому ви вважаєте, що ця мітка була помилково додана до {0}"
 
 #: src/view/com/modals/VerifyEmail.tsx:101
 msgid "Please Verify Your Email"
-msgstr "Підтвердьте свою адресу електронної пошти"
+msgstr "Просимо підтвердити свою адресу ел. пошти"
 
 #: src/view/com/composer/Composer.tsx:222
 msgid "Please wait for your link card to finish loading"
-msgstr "Будь ласка, зачекайте доки завершиться створення попереднього перегляду для посилання"
+msgstr "Просимо почекати доки завершиться створення попереднього перегляду посилання"
 
 #: src/screens/Onboarding/index.tsx:37
 msgid "Politics"
@@ -3253,7 +3253,7 @@ msgstr "Пост приховано через ігнороване слово"
 #: src/components/moderation/ModerationDetailsDialog.tsx:100
 #: src/lib/moderation/useModerationCauseDescription.ts:108
 msgid "Post Hidden by You"
-msgstr "Ви приховали цей пост"
+msgstr "Пост приховано вами"
 
 #: src/view/com/composer/select-language/SelectLangBtn.tsx:87
 msgid "Post language"
@@ -3297,7 +3297,7 @@ msgstr "Змінити хостинг-провайдера"
 #: src/components/Lists.tsx:80
 #: src/screens/Signup/index.tsx:187
 msgid "Press to retry"
-msgstr "Натисніть, щоб повторити спробу"
+msgstr "Натиснути для повторної спроби"
 
 #: src/view/com/lightbox/Lightbox.web.tsx:150
 msgid "Previous image"
@@ -3445,15 +3445,15 @@ msgstr "Видалити з моїх стрічок?"
 
 #: src/view/com/composer/photos/Gallery.tsx:167
 msgid "Remove image"
-msgstr "Вилучити зображення"
+msgstr "Видалити зображення"
 
 #: src/view/com/composer/ExternalEmbed.tsx:70
 msgid "Remove image preview"
-msgstr "Вилучити попередній перегляд зображення"
+msgstr "Видалити попередній перегляд зображення"
 
 #: src/components/dialogs/MutedWords.tsx:329
 msgid "Remove mute word from your list"
-msgstr "Вилучити ігноровані слова з вашого списку"
+msgstr "Видалити ігноровані слова з вашого списку"
 
 #: src/view/com/modals/Repost.tsx:48
 msgid "Remove repost"
@@ -3461,16 +3461,16 @@ msgstr "Видалити репост"
 
 #: src/view/com/posts/FeedErrorMessage.tsx:202
 msgid "Remove this feed from your saved feeds"
-msgstr "Вилучити цю стрічку зі збережених стрічок"
+msgstr "Видалити цю стрічку зі збережених стрічок"
 
 #: src/view/com/modals/ListAddRemoveUsers.tsx:199
 #: src/view/com/modals/UserAddRemoveLists.tsx:152
 msgid "Removed from list"
-msgstr "Вилучено зі списку"
+msgstr "Видалено зі списку"
 
 #: src/view/com/feeds/FeedSourceCard.tsx:121
 msgid "Removed from my feeds"
-msgstr "Вилучено з моїх стрічок"
+msgstr "Видалено з моїх стрічок"
 
 #: src/view/screens/ProfileFeed.tsx:210
 msgid "Removed from your feeds"
@@ -3486,7 +3486,7 @@ msgstr "Відповіді"
 
 #: src/view/com/threadgate/WhoCanReply.tsx:98
 msgid "Replies to this thread are disabled"
-msgstr "Відповіді до цього посту вимкнено"
+msgstr "Відповіді в цій темі вимкнені"
 
 #: src/view/com/composer/Composer.tsx:365
 msgctxt "action"
@@ -3501,7 +3501,7 @@ msgstr "Які відповіді показувати"
 #: src/view/com/posts/FeedItem.tsx:285
 msgctxt "description"
 msgid "Reply to <0/>"
-msgstr "У відповідь <0/>"
+msgstr "Відповісти на <0/>"
 
 #: src/view/com/profile/ProfileMenu.tsx:319
 #: src/view/com/profile/ProfileMenu.tsx:322
@@ -3528,11 +3528,11 @@ msgstr "Поскаржитись на пост"
 
 #: src/components/ReportDialog/SelectReportOptionView.tsx:42
 msgid "Report this content"
-msgstr "Повідомити про цей вміст"
+msgstr "Поскаржитись на цей вміст"
 
 #: src/components/ReportDialog/SelectReportOptionView.tsx:55
 msgid "Report this feed"
-msgstr "Повідомити про цю стрічку"
+msgstr "Поскаржитись на цю стрічку"
 
 #: src/components/ReportDialog/SelectReportOptionView.tsx:52
 msgid "Report this list"
@@ -3569,7 +3569,7 @@ msgstr "Зробив(-ла) репост"
 
 #: src/view/com/posts/FeedItem.tsx:199
 msgid "Reposted by {0}"
-msgstr "{0} зробив(-ла) репост"
+msgstr "Репост від {0}"
 
 #: src/view/com/posts/FeedItem.tsx:214
 #~ msgid "Reposted by <0/>"
@@ -3577,11 +3577,11 @@ msgstr "{0} зробив(-ла) репост"
 
 #: src/view/com/posts/FeedItem.tsx:216
 msgid "Reposted by <0><1/></0>"
-msgstr "Зроблено репост від <0><1/></0>"
+msgstr "Репост від <0><1/></0>"
 
 #: src/view/com/notifications/FeedItem.tsx:168
 msgid "reposted your post"
-msgstr "зробив(-ла) репост вашого допису"
+msgstr "репостнули ваш пост"
 
 #: src/view/com/post-thread/PostThreadItem.tsx:187
 msgid "Reposts of this post"
@@ -3607,7 +3607,7 @@ msgstr "Вимагається цим хостинг-провайдером"
 
 #: src/view/com/modals/ChangePassword.tsx:185
 msgid "Reset code"
-msgstr "Код підтвердження"
+msgstr "Код скидання"
 
 #: src/view/com/modals/ChangePassword.tsx:192
 msgid "Reset Code"
@@ -3831,19 +3831,19 @@ msgstr "Оберіть модератора"
 
 #: src/view/com/util/Selector.tsx:107
 msgid "Select option {i} of {numItems}"
-msgstr "Обрати варіант {i} із {numItems}"
+msgstr "Вибрати варіант {i} із {numItems}"
 
 #: src/screens/Onboarding/StepSuggestedAccounts/index.tsx:52
 msgid "Select some accounts below to follow"
-msgstr "Оберіть деякі облікові записи, щоб підписатися"
+msgstr "Вибрати деякі облікові записи для підписки"
 
 #: src/components/ReportDialog/SubmitView.tsx:133
 msgid "Select the moderation service(s) to report to"
-msgstr "Оберіть сервіс модерації для скарги"
+msgstr "Вибрати сервіс(и) модерації для скарги"
 
 #: src/view/com/auth/server-input/index.tsx:82
 msgid "Select the service that hosts your data."
-msgstr "Виберіть хостинг-провайдера для ваших даних."
+msgstr "Вибрати хостинг-провайдера для ваших даних."
 
 #: src/screens/Onboarding/StepTopicalFeeds.tsx:100
 msgid "Select topical feeds to follow from the list below"
@@ -3851,7 +3851,7 @@ msgstr "Підпишіться на тематичні стрічки зі сп�
 
 #: src/screens/Onboarding/StepModeration/index.tsx:63
 msgid "Select what you want to see (or not see), and we’ll handle the rest."
-msgstr "Виберіть, що ви хочете бачити (або не бачити), а решту ми зробимо за вас."
+msgstr "Вибрати що хочете бачити (або не бачити), а решту ми зробимо за вас."
 
 #: src/view/screens/LanguageSettings.tsx:281
 msgid "Select which languages you want your subscribed feeds to include. If none are selected, all languages will be shown."
@@ -3859,15 +3859,15 @@ msgstr "Оберіть мови постів, які ви хочете бачи�
 
 #: src/view/screens/LanguageSettings.tsx:98
 msgid "Select your app language for the default text to display in the app."
-msgstr "Оберіть мову застосунку для відображення тексту за замовчуванням."
+msgstr "Вибрати мову застосунку для відображення тексту за замовчуванням."
 
 #: src/screens/Signup/StepInfo/index.tsx:135
 msgid "Select your date of birth"
-msgstr "Оберіть дату народження"
+msgstr "Вибрати дату народження"
 
 #: src/screens/Onboarding/StepInterests/index.tsx:200
 msgid "Select your interests from the options below"
-msgstr "Виберіть ваші інтереси із нижченаведених варіантів"
+msgstr "Вибрати ваші інтереси із нижченаведених варіантів"
 
 #: src/view/screens/LanguageSettings.tsx:190
 msgid "Select your preferred language for translations in your feed."
@@ -3875,11 +3875,11 @@ msgstr "Оберіть бажану мову для перекладів у ва
 
 #: src/screens/Onboarding/StepAlgoFeeds/index.tsx:117
 msgid "Select your primary algorithmic feeds"
-msgstr "Оберіть ваші основні алгоритмічні стрічки"
+msgstr "Вибрати ваші основні алгоритмічні стрічки"
 
 #: src/screens/Onboarding/StepAlgoFeeds/index.tsx:133
 msgid "Select your secondary algorithmic feeds"
-msgstr "Оберіть ваші другорядні алгоритмічні стрічки"
+msgstr "Вибрати ваші другорядні алгоритмічні стрічки"
 
 #: src/view/com/modals/VerifyEmail.tsx:202
 #: src/view/com/modals/VerifyEmail.tsx:204
@@ -3907,7 +3907,7 @@ msgstr "Поскаржитись"
 
 #: src/components/ReportDialog/SelectLabelerView.tsx:44
 msgid "Send report to {0}"
-msgstr "Надіслати скаргу до {0}"
+msgstr "Поскаржитися до {0}"
 
 #: src/view/com/modals/DeleteAccount.tsx:132
 msgid "Sends email with confirmation code for account deletion"
@@ -3923,7 +3923,7 @@ msgstr "Додати дату народження"
 
 #: src/screens/Login/SetNewPasswordForm.tsx:102
 msgid "Set new password"
-msgstr "Зміна пароля"
+msgstr "Встановити новий пароль"
 
 #: src/view/screens/PreferencesFollowingFeed.tsx:225
 msgid "Set this setting to \"No\" to hide all quote posts from your feed. Reposts will still be visible."
@@ -3939,7 +3939,7 @@ msgstr "Вимкніть цей параметр, щоб приховати вс
 
 #: src/view/screens/PreferencesThreads.tsx:122
 msgid "Set this setting to \"Yes\" to show replies in a threaded view. This is an experimental feature."
-msgstr "Увімкніть це налаштування, щоб показувати відповіді у вигляді гілок. Це експериментальна функція."
+msgstr "Встановіть цей параметр на \"Так\", щоб показувати відповіді в багатопотоковому вигляді. Це експериментальна функція."
 
 #: src/view/screens/PreferencesFollowingFeed.tsx:261
 msgid "Set this setting to \"Yes\" to show samples of your saved feeds in your Following feed. This is an experimental feature."
@@ -4045,7 +4045,7 @@ msgstr "Поширює посилання"
 #: src/screens/Onboarding/StepModeration/ModerationOption.tsx:54
 #: src/view/screens/Settings/index.tsx:366
 msgid "Show"
-msgstr "Показувати"
+msgstr "Показати"
 
 #: src/view/screens/PreferencesFollowingFeed.tsx:68
 msgid "Show all replies"
@@ -4054,7 +4054,7 @@ msgstr "Показати всі відповіді"
 #: src/components/moderation/ScreenHider.tsx:169
 #: src/components/moderation/ScreenHider.tsx:172
 msgid "Show anyway"
-msgstr "Всеодно показати"
+msgstr "Показати все одно"
 
 #: src/lib/moderation/useLabelBehaviorDescription.ts:27
 #: src/lib/moderation/useLabelBehaviorDescription.ts:63
@@ -4105,23 +4105,23 @@ msgstr "Показувати відповіді від людей, за яким
 
 #: src/screens/Onboarding/StepFollowingFeed.tsx:87
 msgid "Show replies in Following"
-msgstr "Показувати відповіді у стрічці \"Following\""
+msgstr "Показати відповіді у стрічці підписок"
 
 #: src/screens/Onboarding/StepFollowingFeed.tsx:71
 msgid "Show replies in Following feed"
-msgstr "Показувати відповіді у стрічці \"Following\""
+msgstr "Показати відповіді у стрічці підписок"
 
 #: src/view/screens/PreferencesFollowingFeed.tsx:70
 msgid "Show replies with at least {value} {0}"
-msgstr "Показувати відповіді від {value} {0}"
+msgstr "Показати відповіді від {value} {0}"
 
 #: src/view/screens/PreferencesFollowingFeed.tsx:188
 msgid "Show Reposts"
-msgstr "Показувати репости"
+msgstr "Показати репости"
 
 #: src/screens/Onboarding/StepFollowingFeed.tsx:111
 msgid "Show reposts in Following"
-msgstr "Показувати репости у стрічці \"Following\""
+msgstr "Показати репости у стрічці підписок"
 
 #: src/components/moderation/ContentHider.tsx:68
 #: src/components/moderation/PostHider.tsx:64
@@ -4134,11 +4134,11 @@ msgstr "Показати користувачів"
 
 #: src/lib/moderation/useLabelBehaviorDescription.ts:58
 msgid "Show warning"
-msgstr "Показувати попередження"
+msgstr "Показати попередження"
 
 #: src/lib/moderation/useLabelBehaviorDescription.ts:56
 msgid "Show warning and filter from feeds"
-msgstr "Показувати попередження і фільтрувати зі стрічки"
+msgstr "Показати попередження і фільтрувати зі стрічки"
 
 #: src/view/com/post-thread/PostThreadFollowBtn.tsx:130
 msgid "Shows posts from {0} in your feed"
@@ -4175,11 +4175,11 @@ msgstr "Увійти як..."
 
 #: src/components/dialogs/Signin.tsx:75
 msgid "Sign in or create your account to join the conversation!"
-msgstr "Увійдіть або створіть обліковий запис, щоб приєднатися до розмови!"
+msgstr "Увійти або створити обліковий запис, щоб приєднатися до розмови!"
 
 #: src/components/dialogs/Signin.tsx:46
 msgid "Sign into Bluesky or create a new account"
-msgstr "Увійдіть у Bluesky або створіть новий обліковий запис"
+msgstr "Увійти у Bluesky або створити новий обліковий запис"
 
 #: src/view/screens/Settings/index.tsx:118
 #: src/view/screens/Settings/index.tsx:121
@@ -4200,7 +4200,7 @@ msgstr "Реєстрація"
 
 #: src/view/shell/NavSignupCard.tsx:47
 msgid "Sign up or sign in to join the conversation"
-msgstr "Зареєструйтеся або увійдіть, щоб приєднатися до розмови"
+msgstr "Зареєструватися або увійти, щоб приєднатися до розмови"
 
 #: src/components/moderation/ScreenHider.tsx:97
 #: src/lib/moderation/useGlobalLabelStrings.ts:28
@@ -4233,11 +4233,11 @@ msgstr "Розробка П/З"
 #: src/screens/Moderation/index.tsx:114
 #: src/screens/Profile/Sections/Labels.tsx:87
 msgid "Something went wrong, please try again."
-msgstr "Щось пішло не так. Будь ласка, спробуйте ще раз."
+msgstr "Щось пішло не так. Просимо спробувати ще раз."
 
 #: src/App.native.tsx:64
 msgid "Sorry! Your session expired. Please log in again."
-msgstr "Даруйте! Ваш сеанс вичерпався. Будь ласка, увійдіть знову."
+msgstr "Даруйте! Ваш сеанс вичерпався. Просимо увійти знову."
 
 #: src/view/screens/PreferencesThreads.tsx:69
 msgid "Sort Replies"
@@ -4245,7 +4245,7 @@ msgstr "Сортувати відповіді"
 
 #: src/view/screens/PreferencesThreads.tsx:72
 msgid "Sort replies to the same post by:"
-msgstr "Оберіть, як сортувати відповіді до постів:"
+msgstr "Сортувати відповіді до постів за:"
 
 #: src/components/moderation/LabelsOnMeDialog.tsx:146
 msgid "Source:"
@@ -4295,7 +4295,7 @@ msgstr "Підписатися"
 
 #: src/screens/Profile/Sections/Labels.tsx:191
 msgid "Subscribe to @{0} to use these labels:"
-msgstr "Підпишіться на @{0}, щоб використовувати ці мітки:"
+msgstr "Підписатися на @{0}, щоб використовувати ці мітки:"
 
 #: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:227
 msgid "Subscribe to Labeler"
@@ -4320,7 +4320,7 @@ msgstr "Пропоновані підписки"
 
 #: src/view/com/profile/ProfileHeaderSuggestedFollows.tsx:65
 msgid "Suggested for you"
-msgstr "Пропозиції для вас"
+msgstr "Пропоновано для вас"
 
 #: src/view/com/modals/SelfLabel.tsx:95
 msgid "Suggestive"
@@ -4347,7 +4347,7 @@ msgstr "Переключає обліковий запис"
 
 #: src/view/screens/Settings/index.tsx:442
 msgid "System"
-msgstr "Системне"
+msgstr "Системна"
 
 #: src/view/screens/Settings/index.tsx:783
 msgid "System log"
