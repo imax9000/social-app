@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-04-14 10:31\n"
+"PO-Revision-Date: 2024-04-16 02:55\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -1799,7 +1799,7 @@ msgstr "Підписаний(-на) на вас"
 
 #: src/view/com/profile/ProfileCard.tsx:144
 msgid "Follows You"
-msgstr "Підписаний(-на) на вас"
+msgstr "Підписані на вас"
 
 #: src/screens/Onboarding/index.tsx:43
 msgid "Food"
@@ -2308,7 +2308,7 @@ msgstr "вподобав(-ла) вашу стрічку"
 
 #: src/view/com/notifications/FeedItem.tsx:161
 msgid "liked your post"
-msgstr "сподобався ваш пост"
+msgstr "уподобали ваш пост"
 
 #: src/view/screens/Profile.tsx:198
 msgid "Likes"
@@ -2535,11 +2535,11 @@ msgstr "Ігнорувати всі пости {displayTag}"
 
 #: src/components/dialogs/MutedWords.tsx:148
 msgid "Mute in tags only"
-msgstr "Ігнорувати лише в тегах"
+msgstr "Лише в тегах"
 
 #: src/components/dialogs/MutedWords.tsx:133
 msgid "Mute in text & tags"
-msgstr "Ігнорувати в тексті та тегах"
+msgstr "В тексті і тегах"
 
 #: src/view/screens/ProfileList.tsx:463
 #: src/view/screens/ProfileList.tsx:626
@@ -4661,7 +4661,7 @@ msgstr "Це має створити обліковий запис домену:
 
 #: src/view/com/profile/ProfileFollowers.tsx:87
 msgid "This user doesn't have any followers."
-msgstr "Цей користувач ще не має жодного підписника."
+msgstr "Ніхто не підписаний на користувача."
 
 #: src/components/moderation/ModerationDetailsDialog.tsx:72
 #: src/lib/moderation/useModerationCauseDescription.ts:68
@@ -5279,7 +5279,7 @@ msgstr "Тепер ви можете увійти за допомогою нов
 
 #: src/view/com/profile/ProfileFollowers.tsx:86
 msgid "You do not have any followers."
-msgstr "У вас немає жодного підписника."
+msgstr "Ніхто не підписаний на вас."
 
 #: src/view/com/modals/InviteCodes.tsx:67
 msgid "You don't have any invite codes yet! We'll send you some when you've been on Bluesky for a little longer."
