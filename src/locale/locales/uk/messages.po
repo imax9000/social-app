@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-04-24 21:18\n"
+"PO-Revision-Date: 2024-04-25 03:23\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -66,7 +66,7 @@ msgstr "⚠Недопустимий псевдонім"
 
 #: src/screens/Login/LoginForm.tsx:238
 msgid "2FA Confirmation"
-msgstr ""
+msgstr "Підтвердження двофакторної автентифікації"
 
 #: src/view/com/util/ViewHeader.tsx:91
 #: src/view/screens/Search/Search.tsx:727
@@ -84,12 +84,12 @@ msgstr "Доступність"
 
 #: src/view/screens/Settings/index.tsx:484
 msgid "Accessibility settings"
-msgstr ""
+msgstr "Налаштування доступності"
 
 #: src/Navigation.tsx:284
 #: src/view/screens/AccessibilitySettings.tsx:63
 msgid "Accessibility Settings"
-msgstr ""
+msgstr "Налаштування доступності"
 
 #: src/components/moderation/LabelsOnMe.tsx:42
 msgid "account"
@@ -1660,11 +1660,11 @@ msgstr "Не вдалося створити список. Перевірте і
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:131
 msgid "Failed to delete post, please try again"
-msgstr "Не вдалося видалити пост, спробуйте ще раз"
+msgstr "Не вдалося видалити пост, спробувати ще раз"
 
 #: src/components/dialogs/GifSelect.tsx:200
 msgid "Failed to load GIFs"
-msgstr ""
+msgstr "Не вдалося завантажити GIF"
 
 #: src/view/com/auth/onboarding/RecommendedFeeds.tsx:110
 #: src/view/com/auth/onboarding/RecommendedFeeds.tsx:143
@@ -1735,7 +1735,7 @@ msgstr "Знайти облікові записи для підписки"
 
 #: src/view/screens/Search/Search.tsx:521
 msgid "Find posts and users on Bluesky"
-msgstr ""
+msgstr "Знайти пости і користувачів на Bluesky"
 
 #: src/view/screens/Search/Search.tsx:589
 #~ msgid "Find users on Bluesky"
@@ -1808,7 +1808,7 @@ msgstr "Підписатися навзаєм"
 
 #: src/screens/Onboarding/StepSuggestedAccounts/index.tsx:182
 msgid "Follow selected accounts and continue to the next step"
-msgstr "Підписатися на обрані облікові записи і продовжити до наступного кроку"
+msgstr "Підписатися на вибрані облікові записи і продовжити до наступного кроку"
 
 #: src/view/com/auth/onboarding/RecommendedFollows.tsx:65
 msgid "Follow some users to get started. We can recommend you more users based on who you find interesting."
@@ -2010,7 +2010,7 @@ msgstr "Ось декілька тематичних стрічок на осн�
 
 #: src/view/com/modals/AddAppPasswords.tsx:154
 msgid "Here is your app password."
-msgstr "Це ваш пароль для застосунків."
+msgstr "Ось ваш пароль застосунку."
 
 #: src/components/moderation/ContentHider.tsx:115
 #: src/components/moderation/LabelPreference.tsx:134
@@ -2028,12 +2028,12 @@ msgstr "Приховати"
 #: src/view/com/notifications/FeedItem.tsx:331
 msgctxt "action"
 msgid "Hide"
-msgstr "Сховати"
+msgstr "Приховати"
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:298
 #: src/view/com/util/forms/PostDropdownBtn.tsx:300
 msgid "Hide post"
-msgstr "Сховати пост"
+msgstr "Приховати пост"
 
 #: src/components/moderation/ContentHider.tsx:67
 #: src/components/moderation/PostHider.tsx:64
@@ -2042,11 +2042,11 @@ msgstr "Приховати вміст"
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:351
 msgid "Hide this post?"
-msgstr "Сховати цей пост?"
+msgstr "Приховати цей пост?"
 
 #: src/view/com/notifications/FeedItem.tsx:321
 msgid "Hide user list"
-msgstr "Сховати список користувачів"
+msgstr "Приховати список користувачів"
 
 #: src/view/com/posts/FeedErrorMessage.tsx:111
 msgid "Hmm, some kind of issue occurred when contacting the feed server. Please let the feed owner know about this issue."
@@ -2119,7 +2119,7 @@ msgstr "Розкриває альтернативний текст, якщо т�
 
 #: src/view/com/modals/SelfLabel.tsx:127
 msgid "If none are selected, suitable for all ages."
-msgstr "Якщо не вибрано жодного варіанту - підходить для всіх."
+msgstr "Якщо нічого не вибрано — підходить для всіх."
 
 #: src/screens/Signup/StepInfo/Policies.tsx:83
 msgid "If you are not yet an adult according to the laws of your country, your parent or legal guardian must read these Terms on your behalf."
@@ -2175,7 +2175,7 @@ msgstr "Введіть пароль для видалення обліковог
 
 #: src/screens/Login/LoginForm.tsx:257
 msgid "Input the code which has been emailed to you"
-msgstr ""
+msgstr "Ввести код, що наділано вам на email"
 
 #: src/screens/Login/LoginForm.tsx:212
 msgid "Input the password tied to {identifier}"
@@ -2200,7 +2200,7 @@ msgstr "Ввести ваш псевдонім"
 #: src/screens/Login/LoginForm.tsx:126
 #: src/view/screens/Settings/DisableEmail2FADialog.tsx:70
 msgid "Invalid 2FA confirmation code."
-msgstr ""
+msgstr "Невірний код підтвердження двофакторної автентифікації."
 
 #: src/view/com/post-thread/PostThreadItem.tsx:222
 msgid "Invalid or unsupported post record"
@@ -3950,7 +3950,7 @@ msgstr "Обрати {item}"
 
 #: src/screens/Login/ChooseAccountForm.tsx:61
 msgid "Select account"
-msgstr "Обрати обліковий запис"
+msgstr "Вибрати обліковий запис"
 
 #: src/screens/Login/index.tsx:120
 msgid "Select from an existing account"
@@ -3958,11 +3958,11 @@ msgstr "Вибрати існуючий обліковий запис"
 
 #: src/view/com/composer/photos/SelectGifBtn.tsx:36
 msgid "Select GIF"
-msgstr ""
+msgstr "Вибрати GIF"
 
 #: src/components/dialogs/GifSelect.tsx:253
 msgid "Select GIF \"{0}\""
-msgstr ""
+msgstr "Вибрати GIF \"{0}\""
 
 #: src/view/screens/LanguageSettings.tsx:299
 msgid "Select languages"
@@ -3970,7 +3970,7 @@ msgstr "Вибрати мови"
 
 #: src/components/ReportDialog/SelectLabelerView.tsx:30
 msgid "Select moderator"
-msgstr "Оберіть модератора"
+msgstr "Вибрати модератора"
 
 #: src/view/com/util/Selector.tsx:107
 msgid "Select option {i} of {numItems}"
@@ -4905,7 +4905,7 @@ msgstr "Спробувати ще раз"
 
 #: src/view/screens/Settings/index.tsx:695
 msgid "Two-factor authentication"
-msgstr ""
+msgstr "Двофакторна автентифікація"
 
 #: src/view/com/modals/ChangeHandle.tsx:428
 msgid "Type:"
