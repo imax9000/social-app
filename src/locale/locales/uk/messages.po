@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-04-25 03:23\n"
+"PO-Revision-Date: 2024-04-25 09:49\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -469,7 +469,7 @@ msgstr "Заблокований пост."
 
 #: src/screens/Profile/Sections/Labels.tsx:163
 msgid "Blocking does not prevent this labeler from placing labels on your account."
-msgstr "Блокування не заважає цьому маркувальнику додавати мітку до вашого облікового запису."
+msgstr "Блокування не перешкоджає мітнику розміщувати мітки на ваш обліковий запис."
 
 #: src/view/screens/ProfileList.tsx:633
 msgid "Blocking is public. Blocked accounts cannot reply in your threads, mention you, or otherwise interact with you."
@@ -2244,15 +2244,15 @@ msgstr "Журналістика"
 
 #: src/components/moderation/LabelsOnMe.tsx:59
 msgid "label has been placed on this {labelTarget}"
-msgstr "мітка була розміщена на цьому {labelTarget}"
+msgstr "мітка розміщено на {labelTarget}"
 
 #: src/components/moderation/ContentHider.tsx:144
 msgid "Labeled by {0}."
-msgstr "Помічено від {0}."
+msgstr "Мічено від {0}."
 
 #: src/components/moderation/ContentHider.tsx:142
 msgid "Labeled by the author."
-msgstr "Помічено від автора."
+msgstr "Мічено автором."
 
 #: src/view/screens/Profile.tsx:192
 msgid "Labels"
@@ -2260,11 +2260,11 @@ msgstr "Мітки"
 
 #: src/screens/Profile/Sections/Labels.tsx:153
 msgid "Labels are annotations on users and content. They can be used to hide, warn, and categorize the network."
-msgstr "Мітки є анотаціями для користувачів і контенту. Вони можуть використовуватися для приховування, попередження та категоризації мережі."
+msgstr "Мітки є анотаціями на користувачів і вміст. Вони можуть використані для приховання, попередження та категоризації мережі."
 
 #: src/components/moderation/LabelsOnMe.tsx:61
 msgid "labels have been placed on this {labelTarget}"
-msgstr "мітка була розміщена на {labelTarget}"
+msgstr "мітки розміщено на {labelTarget}"
 
 #: src/components/moderation/LabelsOnMeDialog.tsx:62
 msgid "Labels on your account"
@@ -4010,7 +4010,7 @@ msgstr "Вибрати дату народження"
 
 #: src/screens/Onboarding/StepInterests/index.tsx:200
 msgid "Select your interests from the options below"
-msgstr "Вибрати ваші інтереси із нижченаведених варіантів"
+msgstr "Вибрати ваші інтереси з варіантів нижче"
 
 #: src/view/screens/LanguageSettings.tsx:190
 msgid "Select your preferred language for translations in your feed."
@@ -4447,7 +4447,7 @@ msgstr "Підписатися на @{0}, щоб використовувати 
 
 #: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:227
 msgid "Subscribe to Labeler"
-msgstr "Підписатися на маркувальника"
+msgstr "Підписатися на мітника"
 
 #: src/screens/Onboarding/StepAlgoFeeds/FeedCard.tsx:172
 #: src/screens/Onboarding/StepAlgoFeeds/FeedCard.tsx:307
@@ -4456,7 +4456,7 @@ msgstr "Підписатися на {0} стрічку"
 
 #: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:191
 msgid "Subscribe to this labeler"
-msgstr "Підписатися на цього маркувальника"
+msgstr "Підписатися на цього мітника"
 
 #: src/view/screens/ProfileList.tsx:588
 msgid "Subscribe to this list"
@@ -4578,11 +4578,11 @@ msgstr "Політику захисту авторського права пер
 
 #: src/components/moderation/LabelsOnMeDialog.tsx:48
 msgid "The following labels were applied to your account."
-msgstr "Наступні мітки були додано до вашого облікового запису."
+msgstr "Наступні мітки були додані до вашого облікового запису."
 
 #: src/components/moderation/LabelsOnMeDialog.tsx:49
 msgid "The following labels were applied to your content."
-msgstr "Наступні мітки були додано до вашого контенту."
+msgstr "Наступні мітки були додані до вашого контенту."
 
 #: src/screens/Onboarding/Layout.tsx:58
 msgid "The following steps will help customize your Bluesky experience."
@@ -4769,7 +4769,7 @@ msgstr "Ця мітка була додана {0}."
 
 #: src/screens/Profile/Sections/Labels.tsx:178
 msgid "This labeler hasn't declared what labels it publishes, and may not be active."
-msgstr "Цей маркувальник ще не заявив, які мітки він публікує, і може бути неактивним."
+msgstr "Цей мітник ще не заявив, які мітки він публікує, і може бути неактивним."
 
 #: src/view/com/modals/LinkWarning.tsx:72
 msgid "This link is taking you to the following website:"
@@ -5026,7 +5026,7 @@ msgstr "Відписатися"
 
 #: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:190
 msgid "Unsubscribe from this labeler"
-msgstr "Відписатися від цього маркувальника"
+msgstr "Відписатися від цього мітника"
 
 #: src/lib/moderation/useReportOptions.ts:70
 msgid "Unwanted Sexual Content"
@@ -5246,7 +5246,7 @@ msgstr "Переглянути аватар"
 
 #: src/components/LabelingServiceCard/index.tsx:140
 msgid "View the labeling service provided by @{0}"
-msgstr "Переглянути послуги маркування, який надає @{0}"
+msgstr "Переглянути послуги мічення від @{0}"
 
 #: src/view/screens/ProfileFeed.tsx:597
 msgid "View users who like this feed"
@@ -5339,7 +5339,7 @@ msgstr "Нам дуже прикро! Ми не можемо знайти сто
 
 #: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:327
 msgid "We're sorry! You can only subscribe to ten labelers, and you've reached your limit of ten."
-msgstr "На жаль, ви можете підписатися тільки на 10 маркувальників, і ви вже досягли цього ліміту."
+msgstr "На жаль, ви можете підписатися лише на десять мітників, і ви вже досягли цього ліміту."
 
 #: src/view/com/auth/onboarding/WelcomeMobile.tsx:48
 msgid "Welcome to <0>Bluesky</0>"
@@ -5502,7 +5502,7 @@ msgstr "У вас немає списків."
 
 #: src/view/screens/ModerationBlockedAccounts.tsx:137
 msgid "You have not blocked any accounts yet. To block an account, go to their profile and select \"Block account\" from the menu on their account."
-msgstr "Ви ще не заблокували жодного облікового запису. Щоб заблокувати когось, перейдіть до їх профілю та виберіть опцію \"Заблокувати\" у меню їх облікового запису."
+msgstr "Ви ще не заблокували жодного облікового запису. Щоб заблокувати, треба перейти до їхнього профілю та обрати опцію «Заблокувати» з меню їхнього облікового запису."
 
 #: src/view/screens/AppPasswords.tsx:89
 msgid "You have not created any app passwords yet. You can create one by pressing the button below."
@@ -5510,7 +5510,7 @@ msgstr "Ви ще не створили жодного пароля для за�
 
 #: src/view/screens/ModerationMutedAccounts.tsx:136
 msgid "You have not muted any accounts yet. To mute an account, go to their profile and select \"Mute account\" from the menu on their account."
-msgstr "Ви ще не ігноруєте жодного облікового запису. Щоб увімкнути ігнорування когось, перейдіть до їх профілю та виберіть опцію \"Ігнорувати\" у меню їх облікового запису."
+msgstr "Ви ще не ігноруєте жодного облікового запису. Щоб ігнорувати, треба перейти до їхнього профілю та вибрати опцію «Ігнорувати» з меню їхнього облікового запису."
 
 #: src/components/dialogs/MutedWords.tsx:249
 msgid "You haven't muted any words or tags yet"
@@ -5530,7 +5530,7 @@ msgstr "Ви повинні бути старше 18 років, щоб дозв
 
 #: src/components/ReportDialog/SubmitView.tsx:203
 msgid "You must select at least one labeler for a report"
-msgstr "Ви повинні обрати хоча б одного маркувальника для скарги"
+msgstr "Ви мусите обрати хоча б одного мітника для скарги"
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:150
 msgid "You will no longer receive notifications for this thread"
