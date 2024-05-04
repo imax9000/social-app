@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-04-30 04:47\n"
+"PO-Revision-Date: 2024-05-04 05:15\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -1758,7 +1758,7 @@ msgstr "Налаштувати контент вашої стрічки підп
 
 #: src/view/screens/PreferencesThreads.tsx:60
 msgid "Fine-tune the discussion threads."
-msgstr "Налаштувати відображення обговорень."
+msgstr "Налаштувати показ гілок."
 
 #: src/screens/Onboarding/index.tsx:38
 msgid "Fitness"
@@ -3623,7 +3623,7 @@ msgstr "Відповіді"
 
 #: src/view/com/threadgate/WhoCanReply.tsx:98
 msgid "Replies to this thread are disabled"
-msgstr "Відповіді в цій темі вимкнені"
+msgstr "Відповіді в гілці вимкнені"
 
 #: src/view/com/composer/Composer.tsx:398
 msgctxt "action"
@@ -3644,7 +3644,7 @@ msgstr "Які відповіді показувати"
 #: src/view/com/posts/FeedItem.tsx:291
 msgctxt "description"
 msgid "Reply to <0><1/></0>"
-msgstr ""
+msgstr "Відповідь до <0><1/></0>"
 
 #: src/view/com/profile/ProfileMenu.tsx:319
 #: src/view/com/profile/ProfileMenu.tsx:322
@@ -4115,7 +4115,7 @@ msgstr "Вимкніть цей параметр, щоб приховати вс
 
 #: src/view/screens/PreferencesThreads.tsx:122
 msgid "Set this setting to \"Yes\" to show replies in a threaded view. This is an experimental feature."
-msgstr "Встановіть цей параметр на \"Так\", щоб показувати відповіді в багатопотоковому вигляді. Це експериментальна функція."
+msgstr "Ввімкнути для показу відповідей як гілку. Функція експериментальна."
 
 #: src/view/screens/PreferencesFollowingFeed.tsx:261
 msgid "Set this setting to \"Yes\" to show samples of your saved feeds in your Following feed. This is an experimental feature."
