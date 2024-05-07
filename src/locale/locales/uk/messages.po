@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-05-07 08:14\n"
+"PO-Revision-Date: 2024-05-07 14:39\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -300,7 +300,7 @@ msgstr "Тварини"
 
 #: src/view/com/util/post-embeds/GifEmbed.tsx:135
 msgid "Animated GIF"
-msgstr ""
+msgstr "Анімована GIF"
 
 #: src/lib/moderation/useReportOptions.ts:31
 msgid "Anti-Social Behavior"
@@ -663,11 +663,11 @@ msgstr "Змінити адресу електронної пошти"
 
 #: src/Navigation.tsx:302
 msgid "Chat"
-msgstr ""
+msgstr "Чат"
 
 #: src/screens/Messages/Conversation/index.tsx:26
 msgid "Chat with {chatId}"
-msgstr ""
+msgstr "Чат з {chatId}"
 
 #: src/screens/Deactivated.tsx:79
 #: src/screens/Deactivated.tsx:83
@@ -684,7 +684,7 @@ msgstr "Перевірити мій статус"
 
 #: src/screens/Login/LoginForm.tsx:262
 msgid "Check your email for a login code and enter it here."
-msgstr ""
+msgstr "Перевірте свою електронну пошту, щоб отримати код для входу, і введіть його тут."
 
 #: src/view/com/modals/DeleteAccount.tsx:169
 msgid "Check your inbox for an email with the confirmation code to enter below:"
@@ -781,11 +781,11 @@ msgstr "Закрити нижнє меню"
 
 #: src/components/dialogs/GifSelect.tsx:294
 msgid "Close dialog"
-msgstr ""
+msgstr "Закрити діалогове вікно"
 
 #: src/components/dialogs/GifSelect.tsx:150
 msgid "Close GIF dialog"
-msgstr ""
+msgstr "Закрити діалогове вікно GIF"
 
 #: src/view/com/lightbox/ImageViewing/components/ImageDefaultHeader.tsx:36
 msgid "Close image"
@@ -1207,15 +1207,15 @@ msgstr "Тьмяна"
 
 #: src/view/screens/AccessibilitySettings.tsx:94
 msgid "Disable autoplay for GIFs"
-msgstr ""
+msgstr "Вимкнути автовідтворення для GIF"
 
 #: src/view/screens/Settings/DisableEmail2FADialog.tsx:91
 msgid "Disable Email 2FA"
-msgstr ""
+msgstr "Вимкнути двофакторну автентифікацію електронної пошти"
 
 #: src/view/screens/AccessibilitySettings.tsx:108
 msgid "Disable haptic feedback"
-msgstr ""
+msgstr "Вимкнути тактильний зворотний зв'язок"
 
 #: src/view/screens/Settings/index.tsx:697
 #~ msgid "Disable haptics"
@@ -1440,7 +1440,7 @@ msgstr "Ел. адреса"
 
 #: src/view/screens/Settings/DisableEmail2FADialog.tsx:65
 msgid "Email 2FA disabled"
-msgstr ""
+msgstr "Двофакторну автентифікацію електронної пошти вимкнено"
 
 #: src/screens/Login/ForgotPasswordForm.tsx:99
 msgid "Email address"
@@ -1975,7 +1975,7 @@ msgstr "Псевдонім"
 
 #: src/view/screens/AccessibilitySettings.tsx:103
 msgid "Haptics"
-msgstr ""
+msgstr "Тактильний контакт"
 
 #: src/lib/moderation/useReportOptions.ts:32
 msgid "Harassment, trolling, or intolerance"
@@ -2481,7 +2481,7 @@ msgstr "Увійти до облікового запису, якого нема
 
 #: src/components/RichText.tsx:207
 msgid "Long press to open tag menu for #{tag}"
-msgstr ""
+msgstr "Тривале натискання відкриває меню тегів для #{tag}"
 
 #: src/screens/Login/SetNewPasswordForm.tsx:116
 msgid "Looks like XXXXX-XXXXX"
@@ -2519,18 +2519,18 @@ msgstr "Повідомлення від сервера: {0}"
 
 #: src/screens/Messages/List/index.tsx:34
 msgid "Message settings"
-msgstr ""
+msgstr "Налаштування повідомлення"
 
 #: src/Navigation.tsx:517
 #: src/screens/Messages/List/index.tsx:103
 #: src/view/shell/bottom-bar/BottomBar.tsx:261
 #: src/view/shell/desktop/LeftNav.tsx:360
 msgid "Messages"
-msgstr ""
+msgstr "Повідомлення"
 
 #: src/Navigation.tsx:307
 msgid "Messaging settings"
-msgstr ""
+msgstr "Налаштування обміну повідомленнями"
 
 #: src/lib/moderation/useReportOptions.ts:45
 msgid "Misleading Account"
@@ -2857,7 +2857,7 @@ msgstr "Відстуня панель DNS"
 
 #: src/components/dialogs/GifSelect.tsx:206
 msgid "No featured GIFs found. There may be an issue with Tenor."
-msgstr ""
+msgstr "GIF-файлів не знайдено. З Tenor можуть бути проблеми."
 
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:116
 msgid "No longer following {0}"
@@ -2892,7 +2892,7 @@ msgstr "Нічого не знайдено за запитом «{query}»"
 
 #: src/components/dialogs/GifSelect.tsx:204
 msgid "No search results found for \"{search}\"."
-msgstr ""
+msgstr "За запитом \"{search}\" нічого не знайдено."
 
 #: src/components/dialogs/EmbedConsent.tsx:105
 #: src/components/dialogs/EmbedConsent.tsx:112
@@ -3054,7 +3054,7 @@ msgstr "Відкриває меню з {numItems} опціями"
 
 #: src/view/screens/Settings/index.tsx:485
 msgid "Opens accessibility settings"
-msgstr ""
+msgstr "Відкриває параметри доступності"
 
 #: src/view/screens/Log.tsx:54
 msgid "Opens additional details for a debug entry"
@@ -3096,7 +3096,7 @@ msgstr "Відкриває процес входу в існуючий облі�
 
 #: src/view/com/composer/photos/SelectGifBtn.tsx:37
 msgid "Opens GIF select dialog"
-msgstr ""
+msgstr "Відкриває діалогове вікно вибору GIF"
 
 #: src/view/com/modals/InviteCodes.tsx:173
 msgid "Opens list of invite codes"
@@ -3157,7 +3157,7 @@ msgstr "Відкриває посилання"
 
 #: src/screens/Messages/List/index.tsx:35
 msgid "Opens the message settings page"
-msgstr ""
+msgstr "Відкриває сторінку налаштувань повідомлень"
 
 #: src/view/screens/Settings/index.tsx:788
 #: src/view/screens/Settings/index.tsx:798
@@ -3226,7 +3226,7 @@ msgstr "Пароль змінено!"
 
 #: src/view/com/util/post-embeds/GifEmbed.tsx:31
 msgid "Pause"
-msgstr ""
+msgstr "Пауза"
 
 #: src/view/screens/Search/Search.tsx:379
 msgid "People"
@@ -3271,7 +3271,7 @@ msgstr "Закріплені стрічки"
 
 #: src/view/com/util/post-embeds/GifEmbed.tsx:31
 msgid "Play"
-msgstr ""
+msgstr "Відтворити"
 
 #: src/view/com/util/post-embeds/ExternalGifEmbed.tsx:123
 msgid "Play {0}"
@@ -3279,7 +3279,7 @@ msgstr "Відтворити {0}"
 
 #: src/view/com/util/post-embeds/GifEmbed.tsx:30
 msgid "Play or pause the GIF"
-msgstr ""
+msgstr "Відтворити або призупинити GIF"
 
 #: src/view/com/util/post-embeds/ExternalPlayerEmbed.tsx:57
 #: src/view/com/util/post-embeds/ExternalPlayerEmbed.tsx:58
@@ -3586,7 +3586,7 @@ msgstr "Видалити ігноровані слова з вашого спи�
 
 #: src/view/com/util/post-embeds/QuoteEmbed.tsx:208
 msgid "Remove quote"
-msgstr ""
+msgstr "Вилучити цитату"
 
 #: src/view/com/modals/Repost.tsx:48
 msgid "Remove repost"
@@ -3615,7 +3615,7 @@ msgstr "Видаляє мініатюру за замовчуванням з {0}
 
 #: src/view/com/util/post-embeds/QuoteEmbed.tsx:209
 msgid "Removes quoted post"
-msgstr ""
+msgstr "Вилучає цитований допис"
 
 #: src/view/screens/Profile.tsx:194
 msgid "Replies"
@@ -3746,7 +3746,7 @@ msgstr "Вимагати опис зображень перед публікац
 
 #: src/view/screens/Settings/Email2FAToggle.tsx:54
 msgid "Require email code to log into your account"
-msgstr ""
+msgstr "Вимагати код електронної пошти для входу в обліковий запис"
 
 #: src/screens/Signup/StepInfo/index.tsx:69
 msgid "Required for this provider"
@@ -3755,7 +3755,7 @@ msgstr "Вимагається цим хостинг-провайдером"
 #: src/view/screens/Settings/DisableEmail2FADialog.tsx:169
 #: src/view/screens/Settings/DisableEmail2FADialog.tsx:172
 msgid "Resend email"
-msgstr ""
+msgstr "Повторно надіслати електронний лист"
 
 #: src/view/com/modals/ChangePassword.tsx:187
 msgid "Reset code"
@@ -3915,7 +3915,7 @@ msgstr "Шукати \"{query}\""
 
 #: src/view/screens/Search/Search.tsx:839
 msgid "Search for \"{searchText}\""
-msgstr ""
+msgstr "Пошук \"{searchText}\""
 
 #: src/components/TagMenu/index.tsx:145
 msgid "Search for all posts by @{authorHandle} with tag {displayTag}"
@@ -3933,11 +3933,11 @@ msgstr "Пошук користувачів"
 
 #: src/components/dialogs/GifSelect.tsx:158
 msgid "Search GIFs"
-msgstr ""
+msgstr "Пошук GIF-файлів"
 
 #: src/components/dialogs/GifSelect.tsx:159
 msgid "Search Tenor"
-msgstr ""
+msgstr "Пошук Tenor"
 
 #: src/view/com/modals/ChangeEmail.tsx:112
 msgid "Security Step Required"
@@ -4083,7 +4083,7 @@ msgstr "Поскаржитися до {0}"
 #: src/view/screens/Settings/DisableEmail2FADialog.tsx:120
 #: src/view/screens/Settings/DisableEmail2FADialog.tsx:123
 msgid "Send verification email"
-msgstr ""
+msgstr "Надіслати електронний лист підтвердження"
 
 #: src/view/com/modals/DeleteAccount.tsx:133
 msgid "Sends email with confirmation code for account deletion"
@@ -4652,7 +4652,7 @@ msgstr "Виникла проблема з оновленням ваших ст�
 
 #: src/components/dialogs/GifSelect.tsx:201
 msgid "There was an issue connecting to Tenor."
-msgstr ""
+msgstr "Виникла проблема при з'єднанні до Tenor."
 
 #: src/view/screens/ProfileFeed.tsx:247
 #: src/view/screens/ProfileList.tsx:277
@@ -4890,7 +4890,7 @@ msgstr "Налаштування обговорень"
 
 #: src/view/screens/Settings/DisableEmail2FADialog.tsx:103
 msgid "To disable the email 2FA method, please verify your access to the email address."
-msgstr ""
+msgstr "Щоб вимкнути метод двофакторної автентифікації електронної пошти, будь ласка, перевірте свій доступ до адреси електронної пошти."
 
 #: src/components/ReportDialog/SelectLabelerView.tsx:33
 msgid "To whom would you like to send this report?"
@@ -5527,7 +5527,7 @@ msgstr "У вас немає списків."
 
 #: src/screens/Messages/List/index.tsx:92
 msgid "You have no messages yet. Start a conversation with someone!"
-msgstr ""
+msgstr "У вас ще немає повідомлень. Почніть розмову з кимось!"
 
 #: src/view/screens/ModerationBlockedAccounts.tsx:137
 msgid "You have not blocked any accounts yet. To block an account, go to their profile and select \"Block account\" from the menu on their account."
