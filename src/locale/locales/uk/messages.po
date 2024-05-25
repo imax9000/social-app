@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-05-25 04:47\n"
+"PO-Revision-Date: 2024-05-25 19:32\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -1427,7 +1427,7 @@ msgstr "Видалити обліковий запис"
 
 #: src/view/com/modals/DeleteAccount.tsx:97
 msgid "Delete Account <0>\"</0><1>{0}</1><2>\"</2>"
-msgstr ""
+msgstr "Видалити обліковий запис <0>\"</0><1>{0}</1><2>\"</2>"
 
 #: src/view/screens/AppPasswords.tsx:244
 msgid "Delete app password"
@@ -1444,7 +1444,7 @@ msgstr ""
 
 #: src/components/dms/MessageMenu.tsx:99
 msgid "Delete for me"
-msgstr ""
+msgstr "Видалити для мене"
 
 #: src/view/screens/ProfileList.tsx:470
 msgid "Delete List"
@@ -1452,11 +1452,11 @@ msgstr "Видалити список"
 
 #: src/components/dms/MessageMenu.tsx:122
 msgid "Delete message"
-msgstr ""
+msgstr "Видалити повідомлення"
 
 #: src/components/dms/MessageMenu.tsx:97
 msgid "Delete message for me"
-msgstr ""
+msgstr "Видалити повідомлення для мене"
 
 #: src/view/com/modals/DeleteAccount.tsx:233
 msgid "Delete my account"
@@ -1905,14 +1905,14 @@ msgstr "Усі"
 
 #: src/view/com/composer/threadgate/ThreadgateBtn.tsx:42
 msgid "Everybody can reply"
-msgstr ""
+msgstr "Всі можуть відповідати"
 
 #: src/components/dms/MessagesNUX.tsx:131
 #: src/components/dms/MessagesNUX.tsx:134
 #: src/screens/Messages/Settings.tsx:75
 #: src/screens/Messages/Settings.tsx:78
 msgid "Everyone"
-msgstr ""
+msgstr "Будь-хто"
 
 #: src/lib/moderation/useReportOptions.ts:67
 msgid "Excessive mentions or replies"
@@ -2000,7 +2000,7 @@ msgstr "Не вдалося створити список. Перевірте і
 
 #: src/components/dms/MessageMenu.tsx:59
 msgid "Failed to delete message"
-msgstr ""
+msgstr "Не вдалося видалити повідомлення"
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:139
 msgid "Failed to delete post, please try again"
@@ -2012,7 +2012,7 @@ msgstr "Не вдалося завантажити GIF"
 
 #: src/screens/Messages/Conversation/MessageListError.tsx:23
 msgid "Failed to load past messages"
-msgstr ""
+msgstr "Не вдалося завантажити останні повідомлення"
 
 #: src/screens/Messages/Conversation/MessageListError.tsx:28
 #~ msgid "Failed to load past messages."
@@ -2029,7 +2029,7 @@ msgstr "Не вдалося зберегти зображення: {0}"
 
 #: src/components/dms/MessageItem.tsx:216
 msgid "Failed to send"
-msgstr ""
+msgstr "Не вдалося надіслати"
 
 #: src/screens/Messages/Conversation/MessageListError.tsx:29
 #~ msgid "Failed to send message(s)."
@@ -2356,7 +2356,7 @@ msgstr "Далі"
 
 #: src/components/dms/ConvoMenu.tsx:165
 msgid "Go to profile"
-msgstr ""
+msgstr "Перейти до профілю"
 
 #: src/components/dms/ConvoMenu.tsx:162
 msgid "Go to user's profile"
@@ -2519,7 +2519,7 @@ msgstr "Я маю власний домен"
 #: src/components/dms/BlockedByListDialog.tsx:56
 #: src/components/dms/ReportConversationPrompt.tsx:22
 msgid "I understand"
-msgstr ""
+msgstr "Я зрозумів"
 
 #: src/view/com/lightbox/Lightbox.web.tsx:185
 msgid "If alt text is long, toggles alt text expanded state"
@@ -2736,12 +2736,12 @@ msgstr "Дізнатися більше."
 
 #: src/components/dms/LeaveConvoPrompt.tsx:50
 msgid "Leave"
-msgstr ""
+msgstr "Вийти"
 
 #: src/components/dms/MessagesListBlockedFooter.tsx:66
 #: src/components/dms/MessagesListBlockedFooter.tsx:73
 msgid "Leave chat"
-msgstr ""
+msgstr "Вийти з чату"
 
 #: src/components/dms/ConvoMenu.tsx:136
 #: src/components/dms/ConvoMenu.tsx:139
@@ -2749,7 +2749,7 @@ msgstr ""
 #: src/components/dms/ConvoMenu.tsx:209
 #: src/components/dms/LeaveConvoPrompt.tsx:46
 msgid "Leave conversation"
-msgstr ""
+msgstr "Залишити розмову"
 
 #: src/view/com/modals/lang-settings/ContentLanguagesSettings.tsx:82
 msgid "Leave them all unchecked to see any language."
@@ -2949,7 +2949,7 @@ msgstr "Налаштувати ваші ігноровані слова і те�
 #: src/components/dms/ConvoMenu.tsx:149
 #: src/components/dms/ConvoMenu.tsx:156
 msgid "Mark as read"
-msgstr ""
+msgstr "Відмітити як прочитане"
 
 #: src/view/screens/AccessibilitySettings.tsx:89
 #: src/view/screens/Profile.tsx:195
@@ -3458,15 +3458,15 @@ msgstr "Примітка: Bluesky є відкритою і публічною м
 
 #: src/screens/Messages/List/index.tsx:215
 msgid "Nothing here"
-msgstr ""
+msgstr "Тут нічого немає"
 
 #: src/screens/Messages/Settings.tsx:124
 msgid "Notification sounds"
-msgstr ""
+msgstr "Звуки сповіщень"
 
 #: src/screens/Messages/Settings.tsx:121
 msgid "Notification Sounds"
-msgstr ""
+msgstr "Звуки сповіщень"
 
 #: src/Navigation.tsx:515
 #: src/view/screens/Notifications.tsx:124
@@ -3480,7 +3480,7 @@ msgstr "Сповіщення"
 
 #: src/components/dms/MessageItem.tsx:161
 msgid "Now"
-msgstr ""
+msgstr "Щойно"
 
 #: src/view/com/modals/SelfLabel.tsx:104
 msgid "Nudity"
@@ -3530,7 +3530,7 @@ msgstr "Для одного або кількох зображень відсу�
 
 #: src/screens/Onboarding/StepProfile/index.tsx:120
 msgid "Only .jpg and .png files are supported"
-msgstr ""
+msgstr "Підтримуються лише файли формату .jpg і .png"
 
 #: src/view/com/threadgate/WhoCanReply.tsx:100
 msgid "Only {0} can reply."
@@ -4546,7 +4546,7 @@ msgstr "Зберігає налаштування обрізання зобра�
 
 #: src/components/dms/ChatEmptyPill.tsx:33
 msgid "Say hello!"
-msgstr ""
+msgstr "Привітайтесь!"
 
 #: src/screens/Onboarding/index.tsx:48
 msgid "Science"
@@ -4607,7 +4607,7 @@ msgstr "Пошук GIF-файлів"
 #: src/components/dms/NewChatDialog/index.tsx:290
 #: src/components/dms/NewChatDialog/index.tsx:291
 msgid "Search profiles"
-msgstr ""
+msgstr "Пошук профілів"
 
 #: src/components/dialogs/GifSelect.tsx:159
 msgid "Search Tenor"
@@ -4652,7 +4652,7 @@ msgstr "Обрати {item}"
 
 #: src/screens/Onboarding/StepProfile/AvatarCreatorItems.tsx:67
 msgid "Select a color"
-msgstr ""
+msgstr "Вибрати колір"
 
 #: src/screens/Login/ChooseAccountForm.tsx:85
 msgid "Select account"
@@ -4660,11 +4660,11 @@ msgstr "Вибрати обліковий запис"
 
 #: src/screens/Onboarding/StepProfile/AvatarCircle.tsx:66
 msgid "Select an avatar"
-msgstr ""
+msgstr "Виберіть аватар"
 
 #: src/screens/Onboarding/StepProfile/AvatarCreatorItems.tsx:65
 msgid "Select an emoji"
-msgstr ""
+msgstr "Виберіть емодзі"
 
 #: src/screens/Login/index.tsx:120
 msgid "Select from an existing account"
@@ -4768,7 +4768,7 @@ msgstr "Надіслати відгук"
 #: src/screens/Messages/Conversation/MessageInput.tsx:144
 #: src/screens/Messages/Conversation/MessageInput.web.tsx:145
 msgid "Send message"
-msgstr ""
+msgstr "Надіслати повідомлення"
 
 #: src/components/dms/ReportDialog.tsx:232
 #: src/components/dms/ReportDialog.tsx:235
@@ -4898,11 +4898,11 @@ msgstr "Поширити"
 
 #: src/components/dms/ChatEmptyPill.tsx:37
 msgid "Share a cool story!"
-msgstr ""
+msgstr "Поділіться цікавою історією!"
 
 #: src/components/dms/ChatEmptyPill.tsx:36
 msgid "Share a fun fact!"
-msgstr ""
+msgstr "Поділіться веселим фактом!"
 
 #: src/view/com/profile/ProfileMenu.tsx:373
 #: src/view/com/util/forms/PostDropdownBtn.tsx:420
@@ -4922,7 +4922,7 @@ msgstr "Поділитись посиланням"
 
 #: src/components/dms/ChatEmptyPill.tsx:34
 msgid "Share your favorite feed!"
-msgstr ""
+msgstr "Поділіться улюбленою стрічкою!"
 
 #: src/view/com/modals/LinkWarning.tsx:92
 msgid "Shares the linked website"
@@ -6302,7 +6302,7 @@ msgstr "Хто може відповідати"
 #: src/screens/Home/NoFeedsPinned.tsx:92
 #: src/screens/Messages/List/index.tsx:185
 msgid "Whoops!"
-msgstr ""
+msgstr "Упс!"
 
 #: src/components/ReportDialog/SelectReportOptionView.tsx:44
 msgid "Why should this content be reviewed?"
