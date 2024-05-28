@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-05-27 19:32\n"
+"PO-Revision-Date: 2024-05-28 01:28\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -436,7 +436,7 @@ msgstr "Виникла проблема, будь ласка, спробуйте
 
 #: src/screens/Onboarding/StepInterests/index.tsx:204
 msgid "an unknown error occurred"
-msgstr ""
+msgstr "Сталася невідома помилка"
 
 #: src/view/com/notifications/FeedItem.tsx:236
 #: src/view/com/threadgate/WhoCanReply.tsx:180
@@ -493,7 +493,7 @@ msgstr "Оскаржити мітку \"{0}\""
 #: src/components/moderation/LabelsOnMeDialog.tsx:229
 #: src/screens/Messages/Conversation/ChatDisabled.tsx:91
 msgid "Appeal submitted"
-msgstr ""
+msgstr "Оскарження подано"
 
 #: src/components/moderation/LabelsOnMeDialog.tsx:193
 #~ msgid "Appeal submitted."
@@ -504,7 +504,7 @@ msgstr ""
 #: src/screens/Messages/Conversation/ChatDisabled.tsx:99
 #: src/screens/Messages/Conversation/ChatDisabled.tsx:101
 msgid "Appeal this decision"
-msgstr ""
+msgstr "Оскаржити це рішення"
 
 #: src/view/screens/Settings/index.tsx:432
 msgid "Appearance"
@@ -606,7 +606,7 @@ msgstr "Заблокувати"
 #: src/components/dms/ConvoMenu.tsx:186
 #: src/components/dms/ConvoMenu.tsx:190
 msgid "Block account"
-msgstr ""
+msgstr "Заблокувати"
 
 #: src/view/com/profile/ProfileMenu.tsx:300
 #: src/view/com/profile/ProfileMenu.tsx:307
@@ -867,7 +867,7 @@ msgstr "Чат"
 
 #: src/components/dms/ConvoMenu.tsx:80
 msgid "Chat muted"
-msgstr ""
+msgstr "Сповіщення чату вимк."
 
 #: src/components/dms/ConvoMenu.tsx:110
 #: src/components/dms/MessageMenu.tsx:67
@@ -875,16 +875,16 @@ msgstr ""
 #: src/screens/Messages/List/index.tsx:88
 #: src/view/screens/Settings/index.tsx:631
 msgid "Chat settings"
-msgstr ""
+msgstr "Налаштування чату"
 
 #: src/screens/Messages/Settings.tsx:59
 #: src/view/screens/Settings/index.tsx:640
 msgid "Chat Settings"
-msgstr ""
+msgstr "Налаштування чату"
 
 #: src/components/dms/ConvoMenu.tsx:82
 msgid "Chat unmuted"
-msgstr ""
+msgstr "Сповіщення чату увімк."
 
 #: src/screens/Messages/Conversation/index.tsx:26
 #~ msgid "Chat with {chatId}"
