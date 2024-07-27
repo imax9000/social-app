@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-07-25 11:32\n"
+"PO-Revision-Date: 2024-07-27 07:58\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -696,7 +696,7 @@ msgstr ""
 
 #: src/components/dms/LeaveConvoPrompt.tsx:48
 msgid "Are you sure you want to leave this conversation? Your messages will be deleted for you, but not for the other participant."
-msgstr ""
+msgstr "Ви впевнені, що хочете залишити цю розмову? Повідомлення зникнуть для вас, але не для співрозмовника."
 
 #: src/view/com/feeds/FeedSourceCard.tsx:314
 msgid "Are you sure you want to remove {0} from your feeds?"
@@ -1276,7 +1276,7 @@ msgstr "Закрити перегляд зображення"
 
 #: src/components/dms/MessagesNUX.tsx:162
 msgid "Close modal"
-msgstr ""
+msgstr "Закрити вікно"
 
 #: src/view/shell/index.web.tsx:61
 msgid "Close navigation footer"
@@ -1469,7 +1469,7 @@ msgstr "Продовжити до наступного кроку"
 
 #: src/screens/Messages/List/ChatListItem.tsx:154
 msgid "Conversation deleted"
-msgstr ""
+msgstr "Розмову видалено"
 
 #: src/screens/Onboarding/index.tsx:41
 msgid "Cooking"
@@ -1819,7 +1819,7 @@ msgstr "Тьмяна"
 
 #: src/components/dms/MessagesNUX.tsx:88
 msgid "Direct messages are here!"
-msgstr ""
+msgstr "Особисті повідомлення вже тут!"
 
 #: src/view/screens/AccessibilitySettings.tsx:107
 msgid "Disable autoplay for GIFs"
@@ -2289,7 +2289,7 @@ msgstr "Спам; надмірні згадки або відповіді"
 
 #: src/lib/moderation/useReportOptions.ts:81
 msgid "Excessive or unwanted messages"
-msgstr ""
+msgstr "Надмірні або небажані повідомлення"
 
 #: src/view/com/modals/DeleteAccount.tsx:293
 msgid "Exits account deletion process"
@@ -2443,7 +2443,7 @@ msgstr "Не вдалося надіслати"
 #: src/components/moderation/LabelsOnMeDialog.tsx:244
 #: src/screens/Messages/Conversation/ChatDisabled.tsx:87
 msgid "Failed to submit appeal, please try again."
-msgstr ""
+msgstr "Не вдалося подати апеляцію. Будь ласка, спробуйте ще раз."
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:181
 msgid "Failed to toggle thread mute, please try again"
@@ -2456,7 +2456,7 @@ msgstr ""
 #: src/components/dms/MessagesNUX.tsx:60
 #: src/screens/Messages/Settings.tsx:35
 msgid "Failed to update settings"
-msgstr ""
+msgstr "Не вдалося оновити налаштування"
 
 #: src/Navigation.tsx:217
 msgid "Feed"
@@ -2792,7 +2792,7 @@ msgstr ""
 
 #: src/components/dms/MessagesNUX.tsx:168
 msgid "Get started"
-msgstr ""
+msgstr "Почнімо"
 
 #: src/view/com/modals/VerifyEmail.tsx:197
 #: src/view/com/modals/VerifyEmail.tsx:199
@@ -5630,7 +5630,7 @@ msgstr "Надіслати повідомлення"
 
 #: src/components/dms/dialogs/ShareViaChatDialog.tsx:64
 msgid "Send post to..."
-msgstr ""
+msgstr "Надіслати пост до..."
 
 #: src/components/dms/ReportDialog.tsx:234
 #: src/components/dms/ReportDialog.tsx:237
@@ -5651,7 +5651,7 @@ msgstr "Надіслати електронний лист підтвердже�
 #: src/view/com/util/forms/PostDropdownBtn.tsx:299
 #: src/view/com/util/forms/PostDropdownBtn.tsx:302
 msgid "Send via direct message"
-msgstr ""
+msgstr "Надіслати в особисті повідомлення"
 
 #: src/view/com/modals/DeleteAccount.tsx:151
 msgid "Sends email with confirmation code for account deletion"
