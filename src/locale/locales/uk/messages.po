@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-09-09 16:32\n"
+"PO-Revision-Date: 2024-09-09 23:09\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -33,11 +33,11 @@ msgstr "{0, plural, other {ще {formattedCount}}}"
 
 #: src/lib/hooks/useTimeAgo.ts:156
 msgid "{0, plural, one {# day} other {# days}}"
-msgstr ""
+msgstr "{0, plural, one {# день} few {# дні} many {# днів} other {# дні}}"
 
 #: src/lib/hooks/useTimeAgo.ts:146
 msgid "{0, plural, one {# hour} other {# hours}}"
-msgstr ""
+msgstr "{0, plural, one {# година} few {# годин} many {# годин} other {# годин}}"
 
 #: src/components/moderation/LabelsOnMe.tsx:55
 #~ msgid "{0, plural, one {# label has been placed on this account} other {# labels has been placed on this account}}"
@@ -134,7 +134,7 @@ msgstr "{0} приєдналися цього тижня"
 
 #: src/view/com/util/post-embeds/VideoEmbedInner/VideoWebControls.tsx:593
 msgid "{0} of {1}"
-msgstr ""
+msgstr "{0} з {1}"
 
 #: src/screens/StarterPack/StarterPackScreen.tsx:467
 msgid "{0} people have used this starter pack!"
@@ -159,27 +159,27 @@ msgstr "Початковий пакет {0}"
 #. How many days have passed, displayed in a narrow form
 #: src/lib/hooks/useTimeAgo.ts:158
 msgid "{0}d"
-msgstr ""
+msgstr "{0}д"
 
 #. How many hours have passed, displayed in a narrow form
 #: src/lib/hooks/useTimeAgo.ts:148
 msgid "{0}h"
-msgstr ""
+msgstr "{0}г"
 
 #. How many minutes have passed, displayed in a narrow form
 #: src/lib/hooks/useTimeAgo.ts:138
 msgid "{0}m"
-msgstr ""
+msgstr "{0}хв"
 
 #. How many months have passed, displayed in a narrow form
 #: src/lib/hooks/useTimeAgo.ts:169
 msgid "{0}mo"
-msgstr ""
+msgstr "{0}м"
 
 #. How many seconds have passed, displayed in a narrow form
 #: src/lib/hooks/useTimeAgo.ts:128
 msgid "{0}s"
-msgstr ""
+msgstr "{0}с"
 
 #: src/components/LabelingServiceCard/index.tsx:71
 msgid "{count, plural, one {Liked by # user} other {Liked by # users}}"
@@ -436,7 +436,7 @@ msgstr "Додати ще {0} для продовження"
 
 #: src/components/StarterPack/Wizard/WizardListCard.tsx:59
 msgid "Add {displayName} to starter pack"
-msgstr ""
+msgstr "Додати {displayName} до початкового списку"
 
 #: src/view/com/modals/SelfLabel.tsx:57
 msgid "Add a content warning"
@@ -502,7 +502,7 @@ msgstr "Додати рекомендовані стрічки"
 
 #: src/screens/StarterPack/Wizard/index.tsx:488
 msgid "Add some feeds to your starter pack!"
-msgstr ""
+msgstr "Додати стрічки до початкового списку!"
 
 #: src/screens/Feeds/NoFollowingFeed.tsx:41
 msgid "Add the default feed of only people you follow"
@@ -514,7 +514,7 @@ msgstr "Додайте наступний DNS-запис до вашого до�
 
 #: src/components/FeedCard.tsx:293
 msgid "Add this feed to your feeds"
-msgstr ""
+msgstr "Додати цю стрічку до вашої стрічки"
 
 #: src/view/com/profile/ProfileMenu.tsx:267
 #: src/view/com/profile/ProfileMenu.tsx:270
@@ -550,7 +550,7 @@ msgstr "Вміст для дорослих"
 
 #: src/screens/Moderation/index.tsx:365
 msgid "Adult content can only be enabled via the Web at <0>bsky.app</0>."
-msgstr ""
+msgstr "Вміст для дорослих може бути увімкнено лише через вебверсію <0>bsky.app</0>."
 
 #: src/components/moderation/LabelPreference.tsx:242
 msgid "Adult content is disabled."
@@ -594,7 +594,7 @@ msgstr "Дозволити відповіді від:"
 
 #: src/view/screens/AppPasswords.tsx:266
 msgid "Allows access to direct messages"
-msgstr ""
+msgstr "Надати доступ до повідомлень"
 
 #: src/screens/Login/ForgotPasswordForm.tsx:178
 #: src/view/com/modals/ChangePassword.tsx:171
@@ -639,7 +639,7 @@ msgstr "Було надіслано лист на вашу попередню а
 
 #: src/components/dialogs/GifSelect.tsx:254
 msgid "An error has occurred"
-msgstr ""
+msgstr "Виникла помилка"
 
 #: src/components/dialogs/GifSelect.tsx:252
 #~ msgid "An error occured"
@@ -647,11 +647,11 @@ msgstr ""
 
 #: src/view/com/util/post-embeds/VideoEmbedInner/VideoWebControls.tsx:369
 msgid "An error occurred"
-msgstr ""
+msgstr "Виникла помилка"
 
 #: src/state/queries/video/video.ts:227
 msgid "An error occurred while compressing the video."
-msgstr ""
+msgstr "Виникла помилка під час стискання цього відео."
 
 #: src/components/StarterPack/ProfileStarterPacks.tsx:315
 msgid "An error occurred while generating your starter pack. Want to try again?"
@@ -806,7 +806,7 @@ msgstr ""
 
 #: src/Navigation.tsx:326
 msgid "Appearance Settings"
-msgstr ""
+msgstr "Налаштування вигляду"
 
 #: src/screens/Feeds/NoSavedFeedsOfAnyType.tsx:47
 #: src/screens/Home/NoFeedsPinned.tsx:93
@@ -993,7 +993,7 @@ msgstr "Bluesky є відкритою мережею, де ви можете о�
 
 #: src/components/ProgressGuide/List.tsx:55
 msgid "Bluesky is better with friends!"
-msgstr ""
+msgstr "Bluesky найкращий з друзями!"
 
 #: src/view/com/auth/onboarding/WelcomeDesktop.tsx:80
 #: src/view/com/auth/onboarding/WelcomeMobile.tsx:82
