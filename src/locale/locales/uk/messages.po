@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-09-08 04:55\n"
+"PO-Revision-Date: 2024-09-09 16:32\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -330,7 +330,7 @@ msgstr "⚠Недопустимий псевдонім"
 
 #: src/components/dialogs/MutedWords.tsx:193
 msgid "24 hours"
-msgstr ""
+msgstr "24 години"
 
 #: src/screens/Login/LoginForm.tsx:266
 msgid "2FA Confirmation"
@@ -338,11 +338,11 @@ msgstr "Підтвердження двофакторної автентифік
 
 #: src/components/dialogs/MutedWords.tsx:232
 msgid "30 days"
-msgstr ""
+msgstr "30 днів"
 
 #: src/components/dialogs/MutedWords.tsx:217
 msgid "7 days"
-msgstr ""
+msgstr "7 днів"
 
 #: src/tours/Tooltip.tsx:70
 #~ msgid "A help tooltip"
@@ -432,7 +432,7 @@ msgstr "Додати"
 
 #: src/screens/StarterPack/Wizard/index.tsx:568
 msgid "Add {0} more to continue"
-msgstr ""
+msgstr "Додати ще {0} для продовження"
 
 #: src/components/StarterPack/Wizard/WizardListCard.tsx:59
 msgid "Add {displayName} to starter pack"
@@ -468,7 +468,7 @@ msgstr "Додати альтернативний текст"
 
 #: src/view/com/composer/videos/SubtitleDialog.tsx:107
 msgid "Add alt text (optional)"
-msgstr ""
+msgstr "Додати альтернативний текст (за бажанням)"
 
 #: src/view/screens/AppPasswords.tsx:105
 #: src/view/screens/AppPasswords.tsx:147
@@ -563,11 +563,11 @@ msgstr "Розширені"
 
 #: src/state/shell/progress-guide.tsx:171
 msgid "Algorithm training complete!"
-msgstr ""
+msgstr "Тренування алгоритму завершене!"
 
 #: src/screens/StarterPack/StarterPackScreen.tsx:370
 msgid "All accounts have been followed!"
-msgstr ""
+msgstr "Здійснено підписку на усі облікові записи!"
 
 #: src/view/screens/Feeds.tsx:733
 msgid "All the feeds you've saved, right in one place."
@@ -590,7 +590,7 @@ msgstr "Дозволяти нові повідомлення від"
 
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:359
 msgid "Allow replies from:"
-msgstr ""
+msgstr "Дозволити відповіді від:"
 
 #: src/view/screens/AppPasswords.tsx:266
 msgid "Allows access to direct messages"
