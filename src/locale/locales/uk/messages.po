@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-09-14 04:47\n"
+"PO-Revision-Date: 2024-11-19 09:10\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -1188,11 +1188,11 @@ msgstr ""
 
 #: src/view/com/composer/videos/SubtitleDialog.tsx:56
 msgid "Captions & alt text"
-msgstr ""
+msgstr "Назва та альтернативний текст"
 
 #: src/components/dialogs/nuxs/TenMillion/index.tsx:368
 msgid "Celebrating {0} users"
-msgstr ""
+msgstr "Святкуємо {0} користувачів"
 
 #: src/view/com/modals/VerifyEmail.tsx:160
 msgid "Change"
@@ -1299,15 +1299,15 @@ msgstr "Перевірте свою поштову скриньку на ная�
 
 #: src/screens/StarterPack/Wizard/index.tsx:190
 msgid "Choose Feeds"
-msgstr ""
+msgstr "Обрати стрічки"
 
 #: src/components/StarterPack/ProfileStarterPacks.tsx:290
 msgid "Choose for me"
-msgstr ""
+msgstr "Обрати для мене"
 
 #: src/screens/StarterPack/Wizard/index.tsx:186
 msgid "Choose People"
-msgstr ""
+msgstr "Обрати людей"
 
 #: src/view/com/auth/server-input/index.tsx:79
 msgid "Choose Service"
@@ -1488,7 +1488,7 @@ msgstr "Закриває перегляд зображення"
 
 #: src/view/com/notifications/FeedItem.tsx:265
 msgid "Collapse list of users"
-msgstr ""
+msgstr "Згорнути список користувачів"
 
 #: src/view/com/notifications/FeedItem.tsx:466
 msgid "Collapses list of users for a given notification"
@@ -1639,7 +1639,7 @@ msgstr "Продовжити як {0} (поточний користувач)"
 
 #: src/view/com/post-thread/PostThreadLoadMore.tsx:52
 msgid "Continue thread..."
-msgstr ""
+msgstr "Продовжити гілку..."
 
 #: src/screens/Onboarding/StepInterests/index.tsx:255
 #: src/screens/Onboarding/StepProfile/index.tsx:266
@@ -1705,11 +1705,11 @@ msgstr "Скопіювати код"
 
 #: src/components/StarterPack/ShareDialog.tsx:124
 msgid "Copy link"
-msgstr ""
+msgstr "Копіювати посилання"
 
 #: src/components/StarterPack/ShareDialog.tsx:131
 msgid "Copy Link"
-msgstr ""
+msgstr "Копіювати посилання"
 
 #: src/view/screens/ProfileList.tsx:484
 msgid "Copy link to list"
@@ -1723,7 +1723,7 @@ msgstr "Копіювати посилання на пост"
 #: src/components/dms/MessageMenu.tsx:110
 #: src/components/dms/MessageMenu.tsx:112
 msgid "Copy message text"
-msgstr ""
+msgstr "Копіювати текст повідомлення"
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:388
 #: src/view/com/util/forms/PostDropdownBtn.tsx:390
@@ -1732,7 +1732,7 @@ msgstr "Копіювати текст повідомлення"
 
 #: src/components/StarterPack/QrCodeDialog.tsx:171
 msgid "Copy QR code"
-msgstr ""
+msgstr "Копіювати QR код"
 
 #: src/Navigation.tsx:281
 #: src/view/screens/CopyrightPolicy.tsx:29
