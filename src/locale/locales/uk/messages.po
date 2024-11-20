@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-11-20 09:40\n"
+"PO-Revision-Date: 2024-11-20 16:09\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -705,7 +705,7 @@ msgstr "Сталася помилка під час створення чату"
 
 #: src/components/dms/dialogs/ShareViaChatDialog.tsx:49
 msgid "An issue occurred while trying to open the chat"
-msgstr ""
+msgstr "Сталася помилка при спробі відкрити чат"
 
 #: src/components/hooks/useFollowMethods.ts:35
 #: src/components/hooks/useFollowMethods.ts:50
@@ -4333,7 +4333,7 @@ msgstr "Новий пост"
 
 #: src/components/NewskieDialog.tsx:83
 msgid "New user info dialog"
-msgstr ""
+msgstr "Інформація про нового користувача"
 
 #: src/view/com/modals/CreateOrEditList.tsx:236
 msgid "New User List"
@@ -4389,7 +4389,7 @@ msgstr "Відсутній опис"
 
 #: src/view/com/modals/ChangeHandle.tsx:399
 msgid "No DNS Panel"
-msgstr "Відстуня панель DNS"
+msgstr "Відсутня панель DNS"
 
 #: src/components/dialogs/GifSelect.ios.tsx:202
 #: src/components/dialogs/GifSelect.tsx:218
@@ -4668,11 +4668,11 @@ msgstr "Відкрити"
 
 #: src/view/com/posts/AviFollowButton.tsx:87
 msgid "Open {name} profile shortcut menu"
-msgstr ""
+msgstr "Відкрити меню швидкого доступу облікового запису {name}"
 
 #: src/screens/Onboarding/StepProfile/index.tsx:277
 msgid "Open avatar creator"
-msgstr ""
+msgstr "Відкрити створювач аватарів"
 
 #: src/screens/Messages/List/ChatListItem.tsx:219
 #: src/screens/Messages/List/ChatListItem.tsx:220
@@ -4699,7 +4699,7 @@ msgstr "Відкрити налаштування повідомлень"
 
 #: src/screens/Moderation/index.tsx:230
 msgid "Open muted words and tags settings"
-msgstr "Відкрити налаштування ігнорування слів і тегів"
+msgstr "Відкрити налаштування ігнорування слів і міток"
 
 #: src/view/com/home/HomeHeaderLayoutMobile.tsx:54
 msgid "Open navigation"
@@ -4724,19 +4724,19 @@ msgstr "Відкрити системний журнал"
 
 #: src/view/com/util/forms/DropdownButton.tsx:159
 msgid "Opens {numItems} options"
-msgstr "Відкриває меню з {numItems} опціями"
+msgstr "Відкриє параметри {numItems}"
 
 #: src/view/com/composer/threadgate/ThreadgateBtn.tsx:68
 msgid "Opens a dialog to choose who can reply to this thread"
-msgstr ""
+msgstr "Відкриє діалог для вибору тих, хто зможе відповідати у цій гілці"
 
 #: src/view/screens/Settings/index.tsx:455
 msgid "Opens accessibility settings"
-msgstr "Відкриває параметри доступності"
+msgstr "Відкриє параметри доступності"
 
 #: src/view/screens/Log.tsx:58
 msgid "Opens additional details for a debug entry"
-msgstr "Відкриває додаткову інформацію про запис для налагодження"
+msgstr "Відкриє додаткову інформацію про запис для налагодження"
 
 #: src/view/com/notifications/FeedItem.tsx:349
 #~ msgid "Opens an expanded list of users in this notification"
@@ -4744,77 +4744,77 @@ msgstr "Відкриває додаткову інформацію про зап
 
 #: src/view/screens/Settings/index.tsx:476
 msgid "Opens appearance settings"
-msgstr ""
+msgstr "Відкриє налаштування оформлення"
 
 #: src/view/com/composer/photos/OpenCameraBtn.tsx:74
 msgid "Opens camera on device"
-msgstr "Відкриває камеру на пристрої"
+msgstr "Відкриє камеру на пристрої"
 
 #: src/view/screens/Settings/index.tsx:605
 msgid "Opens chat settings"
-msgstr ""
+msgstr "Відкриє налаштування чату"
 
 #: src/view/com/post-thread/PostThreadComposePrompt.tsx:30
 msgid "Opens composer"
-msgstr "Відкриває редактор"
+msgstr "Відкриє редактор"
 
 #: src/view/screens/Settings/index.tsx:497
 msgid "Opens configurable language settings"
-msgstr "Відкриває налаштування мов"
+msgstr "Відкриє налаштування мов"
 
 #: src/view/com/composer/photos/SelectPhotoBtn.tsx:40
 msgid "Opens device photo gallery"
-msgstr "Відкриває фотогалерею пристрою"
+msgstr "Відкриє фотогалерею пристрою"
 
 #: src/view/screens/Settings/index.tsx:637
 msgid "Opens external embeds settings"
-msgstr "Відкриває налаштування зовнішніх вбудувань"
+msgstr "Відкриє налаштування зовнішніх вбудувань"
 
 #: src/view/com/auth/SplashScreen.tsx:50
 #: src/view/com/auth/SplashScreen.web.tsx:99
 msgid "Opens flow to create a new Bluesky account"
-msgstr "Відкриває процес створення нового облікового запису Bluesky"
+msgstr "Відкриє процес створення нового облікового запису Bluesky"
 
 #: src/view/com/auth/SplashScreen.tsx:65
 #: src/view/com/auth/SplashScreen.web.tsx:114
 msgid "Opens flow to sign into your existing Bluesky account"
-msgstr "Відкриває процес входу в існуючий обліковий запис Bluesky"
+msgstr "Відкриє процес входу в існуючий обліковий запис Bluesky"
 
 #: src/view/com/composer/photos/SelectGifBtn.tsx:36
 msgid "Opens GIF select dialog"
-msgstr "Відкриває діалогове вікно вибору GIF"
+msgstr "Відкриє діалогове вікно вибору GIF"
 
 #: src/view/com/modals/InviteCodes.tsx:173
 msgid "Opens list of invite codes"
-msgstr "Відкриває список кодів запрошення"
+msgstr "Відкриє список кодів запрошення"
 
 #: src/view/screens/Settings/index.tsx:774
 msgid "Opens modal for account deactivation confirmation"
-msgstr ""
+msgstr "Відкриє вікно для підтвердження деактивації облікового запису"
 
 #: src/view/screens/Settings/index.tsx:796
 msgid "Opens modal for account deletion confirmation. Requires email code"
-msgstr "Відкриває модальне вікно для підтвердження видалення облікового запису. Потребує код з електронної пошти"
+msgstr "Відкриє вікно для підтвердження видалення облікового запису. Потребує код з електронної пошти"
 
 #: src/view/screens/Settings/index.tsx:731
 msgid "Opens modal for changing your Bluesky password"
-msgstr "Відкриває модальне вікно для зміни паролю в Bluesky"
+msgstr "Відкриє вікно для зміни пароля Bluesky"
 
 #: src/view/screens/Settings/index.tsx:686
 msgid "Opens modal for choosing a new Bluesky handle"
-msgstr "Відкриває модальне вікно для вибору псевдоніму в Bluesky"
+msgstr "Відкриє вікно для вибору псевдоніма Bluesky"
 
 #: src/view/screens/Settings/index.tsx:754
 msgid "Opens modal for downloading your Bluesky account data (repository)"
-msgstr "Відкриває модальне вікно для завантаження даних з вашого облікового запису Bluesky (репозиторій)"
+msgstr "Відкриє вікно для завантаження даних з вашого облікового запису Bluesky (репозиторій)"
 
 #: src/view/screens/Settings/index.tsx:962
 msgid "Opens modal for email verification"
-msgstr "Відкриває модальне вікно для перевірки електронної пошти"
+msgstr "Відкриє вікно для перевірки електронної пошти"
 
 #: src/view/com/modals/ChangeHandle.tsx:276
 msgid "Opens modal for using custom domain"
-msgstr "Відкриває діалог налаштування власного домену як псевдоніму"
+msgstr "Відкриє вікно налаштування власного домену як псевдоніму"
 
 #: src/view/screens/Settings/index.tsx:522
 msgid "Opens moderation settings"
@@ -4869,7 +4869,7 @@ msgstr "Відкриває цей профіль"
 
 #: src/view/com/composer/videos/SelectVideoBtn.tsx:95
 msgid "Opens video picker"
-msgstr ""
+msgstr "Відкриє вікно вибору відео"
 
 #: src/view/com/util/forms/DropdownButton.tsx:293
 msgid "Option {0} of {numItems}"
@@ -4886,7 +4886,7 @@ msgstr "Параметри:"
 
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:388
 msgid "Or combine these options:"
-msgstr "Або якісь із наступних варіантів:"
+msgstr "Або поєднайте ці параметри:"
 
 #: src/screens/Deactivated.tsx:211
 msgid "Or, continue with another account."
@@ -5399,7 +5399,7 @@ msgstr ""
 
 #: src/components/dms/ReportDialog.tsx:174
 msgid "Reason:"
-msgstr ""
+msgstr "Підстава:"
 
 #: src/components/dms/MessageReportDialog.tsx:149
 #~ msgid "Reason: {0}"
@@ -7394,7 +7394,7 @@ msgstr ""
 
 #: src/view/com/composer/useExternalLinkFetch.ts:67
 msgid "This post's author has disabled quote posts."
-msgstr ""
+msgstr "Автор цього поста вимкнув можливість його цитувати."
 
 #: src/view/com/profile/ProfileMenu.tsx:374
 msgid "This profile is only visible to logged-in users. It won't be visible to people who aren't logged in."
@@ -7439,7 +7439,7 @@ msgstr "Цей користувач є в списку <0>{0}</0>, який ви
 
 #: src/components/NewskieDialog.tsx:65
 msgid "This user is new here. Press for more info about when they joined."
-msgstr ""
+msgstr "Це новий користувач. Натисніть для детальнішої інформації про дату приєднання."
 
 #: src/view/com/profile/ProfileFollows.tsx:96
 msgid "This user isn't following anyone."
