@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-11-27 05:02\n"
+"PO-Revision-Date: 2024-12-06 12:25\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -385,7 +385,7 @@ msgstr "7 днів"
 #: src/screens/Settings/Settings.tsx:207
 #: src/screens/Settings/Settings.tsx:210
 msgid "About"
-msgstr ""
+msgstr "Про"
 
 #: src/view/com/util/ViewHeader.tsx:89
 #: src/view/screens/Search/Search.tsx:884
@@ -507,15 +507,15 @@ msgstr "Додати альтернативний текст (за бажанн�
 #: src/screens/Settings/Settings.tsx:364
 #: src/screens/Settings/Settings.tsx:367
 msgid "Add another account"
-msgstr ""
+msgstr "Додати інший обліковий запис"
 
 #: src/view/com/composer/Composer.tsx:721
 msgid "Add another post"
-msgstr ""
+msgstr "Написати ще"
 
 #: src/screens/Settings/components/AddAppPasswordDialog.tsx:102
 msgid "Add app password"
-msgstr ""
+msgstr "Встановити пароль застосунку"
 
 #: src/screens/Settings/AppPasswords.tsx:67
 #: src/screens/Settings/AppPasswords.tsx:75
@@ -533,7 +533,7 @@ msgstr "Додати ігноровані слова та теги"
 
 #: src/view/com/composer/Composer.tsx:1235
 msgid "Add new post"
-msgstr ""
+msgstr "Написати"
 
 #: src/screens/Home/NoFeedsPinned.tsx:99
 msgid "Add recommended feeds"
@@ -575,7 +575,7 @@ msgstr "Додано до моїх стрічок"
 
 #: src/view/com/composer/labels/LabelsBtn.tsx:160
 msgid "Adult"
-msgstr ""
+msgstr "Дорослий"
 
 #: src/components/moderation/ContentHider.tsx:113
 #: src/lib/moderation/useGlobalLabelStrings.ts:34
@@ -595,7 +595,7 @@ msgstr "Контент для дорослих вимкнено."
 #: src/view/com/composer/labels/LabelsBtn.tsx:139
 #: src/view/com/composer/labels/LabelsBtn.tsx:197
 msgid "Adult Content labels"
-msgstr ""
+msgstr "Мітки вмісту для дорослих"
 
 #: src/screens/Moderation/index.tsx:404
 msgid "Advanced"
@@ -773,7 +773,7 @@ msgstr "Антисоціальна поведінка"
 #: src/view/screens/Search/Search.tsx:347
 #: src/view/screens/Search/Search.tsx:348
 msgid "Any language"
-msgstr ""
+msgstr "Усі мови"
 
 #: src/view/com/composer/threadgate/ThreadgateBtn.tsx:48
 msgid "Anybody can interact"
@@ -785,7 +785,7 @@ msgstr "Мова застосунку"
 
 #: src/screens/Settings/components/AddAppPasswordDialog.tsx:122
 msgid "App Password"
-msgstr ""
+msgstr "Пароль застосунку"
 
 #: src/screens/Settings/AppPasswords.tsx:139
 msgid "App password deleted"
@@ -793,11 +793,11 @@ msgstr "Пароль застосунку видалено"
 
 #: src/screens/Settings/components/AddAppPasswordDialog.tsx:84
 msgid "App password name must be unique"
-msgstr ""
+msgstr "Пароль застосунку не має повторюватись"
 
 #: src/screens/Settings/components/AddAppPasswordDialog.tsx:62
 msgid "App password names can only contain letters, numbers, spaces, dashes, and underscores"
-msgstr ""
+msgstr "Пароль застосунку може містити лише латинські літери, цифри, пробіли, тире та нижні підкреслення"
 
 #: src/view/com/modals/AddAppPasswords.tsx:138
 #~ msgid "App Password names can only contain letters, numbers, spaces, dashes, and underscores."
@@ -805,7 +805,7 @@ msgstr ""
 
 #: src/screens/Settings/components/AddAppPasswordDialog.tsx:80
 msgid "App password names must be at least 4 characters long"
-msgstr ""
+msgstr "Пароль застосунку має складатись щонайменше з 4 символів"
 
 #: src/view/com/modals/AddAppPasswords.tsx:103
 #~ msgid "App Password names must be at least 4 characters long."
@@ -818,7 +818,7 @@ msgstr ""
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:55
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:58
 msgid "App passwords"
-msgstr ""
+msgstr "Паролі застосунку"
 
 #: src/Navigation.tsx:289
 #: src/screens/Settings/AppPasswords.tsx:47
@@ -868,12 +868,12 @@ msgstr "Застосувати рекомендовані стрічки за з
 
 #: src/view/com/post-thread/PostThreadItem.tsx:835
 msgid "Archived from {0}"
-msgstr ""
+msgstr "Архівовано {0}"
 
 #: src/view/com/post-thread/PostThreadItem.tsx:804
 #: src/view/com/post-thread/PostThreadItem.tsx:843
 msgid "Archived post"
-msgstr ""
+msgstr "Архівований пост"
 
 #: src/screens/Settings/AppPasswords.tsx:201
 msgid "Are you sure you want to delete the app password \"{0}\"?"
@@ -943,7 +943,7 @@ msgstr ""
 #: src/screens/Settings/ContentAndMediaSettings.tsx:88
 #: src/screens/Settings/ContentAndMediaSettings.tsx:94
 msgid "Autoplay videos and GIFs"
-msgstr ""
+msgstr "Автовідтворення відео та GIF"
 
 #: src/components/dms/MessagesListHeader.tsx:75
 #: src/components/moderation/LabelsOnMeDialog.tsx:290
@@ -1313,7 +1313,7 @@ msgstr "Змінити адресу електронної пошти"
 
 #: src/components/dialogs/VerifyEmailDialog.tsx:171
 msgid "Change your email address"
-msgstr ""
+msgstr "Змінити адресу електронної пошти"
 
 #: src/Navigation.tsx:373
 #: src/view/shell/bottom-bar/BottomBar.tsx:200
@@ -1356,7 +1356,7 @@ msgstr "Перевірте свою поштову скриньку на ная�
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:369
 msgid "Choose domain verification method"
-msgstr ""
+msgstr "Змінити метод підтвердження домену"
 
 #: src/screens/StarterPack/Wizard/index.tsx:196
 msgid "Choose Feeds"
@@ -1546,7 +1546,7 @@ msgstr "Завершити завдання"
 
 #: src/view/shell/desktop/LeftNav.tsx:314
 msgid "Compose new post"
-msgstr ""
+msgstr "Новий пост"
 
 #: src/view/com/composer/Composer.tsx:812
 msgid "Compose posts up to {MAX_GRAPHEME_LENGTH} characters in length"
@@ -1558,7 +1558,7 @@ msgstr "Відповісти"
 
 #: src/view/com/composer/Composer.tsx:1628
 msgid "Compressing video..."
-msgstr ""
+msgstr "Стискання відео..."
 
 #: src/components/moderation/LabelPreference.tsx:82
 msgid "Configure content filtering setting for category: {name}"
@@ -1614,7 +1614,7 @@ msgstr "Код підтвердження"
 
 #: src/components/dialogs/VerifyEmailDialog.tsx:210
 msgid "Confirmation Code"
-msgstr ""
+msgstr "Код підтвердження"
 
 #: src/screens/Login/LoginForm.tsx:309
 msgid "Connecting..."
@@ -1629,12 +1629,12 @@ msgstr "Служба підтримки"
 #: src/screens/Settings/Settings.tsx:167
 #: src/screens/Settings/Settings.tsx:170
 msgid "Content and media"
-msgstr ""
+msgstr "Вміст та медіа"
 
 #: src/Navigation.tsx:353
 #: src/screens/Settings/ContentAndMediaSettings.tsx:35
 msgid "Content and Media"
-msgstr ""
+msgstr "Вміст та медіа"
 
 #: src/lib/moderation/useGlobalLabelStrings.ts:18
 msgid "Content Blocked"
@@ -1731,11 +1731,11 @@ msgstr "Скопіювати"
 
 #: src/screens/Settings/components/AddAppPasswordDialog.tsx:196
 msgid "Copy App Password"
-msgstr ""
+msgstr "Копіювати пароль застосунку"
 
 #: src/screens/Settings/AboutSettings.tsx:60
 msgid "Copy build version to clipboard"
-msgstr ""
+msgstr "Копіювати версію збірки до буфера обміну"
 
 #: src/components/dialogs/Embed.tsx:122
 #: src/components/dialogs/Embed.tsx:141
@@ -1748,7 +1748,7 @@ msgstr ""
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:404
 msgid "Copy host"
-msgstr ""
+msgstr "Копіювати хост"
 
 #: src/components/StarterPack/ShareDialog.tsx:123
 msgid "Copy link"
@@ -1783,7 +1783,7 @@ msgstr "Копіювати QR код"
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:425
 msgid "Copy TXT record value"
-msgstr ""
+msgstr "Копіювати значення запису TXT"
 
 #: src/Navigation.tsx:284
 #: src/view/screens/CopyrightPolicy.tsx:31
@@ -1835,7 +1835,7 @@ msgstr "Створення власної підбірки для мене"
 #: src/view/com/auth/SplashScreen.tsx:55
 #: src/view/com/auth/SplashScreen.web.tsx:117
 msgid "Create account"
-msgstr ""
+msgstr "Створити обліковий запис"
 
 #: src/screens/Signup/index.tsx:93
 msgid "Create Account"
@@ -1935,7 +1935,7 @@ msgstr "Панель налагодження"
 
 #: src/screens/Settings/AppearanceSettings.tsx:153
 msgid "Default"
-msgstr ""
+msgstr "Типово"
 
 #: src/components/dms/MessageMenu.tsx:151
 #: src/screens/Settings/AppPasswords.tsx:204
@@ -2022,7 +2022,7 @@ msgstr "Видалено"
 #: src/components/dms/MessagesListHeader.tsx:150
 #: src/screens/Messages/components/ChatListItem.tsx:107
 msgid "Deleted Account"
-msgstr ""
+msgstr "Видалений обліковий запис"
 
 #: src/view/com/post-thread/PostThread.tsx:407
 msgid "Deleted post."
@@ -2042,11 +2042,11 @@ msgstr "Опис"
 
 #: src/screens/Profile/Header/EditProfileDialog.tsx:364
 msgid "Description is too long"
-msgstr ""
+msgstr "Опис задовгий"
 
 #: src/screens/Profile/Header/EditProfileDialog.tsx:365
 msgid "Description is too long. The maximum number of characters is {DESCRIPTION_MAX_GRAPHEMES}."
-msgstr ""
+msgstr "Опис задовгий. Максимальна довжина — {DESCRIPTION_MAX_GRAPHEMES}."
 
 #: src/view/com/composer/GifAltText.tsx:150
 #: src/view/com/composer/photos/ImageAltTextDialog.tsx:114
@@ -2065,7 +2065,7 @@ msgstr "Вилучити цитований пост?"
 #: src/screens/Settings/Settings.tsx:234
 #: src/screens/Settings/Settings.tsx:237
 msgid "Developer options"
-msgstr ""
+msgstr "Налаштування для розробників"
 
 #: src/components/WhoCanReply.tsx:175
 msgid "Dialog: adjust who can interact with this post"
@@ -2113,7 +2113,7 @@ msgstr "Видалити"
 
 #: src/screens/Profile/Header/EditProfileDialog.tsx:81
 msgid "Discard changes?"
-msgstr ""
+msgstr "Відхилити зміни?"
 
 #: src/view/com/composer/Composer.tsx:671
 msgid "Discard draft?"
@@ -2121,7 +2121,7 @@ msgstr "Відхилити чернетку?"
 
 #: src/view/com/composer/Composer.tsx:845
 msgid "Discard post?"
-msgstr ""
+msgstr "Не зберігати пост?"
 
 #: src/screens/Settings/components/PwiOptOut.tsx:80
 #: src/screens/Settings/components/PwiOptOut.tsx:84
@@ -2143,7 +2143,7 @@ msgstr "Відкрити для себе нові стрічки"
 
 #: src/components/Dialog/index.tsx:311
 msgid "Dismiss"
-msgstr ""
+msgstr "Відхилити"
 
 #: src/view/com/composer/Composer.tsx:1552
 msgid "Dismiss error"
@@ -2156,7 +2156,7 @@ msgstr "Пропустити посібник нового користувач�
 #: src/screens/Settings/AccessibilitySettings.tsx:63
 #: src/screens/Settings/AccessibilitySettings.tsx:68
 msgid "Display larger alt text badges"
-msgstr ""
+msgstr "Показувати більші мітки альтернативного тексту"
 
 #: src/screens/Profile/Header/EditProfileDialog.tsx:314
 #: src/screens/Profile/Header/EditProfileDialog.tsx:320
@@ -2171,11 +2171,11 @@ msgstr "Ім'я"
 
 #: src/screens/Profile/Header/EditProfileDialog.tsx:333
 msgid "Display name is too long"
-msgstr ""
+msgstr "Ім'я задовге"
 
 #: src/screens/Profile/Header/EditProfileDialog.tsx:334
 msgid "Display name is too long. The maximum number of characters is {DISPLAY_NAME_MAX_GRAPHEMES}."
-msgstr ""
+msgstr "Ім'я задовге. Максимальна дозволена довжина у символах — {DISPLAY_NAME_MAX_GRAPHEMES}."
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:372
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:374
@@ -2244,7 +2244,7 @@ msgstr "Готово{extraText}"
 
 #: src/components/Dialog/index.tsx:312
 msgid "Double tap to close the dialog"
-msgstr ""
+msgstr "Торкніться двічі для закриття діалогу"
 
 #: src/screens/StarterPack/StarterPackLandingScreen.tsx:317
 msgid "Download Bluesky"
@@ -2269,7 +2269,7 @@ msgstr "для прикладу, olenka"
 
 #: src/screens/Profile/Header/EditProfileDialog.tsx:321
 msgid "e.g. Alice Lastname"
-msgstr ""
+msgstr "Як-от Анастасія Прізвище"
 
 #: src/view/com/modals/EditProfile.tsx:180
 msgid "e.g. Alice Roberts"
@@ -2422,7 +2422,7 @@ msgstr "Двофакторну автентифікацію електронно
 
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:46
 msgid "Email 2FA enabled"
-msgstr ""
+msgstr "Двофакторну автентифікацію за допомогою електронної пошти увімкнено"
 
 #: src/screens/Login/ForgotPasswordForm.tsx:93
 msgid "Email address"
@@ -2469,12 +2469,12 @@ msgstr "Вставте цей пост у Ваш сайт. Просто скоп
 
 #: src/view/com/util/post-embeds/VideoEmbedInner/VideoEmbedInnerWeb.tsx:57
 msgid "Embedded video player"
-msgstr ""
+msgstr "Вбудований відеоплеєр"
 
 #: src/screens/Settings/components/Email2FAToggle.tsx:56
 #: src/screens/Settings/components/Email2FAToggle.tsx:60
 msgid "Enable"
-msgstr ""
+msgstr "Увімкнути"
 
 #: src/components/dialogs/EmbedConsent.tsx:100
 msgid "Enable {0} only"
@@ -2486,7 +2486,7 @@ msgstr "Дозволити вміст для дорослих"
 
 #: src/screens/Settings/components/Email2FAToggle.tsx:53
 msgid "Enable Email 2FA"
-msgstr ""
+msgstr "Увімкнути двофакторну автентифікацію"
 
 #: src/components/dialogs/EmbedConsent.tsx:81
 #: src/components/dialogs/EmbedConsent.tsx:88
@@ -2539,7 +2539,7 @@ msgstr "Введіть слово або мітку"
 
 #: src/components/dialogs/VerifyEmailDialog.tsx:89
 msgid "Enter Code"
-msgstr ""
+msgstr "Ввести код"
 
 #: src/view/com/modals/VerifyEmail.tsx:113
 msgid "Enter Confirmation Code"
@@ -2547,7 +2547,7 @@ msgstr "Введіть код підтвердження"
 
 #: src/view/com/util/post-embeds/VideoEmbedInner/web-controls/VideoControls.tsx:405
 msgid "Enter fullscreen"
-msgstr ""
+msgstr "Повноекранний режим"
 
 #: src/view/com/modals/ChangePassword.tsx:154
 msgid "Enter the code you received to change your password."
@@ -2584,7 +2584,7 @@ msgstr "Введіть псевдонім та пароль"
 
 #: src/view/com/composer/Composer.tsx:1637
 msgid "Error"
-msgstr ""
+msgstr "Помилка"
 
 #: src/screens/Settings/components/ExportCarDialog.tsx:47
 msgid "Error occurred while saving file"
@@ -2676,7 +2676,7 @@ msgstr ""
 #: src/screens/Settings/FollowingFeedPreferences.tsx:115
 #: src/screens/Settings/ThreadPreferences.tsx:129
 msgid "Experimental"
-msgstr ""
+msgstr "Експериментальні"
 
 #: src/view/screens/NotificationsSettings.tsx:78
 #~ msgid "Experimental: When this preference is enabled, you'll only receive reply and quote notifications from users you follow. We'll continue to add more controls here over time."
