@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-12-06 12:25\n"
+"PO-Revision-Date: 2024-12-06 18:27\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -1647,7 +1647,7 @@ msgstr "Фільтри контенту"
 #: src/screens/Settings/LanguageSettings.tsx:241
 #: src/view/com/modals/lang-settings/ContentLanguagesSettings.tsx:75
 msgid "Content Languages"
-msgstr "Мови"
+msgstr "Мови вмісту"
 
 #: src/components/moderation/ModerationDetailsDialog.tsx:80
 #: src/lib/moderation/useModerationCauseDescription.ts:80
@@ -2710,7 +2710,7 @@ msgstr "Експорт моїх даних"
 #: src/screens/Settings/ContentAndMediaSettings.tsx:64
 #: src/screens/Settings/ContentAndMediaSettings.tsx:67
 msgid "External media"
-msgstr ""
+msgstr "Зовнішні медіа"
 
 #: src/components/dialogs/EmbedConsent.tsx:54
 #: src/components/dialogs/EmbedConsent.tsx:58
@@ -2733,7 +2733,7 @@ msgstr "Налаштування зовнішніх медіа"
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:552
 msgid "Failed to change handle. Please try again."
-msgstr ""
+msgstr "Не вдалось змінити псевдонім. Будь ласка, спробуйте ще раз."
 
 #: src/view/com/modals/AddAppPasswords.tsx:119
 #: src/view/com/modals/AddAppPasswords.tsx:123
@@ -2742,7 +2742,7 @@ msgstr ""
 
 #: src/screens/Settings/components/AddAppPasswordDialog.tsx:173
 msgid "Failed to create app password. Please try again."
-msgstr ""
+msgstr "Не вдалось створити пароль застосунку. Будь ласка, спробуйте ще раз."
 
 #: src/screens/StarterPack/Wizard/index.tsx:235
 #: src/screens/StarterPack/Wizard/index.tsx:243
@@ -2789,7 +2789,7 @@ msgstr "Не вдалося завантажити запропоновані д
 
 #: src/state/queries/pinned-post.ts:75
 msgid "Failed to pin post"
-msgstr ""
+msgstr "Не вдалось закріпити пост"
 
 #: src/view/com/lightbox/Lightbox.tsx:46
 msgid "Failed to save image: {0}"
@@ -2834,7 +2834,7 @@ msgstr "Не вдалося завантажити відео"
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:340
 msgid "Failed to verify handle. Please try again."
-msgstr ""
+msgstr "Не вдалось підтвердити псевдонім. Будь ласка, спробуйте ще раз."
 
 #: src/Navigation.tsx:229
 msgid "Feed"
@@ -2857,7 +2857,7 @@ msgstr "Зворотний зв'язок"
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:266
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:275
 msgid "Feedback sent!"
-msgstr ""
+msgstr "Відгук надіслано!"
 
 #: src/Navigation.tsx:388
 #: src/screens/StarterPack/StarterPackScreen.tsx:183
@@ -3060,11 +3060,11 @@ msgstr "Читає вас"
 
 #: src/screens/Settings/AppearanceSettings.tsx:125
 msgid "Font"
-msgstr ""
+msgstr "Шрифт"
 
 #: src/screens/Settings/AppearanceSettings.tsx:145
 msgid "Font size"
-msgstr ""
+msgstr "Розмір шрифту"
 
 #: src/screens/Onboarding/index.tsx:40
 #: src/screens/Onboarding/state.ts:89
@@ -3177,7 +3177,7 @@ msgstr "Назад"
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:528
 msgid "Go back to previous page"
-msgstr ""
+msgstr "Повернутися на попередню сторінку"
 
 #: src/components/dms/ReportDialog.tsx:149
 #: src/components/ReportDialog/SelectReportOptionView.tsx:80
@@ -3234,7 +3234,7 @@ msgstr "Псевдонім"
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:556
 msgid "Handle already taken. Please try a different one."
-msgstr ""
+msgstr "Псевдонім вже зайнятий. Будь ласка, спробуйте інший."
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:187
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:324
@@ -5157,7 +5157,7 @@ msgstr "Пост"
 #: src/view/com/composer/Composer.tsx:935
 msgctxt "action"
 msgid "Post All"
-msgstr ""
+msgstr "Опублікувати все"
 
 #: src/view/com/post-thread/PostThreadItem.tsx:209
 msgid "Post by {0}"
@@ -5176,7 +5176,7 @@ msgstr "Пост видалено"
 
 #: src/lib/api/index.ts:185
 msgid "Post failed to upload. Please check your Internet connection and try again."
-msgstr ""
+msgstr "Не вдалось завантажити пост. Будь ласка, перевірте з'єднання з інтернетом та спробуйте ще раз."
 
 #: src/view/com/post-thread/PostThread.tsx:221
 msgid "Post hidden"
@@ -5211,11 +5211,11 @@ msgstr "Пост не знайдено"
 
 #: src/state/queries/pinned-post.ts:59
 msgid "Post pinned"
-msgstr ""
+msgstr "Пост закріплено"
 
 #: src/state/queries/pinned-post.ts:61
 msgid "Post unpinned"
-msgstr ""
+msgstr "Пост відкріплено"
 
 #: src/lib/api/index.ts:106
 #~ msgid "Posting..."
@@ -5232,7 +5232,7 @@ msgstr "Пости"
 
 #: src/components/dialogs/MutedWords.tsx:115
 msgid "Posts can be muted based on their text, their tags, or both. We recommend avoiding common words that appear in many posts, since it can result in no posts being shown."
-msgstr ""
+msgstr "Пости можуть бути приглушені залежно від їхнього тексту, тегів або обох. Ми рекомендуємо уникати загальних слів, що з'являються у багатьох постах, оскільки це може призвести до того, що жоден пост не показуватиметься."
 
 #: src/view/com/posts/FeedErrorMessage.tsx:68
 msgid "Posts hidden"
@@ -5276,7 +5276,7 @@ msgstr "Основна мова"
 #: src/screens/Settings/ThreadPreferences.tsx:104
 #: src/screens/Settings/ThreadPreferences.tsx:109
 msgid "Prioritize your Follows"
-msgstr ""
+msgstr "Віддати перевагу тим, кого читаєте"
 
 #: src/view/screens/PreferencesThreads.tsx:92
 #~ msgid "Prioritize Your Follows"
@@ -5293,12 +5293,12 @@ msgstr "Конфіденційність"
 #: src/screens/Settings/Settings.tsx:153
 #: src/screens/Settings/Settings.tsx:156
 msgid "Privacy and security"
-msgstr ""
+msgstr "Конфіденційність та безпека"
 
 #: src/Navigation.tsx:345
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:32
 msgid "Privacy and Security"
-msgstr ""
+msgstr "Конфіденційність та безпека"
 
 #: src/Navigation.tsx:269
 #: src/screens/Settings/AboutSettings.tsx:37
@@ -5311,7 +5311,7 @@ msgstr "Політика конфіденційності"
 
 #: src/view/com/composer/Composer.tsx:1634
 msgid "Processing video..."
-msgstr ""
+msgstr "Обробка відео..."
 
 #: src/lib/api/index.ts:59
 #: src/screens/Login/ForgotPasswordForm.tsx:149
@@ -5435,12 +5435,12 @@ msgstr "Читати блог Bluesky"
 #: src/screens/Signup/StepInfo/Policies.tsx:58
 #: src/screens/Signup/StepInfo/Policies.tsx:84
 msgid "Read the Bluesky Privacy Policy"
-msgstr ""
+msgstr "Читати Політику конфіденційності Bluesky"
 
 #: src/screens/Signup/StepInfo/Policies.tsx:51
 #: src/screens/Signup/StepInfo/Policies.tsx:71
 msgid "Read the Bluesky Terms of Service"
-msgstr ""
+msgstr "Читати Умови використання Bluesky"
 
 #: src/components/dms/ReportDialog.tsx:169
 msgid "Reason:"
@@ -5452,7 +5452,7 @@ msgstr "Останні запити"
 
 #: src/screens/Messages/components/MessageListError.tsx:20
 msgid "Reconnect"
-msgstr ""
+msgstr "Повторне з'єднання"
 
 #: src/view/screens/Notifications.tsx:144
 msgid "Refresh notifications"
@@ -5802,7 +5802,7 @@ msgstr "Вимагати опис зображень перед публікац
 
 #: src/screens/Settings/components/Email2FAToggle.tsx:54
 msgid "Require an email code to log in to your account."
-msgstr ""
+msgstr "Потребує коду з електронної пошти задля входу в обліковий запис."
 
 #: src/view/screens/Settings/Email2FAToggle.tsx:51
 #~ msgid "Require email code to log into your account"
@@ -5814,7 +5814,7 @@ msgstr "Вимагається цим хостинг-провайдером"
 
 #: src/components/LabelingServiceCard/index.tsx:80
 msgid "Required in your region"
-msgstr ""
+msgstr "Необхідно для вашого регіону"
 
 #: src/screens/Settings/components/DisableEmail2FADialog.tsx:173
 #: src/screens/Settings/components/DisableEmail2FADialog.tsx:176
@@ -5935,7 +5935,7 @@ msgstr "Зберегти день народження"
 #: src/view/screens/SavedFeeds.tsx:98
 #: src/view/screens/SavedFeeds.tsx:103
 msgid "Save changes"
-msgstr ""
+msgstr "Зберегти зміни"
 
 #: src/view/com/modals/EditProfile.tsx:227
 msgid "Save Changes"
@@ -5956,7 +5956,7 @@ msgstr "Обрізати зображення"
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:227
 msgid "Save new handle"
-msgstr ""
+msgstr "Зберегти новий псевдонім"
 
 #: src/components/StarterPack/QrCodeDialog.tsx:179
 msgid "Save QR code"
@@ -6107,7 +6107,7 @@ msgstr "Виберіть емодзі"
 
 #: src/screens/Settings/LanguageSettings.tsx:252
 msgid "Select content languages"
-msgstr ""
+msgstr "Вибрати мови вмісту"
 
 #: src/screens/Login/index.tsx:117
 msgid "Select from an existing account"
@@ -6195,11 +6195,11 @@ msgstr "Надішліть нарядний сайт!"
 
 #: src/components/dialogs/VerifyEmailDialog.tsx:232
 msgid "Send Confirmation"
-msgstr ""
+msgstr "Надіслати підтвердження"
 
 #: src/components/dialogs/VerifyEmailDialog.tsx:225
 msgid "Send confirmation email"
-msgstr ""
+msgstr "Надіслати підтвердження на електронну пошту"
 
 #: src/view/com/modals/VerifyEmail.tsx:210
 #: src/view/com/modals/VerifyEmail.tsx:212
@@ -6361,7 +6361,7 @@ msgstr "Поділитись посиланням"
 
 #: src/components/StarterPack/ShareDialog.tsx:87
 msgid "Share link dialog"
-msgstr ""
+msgstr "Поділитись посиланням на діалог"
 
 #: src/components/StarterPack/ShareDialog.tsx:134
 #: src/components/StarterPack/ShareDialog.tsx:145
@@ -6447,7 +6447,7 @@ msgstr "Показати стишені відповіді"
 
 #: src/screens/Settings/Settings.tsx:96
 msgid "Show other accounts you can switch to"
-msgstr ""
+msgstr "Показати інші облікові записи, на які ви можете перемкнутись"
 
 #: src/view/screens/PreferencesFollowingFeed.tsx:155
 #~ msgid "Show Posts from My Feeds"
@@ -6456,7 +6456,7 @@ msgstr ""
 #: src/screens/Settings/FollowingFeedPreferences.tsx:96
 #: src/screens/Settings/FollowingFeedPreferences.tsx:106
 msgid "Show quote posts"
-msgstr ""
+msgstr "Показувати цитовані пости"
 
 #: src/view/screens/PreferencesFollowingFeed.tsx:119
 #~ msgid "Show Quote Posts"
@@ -6465,7 +6465,7 @@ msgstr ""
 #: src/screens/Settings/FollowingFeedPreferences.tsx:60
 #: src/screens/Settings/FollowingFeedPreferences.tsx:70
 msgid "Show replies"
-msgstr ""
+msgstr "Показувати відповіді"
 
 #: src/view/screens/PreferencesFollowingFeed.tsx:61
 #~ msgid "Show Replies"
@@ -6473,7 +6473,7 @@ msgstr ""
 
 #: src/screens/Settings/ThreadPreferences.tsx:118
 msgid "Show replies by people you follow before all other replies"
-msgstr ""
+msgstr "Показувати відповіді тих, за ким ви слідкуєте, перед іншими відповідями"
 
 #: src/view/screens/PreferencesThreads.tsx:95
 #~ msgid "Show replies by people you follow before all other replies."
@@ -6481,7 +6481,7 @@ msgstr ""
 
 #: src/screens/Settings/ThreadPreferences.tsx:143
 msgid "Show replies in a threaded view"
-msgstr ""
+msgstr "Показувати відповіді у вигляді діалогу"
 
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:539
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:549
@@ -6491,7 +6491,7 @@ msgstr "Показувати відповіді усім"
 #: src/screens/Settings/FollowingFeedPreferences.tsx:78
 #: src/screens/Settings/FollowingFeedPreferences.tsx:88
 msgid "Show reposts"
-msgstr ""
+msgstr "Показувати репости"
 
 #: src/view/screens/PreferencesFollowingFeed.tsx:85
 #~ msgid "Show Reposts"
@@ -6564,7 +6564,7 @@ msgstr "Вийти"
 
 #: src/screens/Settings/Settings.tsx:248
 msgid "Sign out?"
-msgstr ""
+msgstr "Вийти?"
 
 #: src/view/shell/bottom-bar/BottomBar.tsx:301
 #: src/view/shell/bottom-bar/BottomBar.tsx:302
@@ -6615,7 +6615,7 @@ msgstr "Пропустити цей процес"
 
 #: src/screens/Settings/AppearanceSettings.tsx:149
 msgid "Smaller"
-msgstr ""
+msgstr "Менше"
 
 #: src/screens/Onboarding/index.tsx:37
 #: src/screens/Onboarding/state.ts:87
@@ -6657,7 +6657,7 @@ msgstr "Даруйте! Ваш сеанс вичерпався. Просимо �
 
 #: src/screens/Settings/ThreadPreferences.tsx:47
 msgid "Sort replies"
-msgstr ""
+msgstr "Сортувати відповіді"
 
 #: src/view/screens/PreferencesThreads.tsx:64
 #~ msgid "Sort Replies"
@@ -6665,7 +6665,7 @@ msgstr ""
 
 #: src/screens/Settings/ThreadPreferences.tsx:54
 msgid "Sort replies by"
-msgstr ""
+msgstr "Сортувати відповіді за"
 
 #: src/screens/Settings/ThreadPreferences.tsx:51
 msgid "Sort replies to the same post by:"
@@ -6713,7 +6713,7 @@ msgstr "Набір початківця від {0}"
 
 #: src/components/StarterPack/StarterPackCard.tsx:80
 msgid "Starter pack by you"
-msgstr ""
+msgstr "Початкові набори, створені вами"
 
 #: src/screens/StarterPack/StarterPackScreen.tsx:715
 msgid "Starter pack is invalid"
@@ -6774,7 +6774,7 @@ msgstr "Підписатися на цей список"
 
 #: src/components/dialogs/VerifyEmailDialog.tsx:95
 msgid "Success!"
-msgstr ""
+msgstr "Успіх!"
 
 #: src/view/screens/Search/Explore.tsx:332
 msgid "Suggested accounts"
@@ -6799,7 +6799,7 @@ msgstr "Підтримка"
 #: src/screens/Settings/Settings.tsx:108
 #: src/screens/Settings/Settings.tsx:403
 msgid "Switch account"
-msgstr ""
+msgstr "Перемкнути обліковий запис"
 
 #: src/components/dialogs/SwitchAccount.tsx:46
 #: src/components/dialogs/SwitchAccount.tsx:49
@@ -6873,7 +6873,7 @@ msgstr "Розкажіть жарт!"
 
 #: src/screens/Profile/Header/EditProfileDialog.tsx:352
 msgid "Tell us a bit about yourself"
-msgstr ""
+msgstr "Розкажіть нам трохи про себе"
 
 #: src/screens/StarterPack/Wizard/StepDetails.tsx:62
 msgid "Tell us a little more"
@@ -6910,7 +6910,7 @@ msgstr "Поле вводу тексту"
 
 #: src/components/dialogs/VerifyEmailDialog.tsx:96
 msgid "Thank you! Your email has been successfully verified."
-msgstr ""
+msgstr "Дякуємо! Адресу електронної пошти було успішно підтверджено."
 
 #: src/components/dms/ReportDialog.tsx:129
 #: src/components/ReportDialog/SubmitView.tsx:82
@@ -7028,7 +7028,7 @@ msgstr "Введений вами код підтвердження хибний
 
 #: src/screens/Settings/AppearanceSettings.tsx:136
 msgid "Theme"
-msgstr ""
+msgstr "Тема"
 
 #: src/screens/Settings/components/DeactivateAccountDialog.tsx:86
 msgid "There is no time limit for account deactivation, come back any time."
@@ -8214,7 +8214,7 @@ msgstr "Так, знов активувати мій обліковий запи
 
 #: src/components/dms/DateDivider.tsx:46
 msgid "Yesterday"
-msgstr ""
+msgstr "Вчора"
 
 #: src/screens/List/ListHiddenScreen.tsx:140
 msgid "you"
@@ -8384,7 +8384,7 @@ msgstr "Ви можете додати лише 3 стрічки"
 
 #: src/lib/media/picker.shared.ts:22
 msgid "You may only select up to 4 images"
-msgstr ""
+msgstr "Можна обрати не більше 4 зображень"
 
 #: src/screens/Signup/StepInfo/Policies.tsx:106
 msgid "You must be 13 years of age or older to sign up."
@@ -8569,7 +8569,7 @@ msgstr "Пост опубліковано"
 
 #: src/view/com/composer/Composer.tsx:467
 msgid "Your posts have been published"
-msgstr ""
+msgstr "Ваші пости опубліковано"
 
 #: src/screens/Onboarding/StepFinished.tsx:246
 msgid "Your posts, likes, and blocks are public. Mutes are private."
