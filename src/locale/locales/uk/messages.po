@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-12-09 11:12\n"
+"PO-Revision-Date: 2024-12-09 17:16\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -205,19 +205,19 @@ msgstr "{firstAuthorLink} та <0>{additionalAuthorsCount, plural, one {{formatt
 
 #: src/view/com/notifications/FeedItem.tsx:326
 msgid "{firstAuthorLink} and <0>{additionalAuthorsCount, plural, one {{formattedAuthorsCount} other} other {{formattedAuthorsCount} others}}</0> liked your custom feed"
-msgstr ""
+msgstr "{firstAuthorLink} та <0>{additionalAuthorsCount, plural, one {{formattedAuthorsCount} інший} few {{formattedAuthorsCount} інші} many {{formattedAuthorsCount} інші} other {{formattedAuthorsCount} інші}}</0> вподобали створену вами стрічку"
 
 #: src/view/com/notifications/FeedItem.tsx:222
 msgid "{firstAuthorLink} and <0>{additionalAuthorsCount, plural, one {{formattedAuthorsCount} other} other {{formattedAuthorsCount} others}}</0> liked your post"
-msgstr ""
+msgstr "{firstAuthorLink} та <0>{additionalAuthorsCount, plural, one {{formattedAuthorsCount} інший} few {{formattedAuthorsCount} інші} many {{formattedAuthorsCount} інші} other {{formattedAuthorsCount} інші}}</0> вподобали ваш пост"
 
 #: src/view/com/notifications/FeedItem.tsx:246
 msgid "{firstAuthorLink} and <0>{additionalAuthorsCount, plural, one {{formattedAuthorsCount} other} other {{formattedAuthorsCount} others}}</0> reposted your post"
-msgstr ""
+msgstr "{firstAuthorLink} та <0>{additionalAuthorsCount, plural, one {{formattedAuthorsCount} інший} few {{formattedAuthorsCount} інші} many {{formattedAuthorsCount} інші} other {{formattedAuthorsCount} інші}}</0> зробили репост"
 
 #: src/view/com/notifications/FeedItem.tsx:350
 msgid "{firstAuthorLink} and <0>{additionalAuthorsCount, plural, one {{formattedAuthorsCount} other} other {{formattedAuthorsCount} others}}</0> signed up with your starter pack"
-msgstr ""
+msgstr "{firstAuthorLink} та <0>{additionalAuthorsCount, plural, one {{formattedAuthorsCount} інший} few {{formattedAuthorsCount} інші} many {{formattedAuthorsCount} інші} other {{formattedAuthorsCount} інші}}</0> зареєструвались зі створеним вами початковим набором"
 
 #: src/view/com/notifications/FeedItem.tsx:312
 msgid "{firstAuthorLink} followed you"
@@ -241,7 +241,7 @@ msgstr "{firstAuthorLink} зробив репост"
 
 #: src/view/com/notifications/FeedItem.tsx:362
 msgid "{firstAuthorLink} signed up with your starter pack"
-msgstr ""
+msgstr "{firstAuthorLink} зареєструвався зі створеним вами початковим набором"
 
 #: src/view/com/notifications/FeedItem.tsx:293
 msgid "{firstAuthorName} and {additionalAuthorsCount, plural, one {{formattedAuthorsCount} other} other {{formattedAuthorsCount} others}} followed you"
@@ -666,7 +666,7 @@ msgstr "Альтернативний текст описує зображенн�
 #: src/view/com/composer/GifAltText.tsx:179
 #: src/view/com/composer/photos/ImageAltTextDialog.tsx:139
 msgid "Alt text will be truncated. Limit: {0} characters."
-msgstr ""
+msgstr "Альтернативний текст буде скорочено. Обмеження у символах: {0}."
 
 #: src/screens/Settings/components/DisableEmail2FADialog.tsx:93
 #: src/view/com/modals/VerifyEmail.tsx:132
@@ -3577,7 +3577,7 @@ msgstr "Запросіть друзів стежити за вашими улю�
 
 #: src/screens/StarterPack/Wizard/StepDetails.tsx:31
 msgid "Invites, but personal"
-msgstr ""
+msgstr "Запрошення окрім особистих"
 
 #: src/screens/Signup/StepInfo/index.tsx:80
 msgid "It looks like you may have entered your email address incorrectly. Are you sure it's right?"
@@ -3931,7 +3931,7 @@ msgstr ""
 
 #: src/screens/Feeds/NoFollowingFeed.tsx:37
 msgid "Looks like you're missing a following feed. <0>Click here to add one.</0>"
-msgstr ""
+msgstr "Схоже, у вас відсутня стрічка тих, кого ви читаєте. <0>Натисніть тут, щоб додати її.</0>"
 
 #: src/components/StarterPack/ProfileStarterPacks.tsx:266
 msgid "Make one for me"
@@ -8396,7 +8396,7 @@ msgstr "Ви маєте читати щонайменше сімох корис�
 
 #: src/components/StarterPack/QrCodeDialog.tsx:60
 msgid "You must grant access to your photo library to save a QR code"
-msgstr ""
+msgstr "Ви маєте надати доступ до Фотографій для збереження QR-коду"
 
 #: src/components/StarterPack/ShareDialog.tsx:68
 msgid "You must grant access to your photo library to save the image."
@@ -8581,7 +8581,7 @@ msgstr "Ваші повідомлення, вподобання і блоки є
 
 #: src/screens/Settings/components/DeactivateAccountDialog.tsx:75
 msgid "Your profile, posts, feeds, and lists will no longer be visible to other Bluesky users. You can reactivate your account at any time by logging in."
-msgstr ""
+msgstr "Ваш обліковий запис, пости, стрічки та списки більше не будуть видимі іншим користувачам Bluesky. Ви можете відновити свій обліковий запис в будь-який момент ввівши дані облікового запису у поле для входу."
 
 #: src/view/com/composer/Composer.tsx:469
 msgid "Your reply has been published"
@@ -8589,7 +8589,7 @@ msgstr "Відповідь опубліковано"
 
 #: src/components/dms/ReportDialog.tsx:157
 msgid "Your report will be sent to the Bluesky Moderation Service"
-msgstr ""
+msgstr "Вашу скаргу буде надіслано до Служби модерації Bluesky"
 
 #: src/screens/Signup/index.tsx:142
 msgid "Your user handle"
