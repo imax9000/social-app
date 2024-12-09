@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-12-08 20:00\n"
+"PO-Revision-Date: 2024-12-09 11:12\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -877,7 +877,7 @@ msgstr "Архівований пост"
 
 #: src/screens/Settings/AppPasswords.tsx:201
 msgid "Are you sure you want to delete the app password \"{0}\"?"
-msgstr ""
+msgstr "Ви дійсно хочете видалити пароль застосунку «{0}»?"
 
 #: src/view/screens/AppPasswords.tsx:283
 #~ msgid "Are you sure you want to delete the app password \"{name}\"?"
@@ -893,7 +893,7 @@ msgstr "Ви дійсно хочете видалити цю підбірку?"
 
 #: src/screens/Profile/Header/EditProfileDialog.tsx:82
 msgid "Are you sure you want to discard your changes?"
-msgstr ""
+msgstr "Ви справді хочете відхилити зміни?"
 
 #: src/components/dms/LeaveConvoPrompt.tsx:47
 msgid "Are you sure you want to leave this conversation? Your messages will be deleted for you, but not for the other participant."
@@ -913,7 +913,7 @@ msgstr "Ви дійсно бажаєте видалити цю чернетку?
 
 #: src/view/com/composer/Composer.tsx:846
 msgid "Are you sure you'd like to discard this post?"
-msgstr ""
+msgstr "Ви справді хочете не публікувати пост?"
 
 #: src/components/dialogs/MutedWords.tsx:433
 msgid "Are you sure?"
@@ -938,7 +938,7 @@ msgstr "Не менше 3 символів"
 
 #: src/screens/Settings/AccessibilitySettings.tsx:97
 msgid "Autoplay options have moved to the <0>Content and Media settings</0>."
-msgstr ""
+msgstr "Параметри автовідтворення перенесено до розділу налаштувань <0>Вміст та медіа</0>."
 
 #: src/screens/Settings/ContentAndMediaSettings.tsx:88
 #: src/screens/Settings/ContentAndMediaSettings.tsx:94
@@ -972,21 +972,21 @@ msgstr "Назад"
 #: src/view/screens/Lists.tsx:104
 #: src/view/screens/ModerationModlists.tsx:100
 msgid "Before creating a list, you must first verify your email."
-msgstr ""
+msgstr "Перед створенням списку ви спочатку маєте підтвердити адресу електронної пошти."
 
 #: src/view/com/composer/Composer.tsx:599
 msgid "Before creating a post, you must first verify your email."
-msgstr ""
+msgstr "Перед створенням посту ви спочатку маєте підтвердити адресу електронної пошти."
 
 #: src/components/StarterPack/ProfileStarterPacks.tsx:340
 msgid "Before creating a starter pack, you must first verify your email."
-msgstr ""
+msgstr "Перед створенням початкового набору ви спочатку маєте підтвердити адресу електронної пошти."
 
 #: src/components/dms/dialogs/NewChatDialog.tsx:79
 #: src/components/dms/MessageProfileButton.tsx:89
 #: src/screens/Messages/Conversation.tsx:210
 msgid "Before you may message another user, you must first verify your email."
-msgstr ""
+msgstr "Для листування з іншими користувачами ви спочатку маєте підтвердити адресу електронної пошти."
 
 #: src/components/dialogs/BirthDateSettings.tsx:106
 #: src/screens/Settings/AccountSettings.tsx:101
@@ -1081,11 +1081,11 @@ msgstr "Bluesky"
 
 #: src/view/com/post-thread/PostThreadItem.tsx:860
 msgid "Bluesky cannot confirm the authenticity of the claimed date."
-msgstr ""
+msgstr "Bluesky не може підтвердити автентичність зазначеної дати."
 
 #: src/view/com/auth/server-input/index.tsx:151
 msgid "Bluesky is an open network where you can choose your hosting provider. If you're a developer, you can host your own server."
-msgstr ""
+msgstr "Bluesky — відкрита мережа, в якій ви можете обрати свого хостинг-провайдера. Якщо ви розробник, ви можете розмістити свій власний сервер."
 
 #: src/components/ProgressGuide/List.tsx:54
 msgid "Bluesky is better with friends!"
@@ -1155,11 +1155,11 @@ msgstr "від <0/>"
 
 #: src/screens/Signup/StepInfo/Policies.tsx:81
 msgid "By creating an account you agree to the <0>Privacy Policy</0>."
-msgstr ""
+msgstr "Зі створенням облікового запису ви погоджуєтеся з <0>Політикою конфіденційності</0>."
 
 #: src/screens/Signup/StepInfo/Policies.tsx:48
 msgid "By creating an account you agree to the <0>Terms of Service</0> and <1>Privacy Policy</1>."
-msgstr ""
+msgstr "Зі створенням облікового запису ви погоджуєтеся з <0>Умовами надання послуг</0> та <1>Політикою конфіденційності</1>."
 
 #: src/screens/Signup/StepInfo/Policies.tsx:68
 msgid "By creating an account you agree to the <0>Terms of Service</0>."
@@ -4711,7 +4711,7 @@ msgstr "Відкрити меню налаштувань стрічки"
 
 #: src/screens/Settings/Settings.tsx:200
 msgid "Open helpdesk in browser"
-msgstr ""
+msgstr "Відкривати панель підтримки у браузері"
 
 #: src/view/com/util/post-embeds/ExternalLinkEmbed.tsx:71
 msgid "Open link to {niceUrl}"
@@ -4760,7 +4760,7 @@ msgstr "Відкриє параметри {numItems}"
 
 #: src/view/com/composer/labels/LabelsBtn.tsx:62
 msgid "Opens a dialog to add a content warning to your post"
-msgstr ""
+msgstr "Відкриває діалогове вікно для додавання попередження про вміст вашого поста"
 
 #: src/view/com/composer/threadgate/ThreadgateBtn.tsx:61
 msgid "Opens a dialog to choose who can reply to this thread"
@@ -6419,7 +6419,7 @@ msgstr "Показати приховані відповіді"
 
 #: src/view/com/post-thread/PostThreadItem.tsx:806
 msgid "Show information about when this post was created"
-msgstr ""
+msgstr "Показати інформацію про створення цього поста"
 
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:473
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:475
@@ -7136,7 +7136,7 @@ msgstr "Відбувався наплив нових користувачів у
 
 #: src/screens/Settings/FollowingFeedPreferences.tsx:54
 msgid "These settings only apply to the Following feed."
-msgstr ""
+msgstr "Ці налаштування застосовуються лише для стрічки тих, кого ви читаєте."
 
 #: src/components/moderation/ScreenHider.tsx:111
 msgid "This {screenDescription} has been flagged:"
@@ -7263,7 +7263,7 @@ msgstr "Даний сервіс модерації недоступний. Пе�
 
 #: src/view/com/post-thread/PostThreadItem.tsx:846
 msgid "This post claims to have been created on <0>{0}</0>, but was first seen by Bluesky on <1>{1}</1>."
-msgstr ""
+msgstr "Зазначається, що пост було створено — <0>{0}</0>, але вперше цей пост було оприлюднено на Bluesky — <1>{1}</1>."
 
 #: src/view/com/post-thread/PostThreadItem.tsx:152
 msgid "This post has been deleted."
@@ -7276,7 +7276,7 @@ msgstr "Цей пост видно лише користувачам, які у�
 
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:669
 msgid "This post will be hidden from feeds and threads. This cannot be undone."
-msgstr ""
+msgstr "Цей пост буде приховано від стрічок та гілок. Цю дію не можна скасувати."
 
 #: src/view/com/composer/Composer.tsx:413
 msgid "This post's author has disabled quote posts."
@@ -8456,7 +8456,7 @@ msgstr "Ви миттєво почнете читати цих людей"
 
 #: src/components/dialogs/VerifyEmailDialog.tsx:178
 msgid "You'll receive an email at <0>{0}</0> to verify it's you."
-msgstr ""
+msgstr "Ви отримаєте листа на <0>{0}</0> для підтвердження, що це ви."
 
 #: src/screens/StarterPack/StarterPackLandingScreen.tsx:270
 msgid "You'll stay updated with these feeds"
