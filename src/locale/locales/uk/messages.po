@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-12-09 17:16\n"
+"PO-Revision-Date: 2024-12-10 16:55\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -1744,7 +1744,7 @@ msgstr "Скопіювати код"
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:471
 msgid "Copy DID"
-msgstr ""
+msgstr "Копіювати ідентифікатор діалогу"
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:404
 msgid "Copy host"
@@ -7374,7 +7374,7 @@ msgstr "Щоб вимкнути метод двофакторної автент
 
 #: src/components/dms/ReportConversationPrompt.tsx:19
 msgid "To report a conversation, please report one of its messages via the conversation screen. This lets our moderators understand the context of your issue."
-msgstr ""
+msgstr "Для скарги на розмову, будь ласка, поскаржтеся на одне з повідомлень з неї через екран розмови. Це дозволить нашим модераторам зрозуміти контекст проблеми."
 
 #: src/view/com/composer/videos/SelectVideoBtn.tsx:127
 msgid "To upload videos to Bluesky, you must first verify your email."
@@ -7627,7 +7627,7 @@ msgstr "Не вдалось оновити вкладення з цитуван�
 
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:336
 msgid "Updating reply visibility failed"
-msgstr ""
+msgstr "Не вдалось оновити видимість відповіді"
 
 #: src/screens/Login/SetNewPasswordForm.tsx:180
 msgid "Updating..."
