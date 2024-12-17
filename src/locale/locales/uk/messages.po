@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-12-10 22:53\n"
+"PO-Revision-Date: 2024-12-17 15:55\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -3927,7 +3927,7 @@ msgstr "Схоже, ви не зберегли жодної стрічки! Ви
 
 #: src/screens/Home/NoFeedsPinned.tsx:83
 msgid "Looks like you unpinned all your feeds. But don't worry, you can add some below 😄"
-msgstr ""
+msgstr "Схоже, ви відкріпили всі свої стрічки. Але не хвилюйтесь, можете додати деякі нижче 😄"
 
 #: src/screens/Feeds/NoFollowingFeed.tsx:37
 msgid "Looks like you're missing a following feed. <0>Click here to add one.</0>"
@@ -4634,7 +4634,7 @@ msgstr "Скинути ознайомлення"
 
 #: src/view/com/composer/Composer.tsx:331
 msgid "One or more GIFs is missing alt text."
-msgstr ""
+msgstr "Одна або декілька GIF не мають описового тексту."
 
 #: src/view/com/composer/Composer.tsx:328
 msgid "One or more images is missing alt text."
@@ -4642,7 +4642,7 @@ msgstr "Для одного або кількох зображень відсу�
 
 #: src/view/com/composer/Composer.tsx:338
 msgid "One or more videos is missing alt text."
-msgstr ""
+msgstr "Одне або більше відео не мають описового тексту."
 
 #: src/screens/Onboarding/StepProfile/index.tsx:115
 msgid "Only .jpg and .png files are supported"
@@ -4692,7 +4692,7 @@ msgstr "Відкрити створювач аватарів"
 
 #: src/screens/Settings/AccountSettings.tsx:119
 msgid "Open change handle dialog"
-msgstr ""
+msgstr "Відкрити діалог зміни псевдоніма"
 
 #: src/screens/Messages/components/ChatListItem.tsx:272
 #: src/screens/Messages/components/ChatListItem.tsx:273
@@ -7048,7 +7048,7 @@ msgstr "При з'єднанні з сервером виникла пробле
 #: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:112
 #: src/view/screens/ProfileFeed.tsx:546
 msgid "There was an issue contacting the server, please check your internet connection and try again."
-msgstr ""
+msgstr "Виникла проблема зі з'єднанням з сервером. Перевірте підключення до Інтернету і повторіть спробу знову."
 
 #: src/view/com/feeds/FeedSourceCard.tsx:127
 #: src/view/com/feeds/FeedSourceCard.tsx:140
@@ -7069,7 +7069,7 @@ msgstr "Виникла проблема з завантаженням списк
 
 #: src/screens/Settings/AppPasswords.tsx:52
 msgid "There was an issue fetching your app passwords"
-msgstr ""
+msgstr "Виникла проблема з завантаженням ваших паролів застосунку"
 
 #: src/view/com/feeds/ProfileFeedgens.tsx:155
 #: src/view/com/lists/ProfileLists.tsx:154
