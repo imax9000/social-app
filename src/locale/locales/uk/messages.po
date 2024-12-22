@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-12-22 11:54\n"
+"PO-Revision-Date: 2024-12-22 18:13\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -1372,7 +1372,7 @@ msgstr "Обрати людей"
 
 #: src/view/com/composer/labels/LabelsBtn.tsx:115
 msgid "Choose self-labels that are applicable for the media you are posting. If none are selected, this post is suitable for all audiences."
-msgstr ""
+msgstr "Оберіть мітки, які застосовуватимуться до ваших публікацій автоматично. Якщо жодну мітку не обрано, пост вважатиметься доречним для усіх."
 
 #: src/view/com/auth/server-input/index.tsx:76
 msgid "Choose Service"
@@ -3471,11 +3471,11 @@ msgstr "Видавання себе за іншу особу або неправ
 
 #: src/lib/moderation/useReportOptions.ts:68
 msgid "Impersonation, misinformation, or false claims"
-msgstr ""
+msgstr "Привласнення особистості іншої особи, введення в оману або хибні твердження"
 
 #: src/lib/moderation/useReportOptions.ts:91
 msgid "Inappropriate messages or explicit links"
-msgstr ""
+msgstr "Непристойні повідомлення або посилання з відвертим вмістом"
 
 #: src/screens/Login/SetNewPasswordForm.tsx:121
 msgid "Input code sent to your email for password reset"
@@ -8368,7 +8368,7 @@ msgstr "Ви приховали цю відповідь."
 
 #: src/components/moderation/LabelsOnMeDialog.tsx:78
 msgid "You may appeal non-self labels if you feel they were placed in error."
-msgstr ""
+msgstr "Ви можете оскаржити мітки, що були додані не вами, якщо вважаєте, що їх додано помилково."
 
 #: src/components/moderation/LabelsOnMeDialog.tsx:83
 msgid "You may appeal these labels if you feel they were placed in error."
