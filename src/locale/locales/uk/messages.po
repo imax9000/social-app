@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-12-26 12:53\n"
+"PO-Revision-Date: 2024-12-30 15:11\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -38,7 +38,7 @@ msgstr "{0, plural, one {# день} few {# дні} many {# днів} other {# �
 
 #: src/lib/hooks/useTimeAgo.ts:146
 msgid "{0, plural, one {# hour} other {# hours}}"
-msgstr "{0, plural, one {# година} few {# годин} many {# годин} other {# годин}}"
+msgstr "{0, plural, one {# година} few {# години} many {# годин} other {# годин}}"
 
 #: src/components/moderation/LabelsOnMe.tsx:53
 msgid "{0, plural, one {# label has been placed on this account} other {# labels have been placed on this account}}"
@@ -50,11 +50,11 @@ msgstr ""
 
 #: src/lib/hooks/useTimeAgo.ts:136
 msgid "{0, plural, one {# minute} other {# minutes}}"
-msgstr "{0, plural, one {# хвилина} few {# хвилин} many {# хвилин} other {# хвилин}}"
+msgstr "{0, plural, one {# хвилина} few {# хвилини} many {# хвилин} other {# хвилин}}"
 
 #: src/lib/hooks/useTimeAgo.ts:167
 msgid "{0, plural, one {# month} other {# months}}"
-msgstr "{0, plural, one {# місяць} few {# місяців} many {# місяців} other {# місяців}}"
+msgstr "{0, plural, one {# місяць} few {# місяці} many {# місяців} other {# місяців}}"
 
 #: src/view/com/util/post-ctrls/RepostButton.tsx:69
 msgid "{0, plural, one {# repost} other {# reposts}}"
@@ -62,7 +62,7 @@ msgstr "{0, plural, one {# репост} few {# репости} many {# репо
 
 #: src/lib/hooks/useTimeAgo.ts:126
 msgid "{0, plural, one {# second} other {# seconds}}"
-msgstr "{0, plural, one {# секунда} few {# секунд} many {# секунд} other {# секунд}}"
+msgstr "{0, plural, one {# секунда} few {# секунди} many {# секунд} other {# секунд}}"
 
 #: src/components/ProfileHoverCard/index.web.tsx:398
 #: src/screens/Profile/Header/Metrics.tsx:22
@@ -751,7 +751,7 @@ msgstr "Сталася невідома помилка"
 #: src/components/moderation/ModerationDetailsDialog.tsx:157
 #: src/components/moderation/ModerationDetailsDialog.tsx:153
 msgid "an unknown labeler"
-msgstr "невідомий ярлик"
+msgstr "невідомий мітник"
 
 #: src/components/WhoCanReply.tsx:295
 msgid "and"
@@ -8091,7 +8091,7 @@ msgstr "Нам дуже прикро! Ми не можемо знайти сто
 
 #: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:341
 msgid "We're sorry! You can only subscribe to twenty labelers, and you've reached your limit of twenty."
-msgstr ""
+msgstr "Вибачте, підписатися можна лише на двадцять мітників. Ви вже досягли свого ліміту."
 
 #: src/screens/Deactivated.tsx:131
 msgid "Welcome back!"
