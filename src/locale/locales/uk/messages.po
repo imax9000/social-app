@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-01-11 19:38\n"
+"PO-Revision-Date: 2025-01-12 01:41\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -42,11 +42,11 @@ msgstr "{0, plural, one {# день} few {# дні} many {# днів} other {# �
 
 #: src/screens/Profile/ProfileFollowers.tsx:40
 msgid "{0, plural, one {# follower} other {# followers}}"
-msgstr ""
+msgstr "{0, plural, one {# підписник} few {# підписники} many {# підписників} other {# підписників}}"
 
 #: src/screens/Profile/ProfileFollows.tsx:40
 msgid "{0, plural, one {# following} other {# following}}"
-msgstr ""
+msgstr "{0, plural, one {# читаю} few {# читаю} many {# читаю} other {# читаю}}"
 
 #: src/lib/hooks/useTimeAgo.ts:146
 msgid "{0, plural, one {# hour} other {# hours}}"
@@ -417,7 +417,7 @@ msgstr "7 днів"
 #: src/screens/Settings/Settings.tsx:215
 #: src/screens/Settings/Settings.tsx:218
 msgid "About"
-msgstr "Про"
+msgstr "Інформація"
 
 #: src/view/screens/Search/Search.tsx:865
 msgid "Access navigation links and settings"
@@ -6010,7 +6010,7 @@ msgstr "Репостити"
 
 #: src/view/com/util/post-ctrls/RepostButton.tsx:74
 msgid "Repost ({0, plural, one {# repost} other {# reposts}})"
-msgstr ""
+msgstr "Репости ({0, plural, one {# репост} few {# репости} many {# репостів} other {# репостів}})"
 
 #: src/screens/StarterPack/StarterPackScreen.tsx:548
 #: src/view/com/util/post-ctrls/RepostButton.tsx:148
