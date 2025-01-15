@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk\n"
 "Project-Id-Version: bsky-app-ua\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-01-15 10:48\n"
+"PO-Revision-Date: 2025-01-15 16:58\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -62,15 +62,15 @@ msgstr "{0, plural, one {# година} few {# години} many {# годин
 
 #: src/components/moderation/LabelsOnMe.tsx:53
 msgid "{0, plural, one {# label has} other {# labels have}} been placed on this account"
-msgstr ""
+msgstr "{0, plural, one {# мітка} few {# мітки} many {# мітки} other {# мітки}} у цього облікового запису"
 
 #: src/components/moderation/LabelsOnMe.tsx:62
 msgid "{0, plural, one {# label has} other {# labels have}} been placed on this content"
-msgstr ""
+msgstr "{0, plural, one {# мітка} few {# мітки} many {# мітки} other {# мітки}} додано до цього вмісту"
 
 #: src/screens/Post/PostLikedBy.tsx:41
 msgid "{0, plural, one {# like} other {# likes}}"
-msgstr ""
+msgstr "{0, plural, one {# вподобання} few {# вподобання} many {# вподобання} other {# вподобання}}"
 
 #: src/lib/hooks/useTimeAgo.ts:136
 msgid "{0, plural, one {# minute} other {# minutes}}"
@@ -82,7 +82,7 @@ msgstr "{0, plural, one {# місяць} few {# місяці} many {# місяц
 
 #: src/screens/Post/PostQuotes.tsx:41
 msgid "{0, plural, one {# quote} other {# quotes}}"
-msgstr ""
+msgstr "{0, plural, one {# цитата} few {# цитати} many {# цитати} other {# цитати}}"
 
 #: src/screens/Post/PostRepostedBy.tsx:41
 msgid "{0, plural, one {# repost} other {# reposts}}"
@@ -386,7 +386,7 @@ msgstr "<0>{date}</0> о {time}"
 
 #: src/screens/Settings/NotificationSettings.tsx:85
 msgid "<0>Experimental:</0> When this preference is enabled, you'll only receive reply and quote notifications from users you follow. We'll continue to add more controls here over time."
-msgstr ""
+msgstr "<0>Експериментальне:</0> Якщо цей параметр увімкнений, ви отримуватимете сповіщення про відповіді та цитування лише від користувачів, яких читаєте. Ми продовжимо додавати більше можливостей для налаштування у майбутньому."
 
 #: src/screens/StarterPack/Wizard/index.tsx:440
 msgid "<0>You</0> and<1> </1><2>{0} </2>are included in your starter pack"
@@ -1479,7 +1479,7 @@ msgstr "Обрати цей колір для свого аватару"
 #: src/view/screens/Feeds.tsx:728
 #: src/view/screens/Search/Explore.tsx:411
 msgid "Choose your own timeline! Feeds built by the community help you find content you love."
-msgstr ""
+msgstr "Створюйте власні умови! Стрічки, створені спільнотою, в яких ви знайдете те, що любите."
 
 #: src/screens/Signup/StepInfo/index.tsx:201
 msgid "Choose your password"
@@ -2082,7 +2082,7 @@ msgstr "Видалити пароль застосунку?"
 
 #: src/screens/Settings/Settings.tsx:338
 msgid "Delete chat declaration record"
-msgstr ""
+msgstr "Видалити запис опису чату"
 
 #: src/components/dms/MessageMenu.tsx:124
 msgid "Delete for me"
@@ -2524,7 +2524,7 @@ msgstr "Освіта"
 
 #: src/screens/List/ListHiddenScreen.tsx:141
 msgid "Either the creator of this list has blocked you or you have blocked the creator."
-msgstr ""
+msgstr "Або автор цього списку заблокував вас, або ви заблокували автора."
 
 #: src/screens/Settings/AccountSettings.tsx:60
 #: src/screens/Signup/StepInfo/index.tsx:170
@@ -2629,7 +2629,7 @@ msgstr "Увімкнути лише джерело"
 #: src/screens/Settings/ContentAndMediaSettings.tsx:122
 #: src/screens/Settings/ContentAndMediaSettings.tsx:136
 msgid "Enable trending topics"
-msgstr ""
+msgstr "Включити популярні теми"
 
 #: src/screens/Messages/Settings.tsx:130
 #: src/screens/Messages/Settings.tsx:133
@@ -2793,7 +2793,7 @@ msgstr "Розгорнути або згорнути весь пост, на я�
 
 #: src/lib/api/index.ts:400
 msgid "Expected uri to resolve to a record"
-msgstr ""
+msgstr "Очікуваний УІР для повернення результату запису"
 
 #: src/screens/Settings/FollowingFeedPreferences.tsx:123
 #: src/screens/Settings/ThreadPreferences.tsx:137
@@ -2969,7 +2969,7 @@ msgstr "Стрічка від {0}"
 
 #: src/screens/Profile/components/ProfileFeedHeader.tsx:353
 msgid "Feed menu"
-msgstr ""
+msgstr "Меню стрічки"
 
 #: src/components/StarterPack/Wizard/WizardListCard.tsx:54
 msgid "Feed toggle"
@@ -3008,7 +3008,7 @@ msgstr "Стрічки оновлено!"
 
 #: src/screens/Search/components/ExploreRecommendations.tsx:54
 msgid "Feeds we think you might like."
-msgstr ""
+msgstr "Стрічки, що можуть вам сподобатись."
 
 #: src/view/com/modals/ChangeHandle.tsx:468
 #~ msgid "File Contents"
@@ -3036,7 +3036,7 @@ msgstr "Знайти облікові записи для підписки"
 #: src/components/ProgressGuide/FollowDialog.tsx:88
 #: src/components/ProgressGuide/FollowDialog.tsx:417
 msgid "Find people to follow"
-msgstr ""
+msgstr "Знайдіть тих, на кого підпишетесь"
 
 #: src/view/screens/Search/Search.tsx:595
 msgid "Find posts and users on Bluesky"
@@ -3846,7 +3846,7 @@ msgstr "Дізнатись більше про Bluesky"
 
 #: src/view/com/auth/server-input/index.tsx:156
 msgid "Learn more about self hosting your PDS."
-msgstr ""
+msgstr "Дізнайтесь більше про хостинг власного сервера з даними."
 
 #: src/components/moderation/ContentHider.tsx:149
 #: src/components/moderation/ContentHider.tsx:215
@@ -3920,7 +3920,7 @@ msgstr "Вподобати"
 
 #: src/view/com/util/post-ctrls/PostCtrls.tsx:311
 msgid "Like ({0, plural, one {# like} other {# likes}})"
-msgstr ""
+msgstr "Вподобати ({0, plural, one {# вподобання} few {# вподобань} many {# вподобань} other {# вподобань}})"
 
 #: src/components/ProgressGuide/List.tsx:63
 msgid "Like 10 posts"
@@ -5581,11 +5581,11 @@ msgstr "Публічний"
 
 #: src/view/com/lists/MyLists.tsx:77
 msgid "Public, sharable lists of users to mute or block in bulk."
-msgstr ""
+msgstr "Публічні, поширювані списки користувачів для ігнорування або блокування."
 
 #: src/view/com/lists/MyLists.tsx:72
 msgid "Public, sharable lists which can be used to drive feeds."
-msgstr ""
+msgstr "Публічні, поширювані списки для розповсюдження стрічок."
 
 #: src/view/screens/ModerationModlists.tsx:75
 #~ msgid "Public, shareable lists of users to mute or block in bulk."
@@ -7019,7 +7019,7 @@ msgstr "Набір початківця від {0}"
 
 #: src/view/com/profile/ProfileSubpageHeader.tsx:182
 msgid "Starter pack by <0/>"
-msgstr ""
+msgstr "Набір початківця від <0/>"
 
 #: src/components/StarterPack/StarterPackCard.tsx:80
 #: src/view/com/profile/ProfileSubpageHeader.tsx:180
@@ -7621,7 +7621,7 @@ msgstr "Цей профіль видно лише користувачам, як
 
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:731
 msgid "This reply will be sorted into a hidden section at the bottom of your thread and will mute notifications for subsequent replies - both for yourself and others."
-msgstr ""
+msgstr "Ця відповідь буде відсортована в прихований розділ під гілкою обговорення, а сповіщення про подальші відповіді не надходитимуть ані вам, ані іншим користувачам."
 
 #: src/screens/Signup/StepInfo/Policies.tsx:37
 msgid "This service has not provided terms of service or a privacy policy."
@@ -7679,7 +7679,7 @@ msgstr "Це видалить ваш пост з цитованого посту
 #: src/view/com/post-thread/PostThread.tsx:606
 #: src/view/com/post-thread/PostThread.tsx:609
 msgid "Thread options"
-msgstr ""
+msgstr "Налаштування розмови"
 
 #: src/screens/Settings/ContentAndMediaSettings.tsx:66
 #: src/screens/Settings/ContentAndMediaSettings.tsx:69
@@ -7693,7 +7693,7 @@ msgstr "Налаштування гілок"
 #: src/view/com/post-thread/PostThread.tsx:636
 #: src/view/com/post-thread/PostThread.tsx:641
 msgid "Threaded"
-msgstr ""
+msgstr "У вигляді розмови"
 
 #: src/screens/Settings/ThreadPreferences.tsx:142
 msgid "Threaded mode"
@@ -7747,7 +7747,7 @@ msgstr "Топ"
 
 #: src/Navigation.tsx:383
 msgid "Topic"
-msgstr ""
+msgstr "Тема"
 
 #: src/components/dms/MessageMenu.tsx:103
 #: src/components/dms/MessageMenu.tsx:105
@@ -7761,7 +7761,7 @@ msgstr "Перекласти"
 #: src/screens/Search/components/ExploreTrendingTopics.tsx:69
 #: src/view/shell/desktop/SidebarTrendingTopics.tsx:59
 msgid "Trending"
-msgstr ""
+msgstr "Популярне"
 
 #: src/view/com/util/error/ErrorScreen.tsx:103
 msgctxt "action"
@@ -7855,7 +7855,7 @@ msgstr "Скасувати репост"
 
 #: src/view/com/util/post-ctrls/RepostButton.tsx:68
 msgid "Undo repost ({0, plural, one {# repost} other {# reposts}})"
-msgstr ""
+msgstr "Скасувати репост ({0, plural, one {# репост} few {# репости} many {# репости} other {# репости}})"
 
 #: src/view/com/profile/FollowButton.tsx:60
 msgctxt "action"
@@ -7877,7 +7877,7 @@ msgstr "Прибрати вподобання"
 
 #: src/view/com/util/post-ctrls/PostCtrls.tsx:305
 msgid "Unlike ({0, plural, one {# like} other {# likes}})"
-msgstr ""
+msgstr "Прибрати вподобання ({0, plural, one {# вподобання} few {# вподобань} many {# вподобань} other {# вподобання}})"
 
 #: src/view/screens/ProfileFeed.tsx:576
 #~ msgid "Unlike this feed"
@@ -7927,7 +7927,7 @@ msgstr "Відкріпити"
 #: src/screens/Profile/components/ProfileFeedHeader.tsx:519
 #: src/screens/Profile/components/ProfileFeedHeader.tsx:526
 msgid "Unpin feed"
-msgstr ""
+msgstr "Відкріпити стрічку"
 
 #: src/screens/Profile/components/ProfileFeedHeader.tsx:309
 #: src/screens/Profile/components/ProfileFeedHeader.tsx:311
@@ -8060,7 +8060,7 @@ msgstr "Завантаження відео..."
 
 #: src/screens/Settings/AppPasswords.tsx:67
 msgid "Use app passwords to sign in to other Bluesky clients without giving full access to your account or password."
-msgstr ""
+msgstr "Використовуйте паролі застосунку для входу в інші клієнти Bluesky без надання повного доступу до вашого облікового запису або паролю."
 
 #: src/view/com/modals/ChangeHandle.tsx:506
 #~ msgid "Use bsky.social as hosting provider"
@@ -8391,7 +8391,7 @@ msgstr "Ми не змогли знайти жодних результатів 
 
 #: src/screens/Topic.tsx:178
 msgid "We couldn't find any results for that topic."
-msgstr ""
+msgstr "Ми не змогли знайти жодних результатів для цієї теми."
 
 #: src/screens/Messages/Conversation.tsx:103
 msgid "We couldn't load this conversation"
